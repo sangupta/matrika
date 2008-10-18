@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+	Matrika India Website Code
+	Copyright (C) 2008 Matrika India Development Team
+	http://www.matrika-india.org
+	
+	The file is licensed under the the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Author: Sandeep Gupta <sandy.pec@gmail.com>
+	
+-->
+
+<project name="Matrika Build" default="cleanBuild">
+
+	<property file="matrika.properties" />
+
+	<path id="initClasspath">
+		<fileset dir="../lib">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="setConditions" description="Set the conditions to start optional tasks.">
+		<condition property="condition.execute.record.logs">
+			<istrue value="${build.log.record}" />
+		</condition>
+		<condition property="condition.execute.copy.build">
+			<istrue value="${build.deploy.unpacked}" />
+		</condition>
+		<condition property="condition.execute.run.javadocs">
+			<istrue value="${build.javadocs}" />
+		</condition>
+		<condition property="condition.execute.clean.stage">
+			<isfalse value="${build.stage.folder.retain}" />
+		</condition>
+		<condition property="condition.execute.create.war">
+			<istrue value="${build.create.war}" />
+		</condition>
+	</target>
+
+	<target name="prepare" description="Prepare the staging folder">
+		<echo message="Preparing staging folder..." />
+		<delete dir="${build.stage.dir}" />
+		<delete dir="${build.dist.dir}" />
+		<mkdir dir="${build.stage.dir}" />
+		<mkdir dir="${build.dist.dir}" />
+
+		<mkdir dir="${build.stage.dir}/bin/classes" />
+		<mkdir dir="${build.stage.dir}/WEB-INF/lib" />
+	</target>
+
+	<target name="cleanBuild" description="Clean build the entire Matrika project." depends="setConditions,startRecording,prepare,build,packageWAR,deploy,javadocs,cleanStage,stopRecording" />
+
+	<target name="startRecording" description="Start recording of build logs." if="condition.execute.record.logs">
+		<record name="${build.log.file}" action="start" loglevel="${build.log.level}" />
+		<echo message="${project.name} build process is in progress, please refer to logs for details." />
+	</target>
+
+	<target name="stopRecording" description="Stop recording of build logs." if="condition.execute.record.logs">
+		<echo message="${project.name} build process complete." />
+		<record name="${build.log.file}" action="stop" />
+	</target>
+
+	<target name="build" depends="prepare">
+		<!-- increment the build number -->
+		<buildnumber file="${build.filenumber.name}" />
+
+		<!-- compile classes to project jar -->
+		<javac destdir="${build.stage.dir}/bin/classes" debug="${java.compiler.debug}" deprecation="${java.compiler.deprecation}" source="${java.compiler.source}" target="${java.compiler.target}">
+			<src path="../src" />
+			<classpath refid="initClasspath" />
+		</javac>
+		<jar jarfile="${build.stage.dir}/bin/${build.classes.jar.filename}">
+			<fileset dir="${build.stage.dir}/bin/classes" includes="**/*" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Build-Number" value="${build.number}" />
+			</manifest>
+		</jar>
+
+		<!-- copy jars to lib of stage -->
+		<copy todir="${build.stage.dir}/WEB-INF/lib" preservelastmodified="true">
+			<fileset dir="../lib">
+				<include name="*.*" />
+				<exclude name="javaee.jar" />
+			</fileset>
+			<fileset dir="${build.stage.dir}/bin">
+				<include name="${build.classes.jar.filename}" />
+			</fileset>
+		</copy>
+
+		<!-- clean compilation folder -->
+		<delete>
+			<fileset dir="${build.stage.dir}/bin" includes="**/*" />
+		</delete>
+		<delete dir="${build.stage.dir}/bin" />
+
+		<!-- copy other resources for WAR -->
+		<copy todir="${build.stage.dir}" preservelastmodified="true">
+			<fileset dir="../web">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="packageWAR" description="Create the WAR File" depends="build" if="condition.execute.create.war">
+		<!-- package WAR -->
+		<jar jarfile="${build.dist.dir}/${build.war.filename}">
+			<fileset dir="${build.stage.dir}" includes="**/*" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Build-Number" value="${build.number}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="cleanStage" description="Clean the staging folder" if="condition.execute.clean.stage">
+		<delete dir="${build.stage.dir}" />
+	</target>
+
+	<target name="deploy" description="Deploy the unpacked ${project.name} structure to Tomcat" if="condition.execute.copy.build">
+		<delete dir="${tomcat.deploy.dir}/${tomcat.project.dir}" />
+		<mkdir dir="${tomcat.deploy.dir}/${tomcat.project.dir}" />
+		<copy todir="${tomcat.deploy.dir}/${tomcat.project.dir}">
+			<fileset dir="${build.stage.dir}" />
+		</copy>
+	</target>
+
+	<target name="javadocs" description="Generate Javadocs for ${project.name}" if="condition.execute.run.javadocs">
+		<delete dir="${build.dist.dir}/javadocs" />
+		<mkdir dir="${build.dist.dir}/javadocs" />
+		<javadoc sourcepath="../src" destdir="${build.dist.dir}/javadocs" classpathref="initClasspath" author="true" version="true" packagenames="*" use="true" linksource="false" />
+	</target>
+
+	<target name="copyResources" description="Copy the resources including the JSPs to the build folder">
+		<copy todir="${tomcat.deploy.dir}/${tomcat.project.dir}/WEB-INF/jsps">
+			<fileset dir="../web/WEB-INF/jsps">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${tomcat.deploy.dir}/${tomcat.project.dir}/css">
+			<fileset dir="../web/css">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${tomcat.deploy.dir}/${tomcat.project.dir}/images">
+			<fileset dir="../web/images">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="jspc">
+
+		<taskdef classname="org.apache.jasper.JspC" name="jasper2">
+			<classpath id="jspc.classpath">
+				<pathelement location="${java.home}/../lib/tools.jar" />
+				<fileset dir="${tomcat.home}/bin">
+					<include name="*.jar" />
+				</fileset>
+				<fileset dir="${tomcat.home}/server/lib">
+					<include name="*.jar" />
+				</fileset>
+				<fileset dir="${tomcat.home}/common/lib">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+		</taskdef>
+
+		<jasper2 validateXml="false" uriroot="${webapp.path}" webXmlFragment="${webapp.path}/WEB-INF/generated_web.xml" outputDir="${webapp.path}/WEB-INF/src" />
+
+	</target>
+</project>
