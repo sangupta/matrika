@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+	Matrika India Website Code
+	Copyright (C) 2008 Matrika India Development Team
+	http://www.matrika-india.org
+	
+	The file is licensed under the the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Author: Sandeep Gupta <sandy.pec@gmail.com>
+	
+-->
+
+<project name="Matrika Build" default="cleanBuild">
+
+	<property file="build.properties" />
+	<property file="local.properties" />
+
+	<!--
+      BASIC true/false checks - don't know why but ANT doesn't picks up the conditions right
+      in the if tag directly.
+    -->
+	<target name="readConditions" description="Set the conditions to start optional tasks.">
+		<condition property="condition.execute.record.logs">
+			<istrue value="${build.log.record}" />
+		</condition>
+		<condition property="condition.execute.build.number">
+			<istrue value="${build.number.increment}" />
+		</condition>
+		<condition property="condition.execute.run.javadocs">
+			<istrue value="${build.javadocs}" />
+		</condition>
+		<condition property="condition.execute.run.units">
+			<istrue value="${build.execute.units}" />
+		</condition>
+		<condition property="condition.execute.clean.stage">
+			<istrue value="${build.clean.on.exit}" />
+		</condition>
+		<condition property="condition.build.deploy">
+			<istrue value="${build.deploy}" />
+		</condition>
+		<condition property="condition.deploy.copy">
+			<equals arg1="${build.deploy.mode}" arg2="copy" casesensitive="true" trim="true" />
+		</condition>
+		<condition property="condition.deploy.ftp">
+			<equals arg1="${build.deploy.mode}" arg2="ftp" casesensitive="true" trim="true" />
+		</condition>
+		<condition property="condition.deploy.war">
+			<equals arg1="${server.deploy.as}" arg2="war" casesensitive="true" trim="true" />
+		</condition>
+		<condition property="condition.deploy.unpacked">
+			<equals arg1="${server.deploy.as}" arg2="dir" casesensitive="true" trim="true" />
+		</condition>
+		<condition property="condition.build.refresh.jars">
+			<istrue value="${build.refresh.jars}" />
+		</condition>
+		<condition property="condition.allow.refresh.resources">
+			<and>
+				<istrue value="${build.deploy}" />
+				<equals arg1="${build.deploy.mode}" arg2="copy" casesensitive="true" trim="true" />
+				<equals arg1="${server.deploy.as}" arg2="dir" casesensitive="true" trim="true" />
+			</and>
+		</condition>
+	</target>
+
+	<!--
+      BUILD LOG RECORDING
+    -->
+
+	<target name="startRecording" description="Start recording of build logs." if="condition.execute.record.logs">
+		<record name="${build.log.file}" action="start" loglevel="${build.log.level}" />
+		<echo message="${project.name} build process is being recorded." />
+	</target>
+
+	<target name="stopRecording" description="Stop recording of build logs." if="condition.execute.record.logs">
+		<echo message="${project.name} build process recording complete." />
+		<record name="${build.log.file}" action="stop" />
+	</target>
+
+	<!--
+      BUILD PROCESS
+    -->
+
+	<path id="initClasspath" description="Generates the required classpath for compilation">
+		<fileset dir="./${build.jar.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!--
+      The default target which clean builds the entire project, runs the unit tests, generates javadocs, deploys
+      the project on the server and cleans the staging folders.
+    -->
+	<target name="cleanBuild" description="Clean build the entire ${project.name} project." depends="readConditions,startRecording">
+		<echo message="Proceeding with clean build of ${project.name} project." />
+
+		<antcall target="init" />
+		<antcall target="build" />
+		<antcall target="unitTest" />
+		<antcall target="javadocs" />
+		<antcall target="deploy" />
+		<antcall target="cleanStage" />
+		<antcall target="stopRecording" />
+	</target>
+
+	<target name="clean" description="Cleans the staging and the distribution directories.">
+		<delete dir="${build.stage.dir}" />
+		<delete dir="${build.dist.dir}" />
+	</target>
+
+	<target name="cleanStage" if="condition.execute.clean.stage" description="Clean the staging folder">
+		<echo message="Cleaning the stage folder..." />
+		<delete dir="${build.stage.dir}}" />
+	</target>
+
+	<target name="downloadLibs" description="Download the required libraries from the AFS" if="condition.build.refresh.jars">
+		<!-- File dependencies checked with MSParts 2.5 at http://wiki.ms.com/twiki/cgi-bin/view/MSJava/Parts/V2_5/LibraryList -->
+		<property name="lib" value="${build.jar.dir}" />
+		<property name="lib.url" value="file:////d:/java/buildpath" />
+
+		<get src="${lib.url}/spring/spring.jar" dest="${lib}/spring.jar" usetimestamp="true" />
+		<get src="${lib.url}/spring/spring-web.jar" dest="${lib}/spring-web.jar" usetimestamp="true" />
+		<get src="${lib.url}/spring/spring-webmvc.jar" dest="${lib}/spring-webmvc.jar" usetimestamp="true" />
+		
+		<get src="${lib.url}/j2ee/servlet-api.jar" dest="${lib}/servlet-api.jar" usetimestamp="true" />
+		<get src="${lib.url}/j2ee/jsp-api.jar" dest="${lib}/jsp-api.jar" usetimestamp="true" />
+		
+		<get src="${lib.url}/jakarta/commons-logging.jar" dest="${lib}/commons-logging.jar" usetimestamp="true" />
+		<get src="${lib.url}/jakarta/commons-digester.jar" dest="${lib}/commons-digester.jar" usetimestamp="true" />
+		<get src="${lib.url}/jakarta/commons-collections.jar" dest="${lib}/commons-collections.jar" usetimestamp="true" />
+		<get src="${lib.url}/jakarta/commons-beanutils.jar" dest="${lib}/commons-beanutils.jar" usetimestamp="true" />
+		
+		<get src="${lib.url}/jlo/jlo.jar" dest="${lib}/jlo.jar" usetimestamp="true" />
+		
+		<get src="${lib.url}/tiles/tiles-api-2.0.5.jar" dest="${lib}/tiles-api.jar" usetimestamp="true" />
+		<get src="${lib.url}/tiles/tiles-core-2.0.5.jar" dest="${lib}/tiles-core.jar" usetimestamp="true" />
+		<get src="${lib.url}/tiles/tiles-jsp-2.0.5.jar" dest="${lib}/tiles-jsp.jar" usetimestamp="true" />
+		
+		<!-- Tag Libraries -->
+		<get src="${lib.url}/jstl/jstl.jar" dest="${lib}/jstl.jar" usetimestamp="true" />
+		<get src="${lib.url}/jstl/standard.jar" dest="${lib}/standard.jar" usetimestamp="true" />
+		<get src="${lib.url}/jstl/c.tld" dest="${build.web.webinf.dir}/tld/c.tld" usetimestamp="true" />
+		<get src="${lib.url}/jstl/fmt.tld" dest="${build.web.webinf.dir}/tld/fmt.tld" usetimestamp="true" />
+		<get src="${lib.url}/jstl/fn.tld" dest="${build.web.webinf.dir}/tld/fn.tld" usetimestamp="true" />
+	</target>
+
+	<target name="init" description="Initializes the system by cleaning and creating staging directories">
+		<antcall target="clean" />
+		<mkdir dir="${build.stage.dir}" />
+		<mkdir dir="${build.dist.dir}" />
+		<mkdir dir="${build.stage.dir}/WEB-INF/classes" />
+		<mkdir dir="${build.stage.dir}/WEB-INF/lib" />
+		<antcall target="downloadLibs" />
+		<tstamp>
+			<format property="BUILD_TIME" pattern="yyyyMMddHHmmss" />
+		</tstamp>
+	</target>
+
+	<target name="compile" description="Compiles the source files">
+		<echo message="Compiling..." />
+		<javac srcdir="${build.src.java.dir}" destdir="${build.stage.dir}/WEB-INF/classes" classpathref="initClasspath" debug="${java.compiler.debug}" deprecation="${java.compiler.deprecation}" source="${java.compiler.source}" target="${java.compiler.target}" />
+
+		<copy todir="${build.stage.dir}/WEB-INF/classes">
+			<fileset dir="${build.src.java.dir}">
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+
+	</target>
+
+	<target name="packageJAR" if="build.jar.classes" description="Creates the JAR file of the compiled classes">
+		<echo message="Packaging JAR..." />
+		<jar jarfile="${build.stage.dir}/WEB-INF/lib/${dist.classes.jar.filename}">
+			<fileset dir="${build.stage.dir}/WEB-INF/classes" includes="**/*" />
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Build-Number" value="${build.number}" />
+			</manifest>
+		</jar>
+
+		<delete dir="${build.stage.dir}/WEB-INF/classes" />
+	</target>
+
+	<target name="packageWAR" description="Creates the deployable WAR file">
+		<echo message="Packaging WAR..." />
+		<war warfile="${build.dist.dir}/${dist.war.filename}" webxml="${build.web.webinf.dir}/web.xml">
+			<fileset dir="${build.stage.dir}">
+				<exclude name="web.xml" />
+			</fileset>
+		</war>
+	</target>
+
+	<target name="incrementBuildNumber" description="Increment the build number" if="condition.execute.build.number">
+		<buildnumber file="${build.filenumber.name}" />
+	</target>
+
+	<target name="build" description="Build the entire project.">
+		<!-- increment the build number -->
+		<antcall target="incrementBuildNumber" />
+
+		<!-- compile classes to project jar -->
+		<antcall target="compile" />
+
+		<!-- package JAR -->
+		<antcall target="packageJAR" />
+
+		<!-- copy jars to lib of stage -->
+		<copy todir="${build.stage.dir}/WEB-INF/lib" preservelastmodified="true" flatten="true">
+			<fileset dir="./${build.jar.dir}">
+				<include name="**/*" />
+				<exclude name="servlet-api.jar" />
+				<exclude name="jsp-api.jar" />
+			</fileset>
+		</copy>
+
+		<!-- copy other resources from webapp to the webinf folder -->
+		<copy todir="${build.stage.dir}" preservelastmodified="true">
+			<fileset dir="./${build.web.dir}">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+		<!-- package WAR -->
+		<antcall target="packageWAR" />
+	</target>
+
+	<!--
+      UNIT TESTING
+    -->
+
+	<target name="unitTest" description="Runs the unit test cases" if="condition.execute.run.units">
+		<echo message="Running Unit tests...." />
+	</target>
+
+	<!--
+      DEPLOYMENT
+    -->
+
+	<target name="deploy" description="" if="condition.build.deploy">
+		<echo message="Deploying..." />
+		<antcall target="deployByCopy" />
+		<antcall target="deployByFTP" />
+	</target>
+
+	<target name="deployByCopy" description="Deploy the unpacked ${project.name} structure to the server by copying" if="condition.deploy.copy">
+		<echo message="Deploying the webapp on the server using the COPY mode..." />
+		<antcall target="deployByCopyWAR" />
+		<antcall target="deployByCopyDIR" />
+	</target>
+
+	<target name="deployByCopyWAR" if="condition.deploy.war">
+		<delete file="${server.deploy.dir}/${dist.war.filename}" />
+		<copy file="${build.dist.dir}/${dist.war.filename}" todir="${server.deploy.dir}" />
+	</target>
+
+	<target name="deployByCopyDIR" if="condition.deploy.unpacked">
+		<delete dir="${server.deploy.dir}/${dist.app.name}" />
+		<mkdir dir="${server.deploy.dir}/${dist.app.name}" />
+		<copy todir="${server.deploy.dir}/${dist.app.name}">
+			<fileset dir="${build.stage.dir}" />
+		</copy>
+	</target>
+
+	<target name="deployByFTP" description="Deploy the unpacked ${project.name} structure to the server by FTP" if="condition.deploy.ftp">
+		<echo message="Deploying the webapp on the server using the FTP mode..." />
+		<ftp server="${deploy.ftp.server}" userid="${deploy.ftp.username}" password="${deploy.ftp.password}" action="put" binary="yes">
+			<fileset dir="${build.dist.dir}}">
+				<include name="${dist.war.filename}" />
+			</fileset>
+		</ftp>
+	</target>
+
+	<!--
+      JavaDOCS
+    -->
+
+	<target name="javadocs" description="Generate Javadocs for ${project.name}" if="condition.execute.run.javadocs">
+		<echo message="Generating Javadocs..." />
+		<delete dir="${build.dist.dir}/javadocs" />
+		<mkdir dir="${build.dist.dir}/javadocs" />
+		<javadoc sourcepath="./packages" destdir="${build.dist.dir}/javadocs" classpathref="initClasspath" author="true" version="true" packagenames="*" use="true" linksource="false" />
+	</target>
+
+	<!--
+      Convenience targets for Developers 
+    -->
+	<target name="copyResources" description="Copy the resources (JSP, CSS, JS, Images) to the deployment folder." if="condition.allow.refresh.resources" depends="readConditions">
+		<copy todir="${server.deploy.dir}/${dist.app.name}/WEB-INF/jsps">
+			<fileset dir="./${build.web.dir}/WEB-INF/jsps">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${server.deploy.dir}/${dist.app.name}/css">
+			<fileset dir="./${build.web.dir}/css">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${server.deploy.dir}/${dist.app.name}/css">
+			<fileset dir="./${build.web.dir}/css">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${server.deploy.dir}/${dist.app.name}/images">
+			<fileset dir="./${build.web.dir}/images">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+</project>
