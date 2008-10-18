@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!--
+
+	Matrika India Website Code
+	Copyright (C) 2008 Matrika India Development Team
+	http://www.matrika-india.org
+	
+	The file is licensed under the the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Author: Sandeep Gupta <sandy.pec@gmail.com>
+	
+-->
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="emailForm" type="com.loktantra.action.email.EmailForm"></form-bean>
+	</form-beans>
+
+	<global-exceptions>
+		<exception key="struts.action.exception.key" type="java.io.Exception" handler="org.matrika.ExceptionHandler" />
+	</global-exceptions>
+
+	<global-forwards>
+		<forward name="home" path=".homePage" />
+		<forward name="error" path=".error" />
+	</global-forwards>
+
+	<action-mappings>
+
+		<!-- All dynamic actions go here -->
+        <action path="/Feedback" type="org.apache.struts.actions.ForwardAction" parameter=".feedback"></action>
+
+        <!-- All static page forwards go here -->
+        <action path="/index" type="org.apache.struts.actions.ForwardAction" parameter=".homePage" />
+        <action path="/Articles" type="org.apache.struts.actions.ForwardAction" parameter=".articles" />
+        <action path="/DidYouKnow" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow" />
+        <action path="/KeyConcepts" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts" />
+        <action path="/Research" type="org.apache.struts.actions.ForwardAction" parameter=".research" />
+        <action path="/Resources" type="org.apache.struts.actions.ForwardAction" parameter=".resources" />
+        <action path="/Workshops" type="org.apache.struts.actions.ForwardAction" parameter=".workshops" />
+        <action path="/AboutUs" type="org.apache.struts.actions.ForwardAction" parameter=".aboutus" />
+        <action path="/FAQ" type="org.apache.struts.actions.ForwardAction" parameter=".faq" />
+        <action path="/ContactUs" type="org.apache.struts.actions.ForwardAction" parameter=".contactUs" />
+        <action path="/Disclaimer" type="org.apache.struts.actions.ForwardAction" parameter=".disclaimer" />
+        <action path="/PrivacyPolicy" type="org.apache.struts.actions.ForwardAction" parameter=".privacy" />
+        <action path="/SiteMap" type="org.apache.struts.actions.ForwardAction" parameter=".sitemap" />
+        <action path="/WhyMatrika" type="org.apache.struts.actions.ForwardAction" parameter=".whyMatrika" />
+        <action path="/ComplicationSafety" type="org.apache.struts.actions.ForwardAction" parameter=".complicationSafety" />
+
+        <action path="/Birth" type="org.apache.struts.actions.ForwardAction" parameter=".home.birth" />
+        <action path="/Labor" type="org.apache.struts.actions.ForwardAction" parameter=".home.labor" />
+        <action path="/PostPartum" type="org.apache.struts.actions.ForwardAction" parameter=".home.postPartum" />
+        
+        <action path="/PathNotFound" type="org.apache.struts.actions.ForwardAction" parameter=".pathNotFound" />
+        <action path="/Error" type="org.apache.struts.actions.ForwardAction" parameter=".error" />
+
+        <action path="/Articles/BirthBricks" type="org.apache.struts.actions.ForwardAction" parameter=".articles.birthBricks" />
+        <action path="/Articles/BirthIsAForce" type="org.apache.struts.actions.ForwardAction" parameter=".articles.birthIsAForce" />
+        <action path="/Articles/BirthOrder" type="org.apache.struts.actions.ForwardAction" parameter=".articles.birthOrder" />
+        <action path="/Articles/BirthWeight" type="org.apache.struts.actions.ForwardAction" parameter=".articles.birthWeight" />
+        <action path="/Articles/BreakingWaters" type="org.apache.struts.actions.ForwardAction" parameter=".articles.breakingWaters" />
+        <action path="/Articles/Colostrum" type="org.apache.struts.actions.ForwardAction" parameter=".articles.colostrum" />
+        <action path="/Articles/CSectionRates" type="org.apache.struts.actions.ForwardAction" parameter=".articles.csectionRates" />
+        <action path="/Articles/CuttingClasses" type="org.apache.struts.actions.ForwardAction" parameter=".articles.cuttingClasses" />
+        <action path="/Articles/FetalCells" type="org.apache.struts.actions.ForwardAction" parameter=".articles.fetalCells" />
+        <action path="/Articles/IntactPerineum" type="org.apache.struts.actions.ForwardAction" parameter=".articles.intactPerineum" />
+        <action path="/Articles/Labor" type="org.apache.struts.actions.ForwardAction" parameter=".articles.labor" />
+        <action path="/Articles/LaborAndAutism" type="org.apache.struts.actions.ForwardAction" parameter=".articles.laborAndAutism" />
+        <action path="/Articles/LookingAtNumbers" type="org.apache.struts.actions.ForwardAction" parameter=".articles.lookingAtNumbers" />
+        <action path="/Articles/MorningSickness" type="org.apache.struts.actions.ForwardAction" parameter=".articles.morningSickness" />
+        <action path="/Articles/MotherIndia" type="org.apache.struts.actions.ForwardAction" parameter=".articles.motherIndia" />
+        <action path="/Articles/OldestVocation" type="org.apache.struts.actions.ForwardAction" parameter=".articles.oldestVocation" />
+        <action path="/Articles/PopeStory" type="org.apache.struts.actions.ForwardAction" parameter=".articles.popeStory" />
+        <action path="/Articles/Positions" type="org.apache.struts.actions.ForwardAction" parameter=".articles.positions" />
+        <action path="/Articles/PreNatalClinic" type="org.apache.struts.actions.ForwardAction" parameter=".articles.preNatalClinic" />
+        <action path="/Articles/Questions" type="org.apache.struts.actions.ForwardAction" parameter=".articles.questions" />
+        <action path="/Articles/SageWomen" type="org.apache.struts.actions.ForwardAction" parameter=".articles.sageWomen" />
+        <action path="/Articles/ToWorld" type="org.apache.struts.actions.ForwardAction" parameter=".articles.toWorld" />
+        <action path="/Articles/Ultrasound" type="org.apache.struts.actions.ForwardAction" parameter=".articles.ultrasound" />
+        <action path="/Articles/WombToWorld" type="org.apache.struts.actions.ForwardAction" parameter=".articles.wombToWorld" />
+
+        <action path="/DidYouKnow/CommonIndigenousHealing" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow.commonHealing" />
+        <action path="/DidYouKnow/HistoryOfMedicine" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow.historyOfMedicine" />
+        <action path="/DidYouKnow/ScienceModernKnowledge" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow.scienceModernKnow" />
+        <action path="/DidYouKnow/SquattingPosition" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow.squattingPosition" />
+        <action path="/DidYouKnow/YoniAsSource" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow.yoniSource" />
+        <action path="/DidYouKnow/YoniInNature" type="org.apache.struts.actions.ForwardAction" parameter=".didYouKnow.yoniNature" />
+
+        <action path="/KeyConcepts/Bemata" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.bemata" />
+        <action path="/KeyConcepts/HawaGolaPostpartum" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.hawaGola" />
+        <action path="/KeyConcepts/Injection" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.injection" />
+        <action path="/KeyConcepts/JeeTheLife" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.jee" />
+        <action path="/KeyConcepts/Microcosm" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.microcosm" />
+        <action path="/KeyConcepts/MotherChild" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.motherChild" />
+        <action path="/KeyConcepts/NarakRethinking" type="org.apache.struts.actions.ForwardAction" parameter=".keyConcepts.narak" />
+
+        <action path="/Research/AAAPaper" type="org.apache.struts.actions.ForwardAction" parameter=".research.aaa" />
+        <action path="/Research/DHCIS" type="org.apache.struts.actions.ForwardAction" parameter=".research.dhcis" />
+        <action path="/Research/HawaGola" type="org.apache.struts.actions.ForwardAction" parameter=".research.hawaGola" />
+        <action path="/Research/IGNCA" type="org.apache.struts.actions.ForwardAction" parameter=".research.ignca" />
+        <action path="/Research/IndicReligions" type="org.apache.struts.actions.ForwardAction" parameter=".research.indic" />
+        <action path="/Research/Introduction" type="org.apache.struts.actions.ForwardAction" parameter=".research.introduction" />
+        <action path="/Research/MythicOrigins" type="org.apache.struts.actions.ForwardAction" parameter=".research.mythic" />
+        <action path="/Research/Narak" type="org.apache.struts.actions.ForwardAction" parameter=".research.narak" />
+        <action path="/Research/NegotiatingNarak" type="org.apache.struts.actions.ForwardAction" parameter=".research.neogiate" />
+        <action path="/Research/TradeModern" type="org.apache.struts.actions.ForwardAction" parameter=".research.tradeModern" />
+
+        <action path="/Resources/Links" type="org.apache.struts.actions.ForwardAction" parameter=".resources.links" />
+        <action path="/Resources/UpcomingEvents" type="org.apache.struts.actions.ForwardAction" parameter=".resources.events" />
+        <action path="/Resources/BookReviewBirthAndBirthGivers" type="org.apache.struts.actions.ForwardAction" parameter=".resources.bookReview" />
+
+        <action path="/Workshops/Bihar" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.bihar" />
+        <action path="/Workshops/Bihar1" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.bihar1" />
+        <action path="/Workshops/Bihar2" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.bihar2" />
+        <action path="/Workshops/Delhi1" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.delhi1" />
+        <action path="/Workshops/Delhi2" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.delhi2" />
+        <action path="/Workshops/Fatehgarh" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.fatehgarh" />
+        <action path="/Workshops/Jehangirpuri" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.jehangirpuri" />
+        <action path="/Workshops/Punjab" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.punjab" />
+        <action path="/Workshops/Rajasthan1" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.raj1" />
+        <action path="/Workshops/Rajasthan2" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.raj2" />
+        <action path="/Workshops/Rajasthan3" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.raj3" />
+        <action path="/Workshops/SongsBihar" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.songs.bihar" />
+        <action path="/Workshops/SongsDelhi" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.songs.delhi" />
+        <action path="/Workshops/SongsPatna" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.songs.patna" />
+        <action path="/Workshops/SongsPunjab" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.songs.punjab" />
+        <action path="/Workshops/SongsRajasthan" type="org.apache.struts.actions.ForwardAction" parameter=".workshops.songs.rajasthan" />
+
+        <action path="/AboutUs/Janet" type="org.apache.struts.actions.ForwardAction" parameter=".aboutus.janet" />
+        <action path="/AboutUs/TheWebTeam" type="org.apache.struts.actions.ForwardAction" parameter=".aboutus.webTeam" />
+        
+        <action path="/FAQ/DoctorsAndNurses" type="org.apache.struts.actions.ForwardAction" parameter=".faq.doctors" />
+        <action path="/FAQ/Families" type="org.apache.struts.actions.ForwardAction" parameter=".faq.families" />
+        <action path="/FAQ/Feminists" type="org.apache.struts.actions.ForwardAction" parameter=".faq.feminists" />
+        <action path="/FAQ/NGO" type="org.apache.struts.actions.ForwardAction" parameter=".faq.ngo" />
+        <action path="/FAQ/PolicyMakers" type="org.apache.struts.actions.ForwardAction" parameter=".faq.policy" />
+        <action path="/FAQ/SafeMotherhood" type="org.apache.struts.actions.ForwardAction" parameter=".faq.safe" />
+        
+        <action path="/Login" type="org.apache.struts.actions.ForwardAction" parameter=".login" />
+		<action path="/Logout" type="org.apache.struts.actions.ForwardAction" parameter=".logout" />
+		<action path="/NewUserSignUp" type="org.apache.struts.actions.ForwardAction" parameter=".signUp" />
+		<action path="/ForgotPassword" type="org.apache.struts.actions.ForwardAction" parameter=".forgotPassword" />
+		<action path="/ChangePassword" type="org.apache.struts.actions.ForwardAction" parameter=".changePassword" />
+		
+		<!-- All mockups go here -->
+		<action path="/Mockups/20080706/Events" type="org.apache.struts.actions.ForwardAction" parameter=".mockups.20080706.events" />
+		<action path="/Mockups/20080706/Links" type="org.apache.struts.actions.ForwardAction" parameter=".mockups.20080706.links" />
+	</action-mappings>
+
+	<controller processorClass="org.springframework.web.struts.DelegatingTilesRequestProcessor" />
+
+	<plug-in className="org.springframework.web.struts.ContextLoaderPlugIn" />
+
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+	</plug-in>
+</struts-config>

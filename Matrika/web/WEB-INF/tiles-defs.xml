@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!--
+
+	Matrika India Website Code
+	Copyright (C) 2008 Matrika India Development Team
+	http://www.matrika-india.org
+	
+	The file is licensed under the the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Author: Sandeep Gupta <sandy.pec@gmail.com>
+	
+-->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.3//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_3.dtd">
+
+<tiles-definitions>
+
+	<definition name=".masterLayout" path="/WEB-INF/jsps/templates/master.jsp">
+		<put name="title" value="MATRIKA" type="string" />
+		<put name="head" value="/WEB-INF/jsps/templates/blank.jsp" />
+		<put name="body" value="/WEB-INF/jsps/templates/blank.jsp" />
+		<put name="footer" value="/WEB-INF/jsps/templates/blank.jsp" />
+	</definition>
+	
+	<!-- Main site pages -->
+	<definition name=".index" extends=".masterLayout">
+		<put name="title" value="Welcome" type="string" />
+		<put name="head" value="/WEB-INF/jsps/templates/google_verify.jsp" />
+		<put name="footer" value="/WEB-INF/jsps/templates/indexFooter.jsp" type="page" />
+	</definition>
+	
+	<definition name=".matrika" path="/WEB-INF/jsps/templates/matrika.jsp">
+		<put name="title" value="Welcome" type="string" />
+		<put name="head" value="/WEB-INF/jsps/templates/matrikaHead.jsp" />
+		<put name="body" value="/WEB-INF/jsps/templates/blank.jsp" type="page" />
+		<put name="footer" value="/WEB-INF/jsps/templates/matrikaFooter.jsp" type="page" />
+	</definition>
+	
+    <!-- All dynamic page definitions -->
+
+    <!-- All static page definitions -->
+	<definition name=".homePage" extends=".index">
+		<put name="title" value="Welcome" type="string" />
+		<put name="body" value="/WEB-INF/jsps/index.jsp" />
+	</definition>
+
+	<definition name=".articles" extends=".matrika">
+		<put name="title" value="Articles" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/articles.jsp" />
+	</definition>
+
+	<definition name=".didYouKnow" extends=".matrika">
+		<put name="title" value="Did You Know" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/did_you_know.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts" extends=".matrika">
+		<put name="title" value="Key Concepts" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/key_concepts.jsp" />
+	</definition>
+
+	<definition name=".research" extends=".matrika">
+		<put name="title" value="Research" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/research.jsp" />
+	</definition>
+
+	<definition name=".resources" extends=".matrika">
+		<put name="title" value="Resources" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/index.jsp" />
+	</definition>
+
+	<definition name=".workshops" extends=".matrika">
+		<put name="title" value="Workshops" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/workshops.jsp" />
+	</definition>
+
+	<definition name=".aboutus" extends=".matrika">
+		<put name="title" value="About Us" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/about_us.jsp" />
+	</definition>
+
+	<definition name=".faq" extends=".matrika">
+		<put name="title" value="FAQs" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/faq.jsp" />
+	</definition>
+
+	<definition name=".contactUs" extends=".matrika">
+		<put name="title" value="Contact Us" type="string" />
+		<put name="body" value="/WEB-INF/jsps/contact_us.jsp" />
+	</definition>
+
+	<definition name=".disclaimer" extends=".matrika">
+		<put name="title" value="Disclaimer" type="string" />
+		<put name="body" value="/WEB-INF/jsps/disclaimer.jsp" />
+	</definition>
+
+	<definition name=".privacy" extends=".matrika">
+		<put name="title" value="Privacy Policy" type="string" />
+		<put name="body" value="/WEB-INF/jsps/privacy_policy.jsp" />
+	</definition>
+
+	<definition name=".sitemap" extends=".index">
+		<put name="title" value="Sitemap" type="string" />
+		<put name="body" value="/WEB-INF/jsps/sitemap/sitemap.jsp" />
+	</definition>
+
+	<definition name=".whyMatrika" extends=".matrika">
+		<put name="title" value="Why Matrika?" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/why_matrika.jsp" />
+	</definition>
+
+	<definition name=".complicationSafety" extends=".matrika">
+		<put name="title" value="Complications &amp; Safety" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/complication_safety.jsp" />
+	</definition>
+
+	<definition name=".home.birth" extends=".matrika">
+		<put name="title" value="Birth" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/birth.jsp" />
+	</definition>
+
+	<definition name=".home.labor" extends=".matrika">
+		<put name="title" value="Labor" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/labor.jsp" />
+	</definition>
+
+	<definition name=".home.postPartum" extends=".matrika">
+		<put name="title" value="Postpartum" type="string" />
+		<put name="body" value="/WEB-INF/jsps/home/post_partum.jsp" />
+	</definition>
+
+	<!-- Articles -->
+	<definition name=".articles.birthBricks" extends=".matrika">
+		<put name="title" value="Articles - Birth Bricks" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/birth_bricks.jsp" />
+	</definition>
+
+	<definition name=".articles.birthIsAForce" extends=".matrika">
+		<put name="title" value="Articles - Birth Is A Force" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/birth_force.jsp" />
+	</definition>
+
+	<definition name=".articles.birthOrder" extends=".matrika">
+		<put name="title" value="Articles - Birth Order Of Children" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/birth_order.jsp" />
+	</definition>
+
+	<definition name=".articles.birthWeight" extends=".matrika">
+		<put name="title" value="Articles - Study: Social Support Birth Weight" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/birth_weight.jsp" />
+	</definition>
+
+	<definition name=".articles.breakingWaters" extends=".matrika">
+		<put name="title" value="Articles - Breaking Waters During Labor" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/breaking_waters.jsp" />
+	</definition>
+
+	<definition name=".articles.colostrum" extends=".matrika">
+		<put name="title" value="Articles - Colostrum" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/colostrum.jsp" />
+	</definition>
+
+	<definition name=".articles.csectionRates" extends=".matrika">
+		<put name="title" value="Articles - C Section Rates" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/csection.jsp" />
+	</definition>
+
+	<definition name=".articles.cuttingClasses" extends=".matrika">
+		<put name="title" value="Articles - Pregnant Women Cutting Child Classes" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/cutting_classes.jsp" />
+	</definition>
+
+	<definition name=".articles.fetalCells" extends=".matrika">
+		<put name="title" value="Articles - Fetal Cells" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/fetal_cells.jsp" />
+	</definition>
+
+	<definition name=".articles.intactPerineum" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/articles/intact.jsp" />
+	</definition>
+
+	<definition name=".articles.labor" extends=".matrika">
+		<put name="title" value="Articles - Induction of Labor" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/labor.jsp" />
+	</definition>
+
+	<definition name=".articles.laborAndAutism" extends=".matrika">
+		<put name="title" value="Articles - Induction of Labor and Autism" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/labor_autism.jsp" />
+	</definition>
+
+	<definition name=".articles.lookingAtNumbers" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/articles/numbers.jsp" />
+	</definition>
+
+	<definition name=".articles.morningSickness" extends=".matrika">
+		<put name="title" value="Articles - Morning Sickness Intact Perineum" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/morning_sickness.jsp" />
+	</definition>
+
+	<definition name=".articles.motherIndia" extends=".matrika">
+		<put name="title" value="Articles - Mother India" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/mother_india.jsp" />
+	</definition>
+
+	<definition name=".articles.oldestVocation" extends=".matrika">
+		<put name="title" value="Articles - The Oldest Vocation" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/oldest_vocation.jsp" />
+	</definition>
+
+	<definition name=".articles.popeStory" extends=".matrika">
+		<put name="title" value="Articles - Pope Story" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/pope_story.jsp" />
+	</definition>
+
+	<definition name=".articles.positions" extends=".matrika">
+		<put name="title" value="Articles - Maternal Positions And Perineal Tears" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/positions.jsp" />
+	</definition>
+
+	<definition name=".articles.preNatalClinic" extends=".matrika">
+		<put name="title" value="Articles - Prenatal Clinic And Procedure" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/prenatal.jsp" />
+	</definition>
+
+	<definition name=".articles.questions" extends=".matrika">
+		<put name="title" value="Articles - Baby Questions To Ask?" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/questions.jsp" />
+	</definition>
+
+	<definition name=".articles.sageWomen" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/articles/sage_women.jsp" />
+	</definition>
+
+	<definition name=".articles.toWorld" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/articles/toworld.jsp" />
+	</definition>
+
+	<definition name=".articles.ultrasound" extends=".matrika">
+		<put name="title" value="Articles - Ultrasound Placenta Previa Prolapse" type="string" />
+		<put name="body" value="/WEB-INF/jsps/articles/ultrasound.jsp" />
+	</definition>
+
+	<definition name=".articles.wombToWorld" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/articles/womb_world.jsp" />
+	</definition>
+
+	<!-- Did You Know -->
+	<definition name=".didYouKnow.commonHealing" extends=".matrika">
+		<put name="title" value="Did You Know - Common Indigenous Healing Birthing Concepts" type="string" />
+		<put name="body" value="/WEB-INF/jsps/did_you_know/common_healing.jsp" />
+	</definition>
+
+	<definition name=".didYouKnow.historyOfMedicine" extends=".matrika">
+		<put name="title" value="Did You Know - History Of Medicine" type="string" />
+		<put name="body" value="/WEB-INF/jsps/did_you_know/history_of_medicine.jsp" />
+	</definition>
+
+	<definition name=".didYouKnow.scienceModernKnow" extends=".matrika">
+		<put name="title" value="Did You Know - Science, Modern Knowledge Systems And Gender" type="string" />
+		<put name="body" value="/WEB-INF/jsps/did_you_know/science_modern_knowledge.jsp" />
+	</definition>
+
+	<definition name=".didYouKnow.squattingPosition" extends=".matrika">
+		<put name="title" value="Did You Know - Use of Squatting Position" type="string" />
+		<put name="body" value="/WEB-INF/jsps/did_you_know/squatting_position.jsp" />
+	</definition>
+
+	<definition name=".didYouKnow.yoniSource" extends=".matrika">
+		<put name="title" value="Did You Know - Yoni As A Source" type="string" />
+		<put name="body" value="/WEB-INF/jsps/did_you_know/yoni_as_source.jsp" />
+	</definition>
+
+	<definition name=".didYouKnow.yoniNature" extends=".matrika">
+		<put name="title" value="Did You Know - Yoni In Nature" type="string" />
+		<put name="body" value="/WEB-INF/jsps/did_you_know/yoni_in_nature.jsp" />
+	</definition>
+
+	<!-- Key Concepts -->
+	<definition name=".keyConcepts.bemata" extends=".matrika">
+		<put name="title" value="Key Concepts - Bemata - Goddess Or Demoness?" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/bemata.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts.hawaGola" extends=".matrika">
+		<put name="title" value="Key Concepts - Hawa Gola And Postpartum" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/hawaGola.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts.injection" extends=".matrika">
+		<put name="title" value="Key Concepts - Injection: The New Birth Ritual" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/injection.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts.jee" extends=".matrika">
+		<put name="title" value="Key Concepts - JEE: Life Force or Vital Energy" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/jee_the_life.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts.microcosm" extends=".matrika">
+		<put name="title" value="Key Concepts - Microcosm, Macrocosm And Magic" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/microcosm.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts.motherChild" extends=".matrika">
+		<put name="title" value="Key Concepts - Mother Child Bond" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/motherchild.jsp" />
+	</definition>
+
+	<definition name=".keyConcepts.narak" extends=".matrika">
+		<put name="title" value="Key Concepts - Narak: Rethinking Pollution" type="string" />
+		<put name="body" value="/WEB-INF/jsps/key_concepts/narak.jsp" />
+	</definition>
+
+	<!-- Research Papers -->
+	<definition name=".research.aaa" extends=".matrika">
+		<put name="title" value="Research Papers - Recognition of Indigenous Cognitive Process" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/aaa.jsp" />
+	</definition>
+
+	<definition name=".research.dhcis" extends=".matrika">
+		<put name="title" value="Research Papers - Menstruation Meanings" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/dhcis.jsp" />
+	</definition>
+
+	<definition name=".research.hawaGola" extends=".matrika">
+		<put name="title" value="Research Papers - Hawa Gola And Mother-in-law's Big Toe" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/hawa_gola.jsp" />
+	</definition>
+
+	<definition name=".research.ignca" extends=".matrika">
+		<put name="title" value="Research Papers - How The World Will Be Born" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/ignca.jsp" />
+	</definition>
+
+	<definition name=".research.indic" extends=".matrika">
+		<put name="title" value="Research Papers - Raab Is The Doer, Hands Are Mine" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/indic_religions.jsp" />
+	</definition>
+
+	<definition name=".research.introduction" extends=".matrika">
+		<put name="title" value="Research Papers - Mapping The Terrain" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/introduction.jsp" />
+	</definition>
+
+	<definition name=".research.mythic" extends=".matrika">
+		<put name="title" value="Research Papers - The Mythic Origins of Menstrual Taboo in the Rig Veda" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/mythic_origins.jsp" />
+	</definition>
+
+	<definition name=".research.narak" extends=".matrika">
+		<put name="title" value="Research Papers - Understanding Narak" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/narak.jsp" />
+	</definition>
+
+	<definition name=".research.neogiate" extends=".matrika">
+		<put name="title" value="Research Papers - Negotiating Narak And Writing Destiny" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/negotiating_narak.jsp" />
+	</definition>
+
+	<definition name=".research.tradeModern" extends=".matrika">
+		<put name="title" value="Research Papers - Relationship between Modern And Indigenous Concerns" type="string" />
+		<put name="body" value="/WEB-INF/jsps/research/trade_modern.jsp" />
+	</definition>
+
+	<!-- Resources -->
+	<definition name=".resources.links" extends=".matrika">
+		<put name="title" value="Resources - Useful Links" type="string" />
+		<put name="body" value="/WEB-INF/jsps/resources/links.jsp" />
+	</definition>
+
+	<definition name=".resources.events" extends=".matrika">
+		<put name="title" value="Resources - Upcoming Events" type="string" />
+		<put name="body" value="/WEB-INF/jsps/resources/upcoming_events.jsp" />
+	</definition>
+
+	<definition name=".resources.bookReview" extends=".matrika">
+		<put name="title" value="Resources - Book Reviews" type="string" />
+		<put name="body" value="/WEB-INF/jsps/resources/book_review.jsp" />
+	</definition>
+
+	<!-- Workshops -->
+	<definition name=".workshops.bihar" extends=".matrika">
+		<put name="title" value="Workshops - Bihar Socio-Economics" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/bihar/bihar.jsp" />
+	</definition>
+
+	<definition name=".workshops.bihar1" extends=".matrika">
+		<put name="title" value="Workshops - Bihar 1" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/bihar/bihar1.jsp" />
+	</definition>
+
+	<definition name=".workshops.bihar2" extends=".matrika">
+		<put name="title" value="Workshops - Bihar 2" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/bihar/bihar2.jsp" />
+	</definition>
+
+	<definition name=".workshops.delhi1" extends=".matrika">
+		<put name="title" value="Workshops - Delhi 1" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/delhi/delhi1.jsp" />
+	</definition>
+
+	<definition name=".workshops.delhi2" extends=".matrika">
+		<put name="title" value="Workshops - Delhi 2" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/delhi/delhi2.jsp" />
+	</definition>
+
+	<definition name=".workshops.fatehgarh" extends=".matrika">
+		<put name="title" value="Workshops - Fatehgarh Socio-Economics" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/fatehgarh.jsp" />
+	</definition>
+
+	<definition name=".workshops.jehangirpuri" extends=".matrika">
+		<put name="title" value="Workshops - Jehangirpuri Socio-Economics" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/jehangirpuri.jsp" />
+	</definition>
+
+	<definition name=".workshops.punjab" extends=".matrika">
+		<put name="title" value="Workshops - Punjab" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/punjab.jsp" />
+	</definition>
+
+	<definition name=".workshops.raj1" extends=".matrika">
+		<put name="title" value="Workshops - Rajasthan 1" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/rajasthan/rajasthan1.jsp" />
+	</definition>
+
+	<definition name=".workshops.raj2" extends=".matrika">
+		<put name="title" value="Workshops - Rajasthan 2" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/rajasthan/rajasthan2.jsp" />
+	</definition>
+
+	<definition name=".workshops.raj3" extends=".matrika">
+		<put name="title" value="Workshops - Rajasthan 3" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/rajasthan/rajasthan3.jsp" />
+	</definition>
+
+	<definition name=".workshops.songs.bihar" extends=".matrika">
+		<put name="title" value="Workshops - Songs from Bihar" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/songs/bihar.jsp" />
+	</definition>
+
+	<definition name=".workshops.songs.delhi" extends=".matrika">
+		<put name="title" value="Workshops - Songs from Delhi" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/songs/delhi.jsp" />
+	</definition>
+
+	<definition name=".workshops.songs.patna" extends=".matrika">
+		<put name="title" value="Workshops - Songs from Patna" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/songs/patna.jsp" />
+	</definition>
+
+	<definition name=".workshops.songs.punjab" extends=".matrika">
+		<put name="title" value="Workshops - Songs from Punjab" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/songs/punjab.jsp" />
+	</definition>
+
+	<definition name=".workshops.songs.rajasthan" extends=".matrika">
+		<put name="title" value="Workshops - Songs from Rajasthan" type="string" />
+		<put name="body" value="/WEB-INF/jsps/workshops/songs/rajasthan.jsp" />
+	</definition>
+
+	<!-- About Us -->
+	<definition name=".aboutus.janet" extends=".matrika">
+		<put name="title" value="About Us - Janet Chawla" type="string" />
+		<put name="body" value="/WEB-INF/jsps/about_us/janet.jsp" />
+	</definition>
+
+	<definition name=".aboutus.webTeam" extends=".matrika">
+		<put name="title" value="About Us - The Web Team" type="string" />
+		<put name="body" value="/WEB-INF/jsps/about_us/the_web_team.jsp" />
+	</definition>
+
+	<!-- Frequently Asked Questions -->
+	<definition name=".faq.doctors" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/faq/doctors.jsp" />
+	</definition>
+
+	<definition name=".faq.families" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/faq/families.jsp" />
+	</definition>
+
+	<definition name=".faq.feminists" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/faq/families.jsp" />
+	</definition>
+
+	<definition name=".faq.ngo" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/faq/ngo.jsp" />
+	</definition>
+
+	<definition name=".faq.policy" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/faq/policy_makers.jsp" />
+	</definition>
+
+	<definition name=".faq.safe" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/faq/safe_motherhood.jsp" />
+	</definition>
+
+	<!-- Login pages -->
+	<definition name=".login" extends=".matrika">
+		<put name="title" value="Login" type="string" />
+		<put name="body" value="/WEB-INF/jsps/login/login.jsp" />
+	</definition>
+
+	<definition name=".logout" extends=".matrika">
+		<put name="body" value="/WEB-INF/jsps/login/logout.jsp" />
+	</definition>
+	
+	<definition name=".signUp" extends=".matrika">
+		<put name="title" value="New User Sign Up" type="string" />
+		<put name="body" value="/WEB-INF/jsps/login/signup.jsp" />
+	</definition>
+
+	<definition name=".forgotPassword" extends=".matrika">
+		<put name="title" value="Forgot Password" type="string" />
+		<put name="body" value="/WEB-INF/jsps/login/forgot_password.jsp" />
+	</definition>
+
+	<definition name=".changePassword" extends=".matrika">
+		<put name="title" value="Change Password" type="string" />
+		<put name="body" value="/WEB-INF/jsps/login/change_password.jsp" />
+	</definition>
+
+	<!-- Global error pages -->
+	<definition name=".pathNotFound" extends=".matrika">
+		<put name="title" value="Path Not Found!" type="string" />
+		<put name="body" value="/WEB-INF/jsps/file_not_found.jsp" type="page" />
+	</definition>
+	
+	<definition name=".error" extends=".matrika">
+		<put name="title" value="Error!" type="string" />
+		<put name="body" value="/WEB-INF/jsps/error.jsp" type="page" />
+	</definition>
+	
+	<!-- All mockups go here -->
+	<definition name=".mockups.20080706.events" extends=".matrika">
+		<put name="title" value="Mockups - Events" type="string" />
+		<put name="body" value="/WEB-INF/jsps/mockups/20080706/events.jsp" type="page" />
+	</definition>
+
+	<definition name=".mockups.20080706.links" extends=".matrika">
+		<put name="title" value="Mockups - Useful Links" type="string" />
+		<put name="body" value="/WEB-INF/jsps/mockups/20080706/links.jsp" type="page" />
+	</definition>
+	
+</tiles-definitions>
