@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<log-configuration>
+	<logger name="org.springframework">
+		<targets>ALL</targets>
+		<generator-name>LogFile</generator-name>
+	</logger>
+	<logger name="org.tiles">
+		<targets>ALL</targets>
+		<generator-name>LogFile</generator-name>
+	</logger>
+	<logger name="org.matrika">
+		<targets>FATAL</targets>
+		<generator-name>LogFile</generator-name>
+	</logger>
+	<generator name="LogFile">
+		<formatter class="SimpleFormatter" />
+		<handler class="FileHandler">
+			<parameter name="file" value="d:/deploy/matrika/logs/matrika.log" />
+		</handler>
+	</generator>
+</log-configuration>
