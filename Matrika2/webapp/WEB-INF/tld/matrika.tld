@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!--
+
+	Matrika India Website Code
+	Copyright (C) 2008 Matrika India Development Team
+	http://www.matrika-india.org
+	
+	The file is licensed under the the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Author: Sandeep Gupta <sandy.pec@gmail.com>
+	
+-->
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>Jerry Tag Library</short-name>
+	<uri>http://www.matrika-india.org/taglibs/matrika-1.0</uri>
+	<description>This tag library contains miscellaneous custom tags for Jerry.</description>
+
+	<tag>
+		<name>moveToTop</name>
+		<tag-class>org.matrika.web.taglib.MoveToTopTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Generates a jQuery based move to top link.</description>
+		<attribute>
+			<name>title</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>cssClass</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>text</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>saveNShare</name>
+		<tag-class>org.matrika.web.taglib.SaveNShareTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Add a save and share link bar HTML.</description>
+	</tag>
+
+	<tag>
+		<name>highlightNew</name>
+		<tag-class>org.matrika.web.taglib.HighlightNewTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Add the highlight new marker.</description>
+	</tag>
+
+	<tag>
+		<name>keyConceptsLink</name>
+		<tag-class>org.matrika.web.taglib.KeyConceptsLinkTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Generates the key concepts top links.</description>
+	</tag>
+
+	<tag>
+		<name>anchorLink</name>
+		<tag-class>org.matrika.web.taglib.AnchorLinkTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Generates the anchor link for the self referenced page.</description>
+		<attribute>
+			<name>link</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>video</name>
+		<tag-class>org.matrika.web.taglib.VideoTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Renders the video player using the embedded FLV Player.</description>
+		<attribute>
+			<name>clip</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>width</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>height</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>img</name>
+		<tag-class>org.matrika.web.taglib.ImageTag</tag-class>
+		<body-content>empty</body-content>
+		<description>Generates the url for the image tag from the absolute url.</description>
+		<attribute>
+			<name>src</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>height</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>width</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>border</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>src</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>context</name>
+		<tag-class>org.matrika.web.taglib.ContextRootTag</tag-class>
+		<body-content>empty</body-content>
+		<description>
+			Outputs the current web applications web context root. Is useful in areas where images etc. are being served
+			by the application server.
+		</description>
+	</tag>
+
+</taglib>
