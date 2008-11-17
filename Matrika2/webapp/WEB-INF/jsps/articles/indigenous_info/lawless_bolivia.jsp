@@ -1,0 +1,458 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+<div class="article">
+<h1>Conflicting Approaches to Maternal Health in the Aymara
+Populations of Highland Bolivia</h1>
+<h2>Denise Y. Arnold and Jo Murphy-Lawless</h2>
+<div class="copyright">Paper written for the Greenwood publishing
+series on women’s issues worldwide, <br />
+to be edited by Amy Lind, Assistant Professor, Women’s Studies Program,
+<br />
+Arizona State University, P. O. Box 873404, Tempe, AZ 85287-3404, USA. <br />
+Tel.: (480) 727-6354. Fax: (480) 965-2357. Email: lind@asu.edu</div>
+<br />
+<h3><b>Institutional affiliations</b></h3>
+Denise Y. Arnold: ILCA, Instituto de Lengua y Cultura Aymara, La Paz,
+Bolivia and Birkbeck College London.<br />
+Jo Murphy-Lawless: Department of Social Policy and Social Work,
+University College Dublin, Republic of Ireland.<br />
+<h3><b>Emails</b></h3>
+<b>Denise Y. Arnold:</b><a href="mailto:ilca@mail.megalink.com">ilca@mail.megalink.com</a><br />
+<b>Jo Murphy Lawless:</b><a href="mailto:jo.murphylawless@oceanfree.net">jo.murphylawless@oceanfree.net</a><br />
+<h2>Abstract:</h2>
+This paper discusses theoretical and political tensions in trying to
+challenge maternal health policymaking in Bolivia to fully incorporate
+indigenous Andean birth technologies and indigenous practitioners and to
+support the work of improving professional practices around childbirth
+in order to help bring down the rates of maternal mortality in a country
+where healthcare resources are severely limited.<br />
+<h2>Maternal Mortality in the Aymara Population of Highland Bolivia</h2>
+The Andean region, together with Mesoamerica, is one of two great
+“macro-ethnias” of the Americas where 80% of the indigenous population
+live. Two languages dominate the Andes, Quechua (with 12 million
+speakers) and Aymara (with 3 million). In the case of Bolivia, according
+to conservative estimates (Ruhlen, 1987), the indigenous population is
+59.2% of the total, or 76.4%, according to more generous ones (CEPAL).
+In the latter case, 25% of the national population is held to be Aymara
+speakers (1.6 million), 30% are Quechua speakers (2.5 million) and those
+from other Andean groups, and the rest a combination of Guaraní (10%)
+and other diverse Amazonian groups (10%), and the mestizo-criollo
+groups, who live mainly in the urban centres (15%). The cities of La Paz
+and El Alto de La Paz have a combined total of 47.6% of Aymara speakers
+according to the 1992 Census (Albó, 1995).<br />
+<br />
+However, while the majority of Bolivia’s population is indigenous, only
+2% of those who administer the country come from these groups, making
+them a “powerless majority”. In spite of having approved various laws
+and legal instruments in the last decade to remedy this situation, the
+perpetuation of this inequality of opportunities for indigenous peoples
+(and the educational and health possibilities for overcoming them)
+underlies the structural problems that face the country at present, and
+which effect these people most heavily. <br />
+<br />
+One of these structural problems is maternal mortality. Bolivia has the
+highest rate of maternal mortality on the Latin American mainland,
+signifying in practice some 24% of the total deaths of women of
+reproductive age. According to the official census statistics, analyzed
+by the National Committee for Safe Motherhood in 2000, the maternal
+mortality rate currently stands at an average of 390 deaths per 100,000
+births for the country as a whole, but with wide regional variation.
+Even these figures are open to question, and the real incidence of
+maternal death may be much higher. Hospital deaths are not always
+reported adequately (Medicon, 1994), there are family factors of shame
+and guilt which hide the real facts, there are numerous clandestine
+cemeteries in cities, and in rural areas there are still no formal
+procedures for reporting such deaths. In addition, the World Bank (1999)
+estimates that Bolivian statistics as a whole may have an error of some
+80%, and that they are more directed towards achieving estimated
+national projections, than reflecting reality.<br />
+<br />
+Taken as a whole, Bolivia’s three broad geographical regions: <i>altiplano</i>
+or Highlands, <i>valle</i> or Valley region, and <i>llano</i> or
+Lowlands, show wide regional differences. The average mortality rate for
+the Highland region of La Paz, Oruro and Potosí, is 591 maternal deaths
+per 100,000 live births, more than double that of the Lowlands, where
+the rate is 166 per 100,000 births. In the Aymara speaking heartland of
+the department of La Paz, the regional average is 429 maternal deaths
+per 100,000 live births, and in some rural Aymara speaking provinces of
+La Paz (Inquisivi, Larecaja, Pacajes, Muñecas, Aroma) this figure rises
+to 887. Even in Murillo province, where the Aymara-speaking city of El
+Alto is situated, there are 350 maternal deaths for every 100,000
+births. The combined effect of these regional variations is to give a
+rate for some rural Highland areas of 929 maternal deaths for every
+100,000 live births (INE, 1994). Of these, 50% are deaths in childbirth,
+rather than in pregnancy or induced abortions. <br />
+<br />
+The overall patterns and statistics of maternal mortality show that the
+groups most affected are Aymara speaking populations, whether in rural
+or urban areas, making maternal mortality in Bolivia a political
+question and one of gender relations. Although many official
+interventions in this problem are achieving results in the long term,
+the overall percentage of young women of reproductive age is increasing,
+so the overall number of maternal deaths is still increasing. <br />
+<h2>Rethinking Models of Maternal Health in the 21st Century</h2>
+This current state of maternal health in Highland Bolivia must be
+understood in the context of the current world map, where the rich-poor
+gap has increased as the agendas of trade liberalization have been
+locked into place with the World Trade Organization (see for example
+Rogers, 2000). Neo-liberal free-trade regimes have led to a persistent
+upward transfer of wealth since the 1980s. This has meant that the poor
+to poorest countries, including Bolivia, are forced to deal with the
+combined effects of life-threatening environmental degradation, debt
+burdens, and trade sanctions from rich world countries. As a result,
+they are developing very slowly or not at all, while the vast majority
+of the population is unable to meet their basic needs in food, water,
+housing, good health, community and stability, and safe birth. In
+reality, the deepening endemic poverty for billions of ordinary people
+has resulted in much more precarious conditions for pregnant women.<br />
+<br />
+In order to combat these problems, many Latin American governments,
+including Bolivia, have sought since the 1980s to provide formal
+biomedical health care, based on Western hospital systems, as an
+important element to secure better maternal health, with their
+initiatives following guidelines of the international programs of Safe
+Motherhood. However, increasingly unsecured social and economic
+conditions make it hard for this model to work with any consistent
+success in dealing with complicated health problems. The biomedical
+knowledges on which this model is based are very potent, but they do not
+transfer easily. The ‘fit’ between bodies and scientific technological
+medicine that appears so logical in systems of childbirth management in
+highly developed countries do not necessarily have the same outcomes
+elsewhere. For example, in New Caledonia, where modern biomedical
+facilities have been built with the aid of French subsidies, maternal
+mortality rates remain disturbingly high, when compared with neighboring
+states of far less wealthy communities (Jolly, 2002).<br />
+<br />
+In addition, it is necessary to consider how these expert biomedical
+knowledges are created, legitimated and transferred, and what elements
+are neglected in these processes. Many studies have shown that distinct
+cultures perceive and feel bodies differently. For example, in the
+Andes, the body is perceived as flexible, like a weaving. Traditional
+birth practices of finger pressure and massage depend on this flexible
+body. The <i>manteo</i>, where the woman’s body is shaken gently with a
+woven cloth, and the technique of “making the woman run” (jalayaña in
+Aymara), whereby babies are repositioned in the vertical axis by the
+gradual movements of a cloth tied around the women’s waist, or by
+tossing the women in a blanket or a woven poncho, also appeal to this
+body of Andean knowledge. So do Andean techniques of external version in
+cases of malpresentation of the baby, when the women is placed on all
+fours, in order to achieve the widest cervical opening and so allow
+local health experts to adjust the baby’s position (Arnold and Yapita
+with Tito, 1999).<br />
+<br />
+In contrast, medical training in Bolivia, as elsewhere, tends to be done
+on inflexible bodies, mainly cadavers. This is because the Western
+biomedical model favored in Bolivian medical schools ‘perceives’ the
+body as something that ‘strong’ technologies can always fix, usually by
+overcoming or bypassing what are perceived as ‘faulty’ bodily processes
+(Murphy-Lawless, 1998a and b). Yet the strong technologies, and the
+equipment and the training that accompanies them, are far less available
+or even sustainable in impoverished countries such as Bolivia. Here, as
+Jolly has shown, health systems often ‘mimic’ these Western models, but
+they cannot replicate them (Jolly, 2002: 11). <br />
+<br />
+At the same time, local knowledges and Andean technologies which may not
+have the same range of efficacy or evaluated outcomes, and that appear
+far less deterministic, may nevertheless provide elements of safety and
+well-being in the difficult circumstances of giving birth. Just as the
+body is plastic and flexible, so models based on flexibility,
+plasticity, and heterodoxy, are necessary to challenge current official
+Bolivian policies about childbirth, safety and well-being, and provide
+ways of rethinking these criteria.<br />
+<br />
+<h2>The Causes of Maternal Mortality: Statistics and Reality</h2>
+The distribution of causes of maternal mortality, by percentage,
+according to official statistics, is hemorrhage (53.7%), abortion
+(14.3%), infection (9.0%), eclampsia (9.0%), obstructed birth (4.5%) and
+others (10.5%) (<i>Comité por una Maternidad Segura</i>, 2000). In
+addition, according to data from 1996, the 53.7% of maternal deaths of
+hemorrhage in La Paz were provoked by a retained placenta. <br />
+<br />
+But whereas official statistics persuade us that maternal death is
+determined by the risk of retained placenta, in practice maternal deaths
+occur when there is an inadequate infrastructure (roads, ambulance,
+trained medical and paramedical personnel, and safe supplies of drugs
+and blood) to deal with obstetric risks such as retained placenta,
+should they arise. And there is the added lack of confidence of
+indigenous populations that their medical needs will be met, even if
+they travel long distances, in an atmosphere of wide discrimination
+against the majority population.<br />
+<br />
+Moreover, in practice, the combination of different populations in the
+Bolivian highlands generates dual health systems: the biomedical or
+official health system, and an Andean health system that operates more
+clandestinely. General discrimination on the part of many medical staff
+against Aymara speaking women lowers their uptake of official health
+services, the Aymara population preferring to use their own medical
+practices and practitioners in a domestic atmosphere of confidence and
+family members.<br />
+<br />
+In addition, maternal mortality among this population is compounded by
+factors such as high fertility, the gradual loss of control over
+demographic processes in rural populations, through forced medical
+interventions (vaccination programs), without a wider contextualization
+of their results, little access to, and use of reliable methods of
+family planning, general low indices of women’s health, particularly in
+rural areas, and a general <i>machismo</i> in the male population,
+generated in part from growing economic uncertainty.<br />
+<br />
+<h2>Who Attends Births in the Bolivian Highlands, and How?</h2>
+In the context of the alarming statistics of maternal mortality, that
+indicate that 80% of maternal deaths occur in home births attended by
+family members and “traditional birth attendants” (TBAs), official
+Bolivian health policy has been to increase the number of institutional
+births and the number of births attended by what are called “trained
+personnel”. However, this in turn has provoked other problems that
+damage indigenous women’s health.<br />
+<br />
+According to the data collected by REBOHUPAN (The Bolivian Network for
+the Humanization of Childbirth), 56.25% of births in the 3 years before
+the ENDSA report of 1998 were attended by trained health personnel, but
+with a wide difference between rural and urban areas and by region.<br />
+<br />
+Recent figures show a relatively low incidence of attendance by
+traditional midwives as a whole (7.40% as a national average) and a
+decreasing importance of these practitioners (from 10.35% in 1994) in
+favor of attendance by medical personnel and family members. But, in
+practice, other factors must be taken into account. For example, studies
+have shown that as high as 80% of first births in rural areas are
+attended by TBAs, called in Bolivia “traditional” or “empirical”
+midwives (Arnold, Yapita and others, 2002), and that then it is common
+practice for later births to be attended by family members (as an
+average of 44.20% in the Highland region), according to the woman’s
+preferences. This indicates a substantial difference between learning
+patterns, engaged with Andean ideologies of childbirth, for first
+births, and general patterns of practice, that such broad statistics
+cannot reveal easily. Also, attendance by medical personnel tends to be
+very uneven. In general, hospital births are attended by student
+doctors, often without adequate supervision.<br />
+<br />
+Another factor which affects the take-up of hospital births for Aymara
+women is the increasing tendency for medical intervention to promote
+Cesarean section over vaginal births. For rural Aymara women who work
+the land, carrying heavy loads, to have their body “cut” in childbirth
+is to “lose” her body’s labor power. They have no time to recover slowly
+from this operation, as middle-class women do, and Cesarean scars do not
+heal easily when they return to their daily activities of running
+households and farms almost immediately after birth. ILCA found that the
+Dutch Hospital in El Alto reached a figure of 26% of Cesareans in 1998,
+despite their discourse about birth attendance by husbands and midwives
+(Arnold and Murphy-Lawless, with Yapita and others, 2001). In this
+context, it is not surprising that the rising incidence of Cesareans in
+Bolivia is related to gender, class and ethnic questions, since the
+majority of doctors who tend to prefer this technique of childbirth are
+male, middle class, and white, and their “target practice” is on
+indigenous women’s bodies (Calderón C., 2000).<br />
+<br />
+<h2>Official Maternal Health Policy in Bolivia</h2>
+As stated above, Safe Motherhood initiatives were gradually applied to
+national health policies in Bolivia, but without taking into account the
+needs of its populations, above all indigenous ones. For example, the
+publication of <i>Plan Vida</i>, in 1994, put into action a national
+health plan of the increasing institutionalization of childbirth as a
+means to reduce maternal and infant mortality and morbidity. The plan
+from 1994-7 was to reduce the percentage of home births from 60% to 40%,
+and to ensure that 20% of home births would be attended by trained
+personnel by 1997. Then, in September 1999, a new series of goals were
+implemented, this time to increase to 65% the attendance of all births
+in Bolivia by trained personal by the year 2002. <br />
+<br />
+Official policies have also attempted to reduce maternal mortality and
+morbidity by reducing the overall rate of fecundity through increased
+access to Family Planning methods, by increasing the national coverage
+of prenatal care, and developing a system of Basic Health Security (<i>Seguridad
+Básica de Salud</i>) that offers free institutional birth (apart from some
+medical costs). They have persuaded TBAs to refer pregnant women,
+especially those thought to be at risk, to Health Centers, and have
+introduced new financial incentives for TBAs (and other Andean medical
+experts) under the new Indigenous Health Security scheme to do so<br />
+<br />
+Other current official targets of the Safe Motherhood program are to
+promote basic health safety in departmental health services, to
+systematize and incorporate the results of ethnographic studies of
+maternal health into the official health system and to increase the
+knowledge of maternal health among family members, so that they may
+improve decision-making in cases of risk. There are also plans to
+organize obstetrical networks in collaboration with municipalities, and
+in conjunction with social and transporting networks, to improve systems
+of referral in cases of emergency, and to help in the detection and
+resolution of obstetrical emergencies and reduction of maternal death in
+home births attended by trained personnel and the development of other
+maternal and neonatal health components as a part of the National
+Program in Sexual and Reproductive Health.<br />
+<br />
+However, in practice, in order to achieve the national aims of
+increasing the attendance of childbirth by trained personnel, and
+redirecting official policy towards institutional births, it has been
+necessary to adjust the definition of “trained personal”, and
+dramatically reduce their period of training. This affected, in
+particular, the training of nurses, a factor that might well have
+aggravated the risk of maternal death for indigenous rural populations.
+International directives throughout the past 20 years have also affected
+the nature and degree of incorporation of TBAs into the formal health
+system. In the 1970s, the WHO program still gave some autonomy to TBAs,
+although in the following decades they aimed to combine the two medical
+systems (traditional and official) into one. This is despite a number of
+anthropological and medical studies (Jordan, 1989; Cao, 1998; Quiroz,
+2002) that showed why the earlier training systems for indigenous
+midwives failed, and how they might have been improved. Their criticisms
+span from the epistemological questions of medical authority and
+knowledges, to questions of learning (whether it should be theory or
+practice-based), the quality and cultural suitability of teaching
+materials, and the lack of intercultural approaches in earlier courses.<br />
+<br />
+So, in practice, indigenous TBAs have been excluded officially from
+further training possibilities, while conventional western-style medical
+courses have been streamlined to perhaps dangerous limits. There was
+also a parallel rethinking of what “trained personnel” in obstetrical
+emergencies might mean, the new definitions underlining the fact that
+such personnel, besides having a biomedical training, should have access
+to an emergency infrastructure of radio, roads and ambulances, unlike
+their TBA counterparts. <br />
+<br />
+<h2>Toward the Humanization of Birth in Bolivia</h2>
+While Latin American countries such as Bolivia seek modernization
+through greater medical and technological intervention in childbirth,
+many of their worldwide counterparts have been seeking the
+de-medicalization and de-technologizing of birth, as a necessary step in
+order to achieve greater humanization of birth. This has sometimes
+involved re-learning the beneficial practices of indigenous midwives,
+which often follow closely many of the WHO guidelines for normal birth
+(1996, 1997).<br />
+<br />
+While there has been interest in “humanizing” birth in Bolivia since
+about 1986, especially by the MEDICON group, their sources of
+inspiration tended to come from initiatives outside their borders,
+rather than looking to indigenous Andean practices of birth. For
+example, <i>Plan Vida</i> (Bolivian Ministry of Health, 1994), and
+various other official documents, recommended a series of changes in
+medical practice, including the adoption of the vertical or sitting
+position for birth, improved communication with the women in labor,
+abandoning the practices of tricotomy and episiotomy, giving liquids,
+and avoiding the unnecessary use of oxytocins, without specifying that
+these approaches are all inherent in indigenous Andean practices of
+childbirth.<br />
+<br />
+In the 1990s, various groups from civil societies, especially those
+working with rural Aymara speaking women and urban migrants, began to
+demand “a different treatment” in childbirth, that besides humanizing
+birth also took account of different cultural practices (TAHIPAMU, 1994;
+Arnold and Yapita, 1994, 1996, etc.). This led to the formation of
+various official committees and commissions in the following years,
+dedicated to the “cultural adaptation” of the official health sector
+towards what were viewed as Andean cultural norms. For example, the US
+financed NGO, Mothercare, began to implement a series of “Andean norms
+in childbirth”, taken from an ILCA report in 1994 (Arnold and
+Murphy-Lawless, with Yapita and others, 2001: 61). These included the
+adoption of the vertical or sitting position, keeping the woman in labor
+woman warm, ensuring her privacy, ensuring the presence of a husband,
+midwife, or some other family member, giving due importance to the
+treatment of the placenta and its return to the mother if she wished.<br />
+<br />
+Another trend of thought in Bolivia, argued that what had been called
+until now “Andean cultural norms” in the humanization of childbirth,
+were in many cases norms that applied to all women, regardless of their
+ethnic and cultural backgrounds (Arnold and Murphy-Lawless, with Yapita
+and others, 2002). This trend compared many Andean birth practices to
+the “Social Model of Birth” proposed by Marsden Wagner (1994), and the
+“Physiologial Model of Birth” proposed by the professional midwife,
+Cecily Begley (1991), backed by the WHO 1996 <i>Guide for Normal
+Birth</i>. Key medical issues in these alternative models of childbirth
+focus on the management of the umbilical cord (with late cord cutting)
+and the placenta, as crucial issues for reducing the incidence of
+hemorrhage and retained placenta, the main causes of maternal mortality
+in childbirth. In particular, the ILCA study of 1998-9 showed the
+emphasis amongst indigenous midwives on protective practices in relation
+to the safe delivery of the placenta, the data indicating clear
+understandings about the need for practices to reduce the risk of
+serious maternal illness stemming from retained placenta and postpartum
+hemorrhage (Arnold and Murphy-Lawless, with Yapita and others, 2001).<br />
+<br />
+This train of argument established that many beneficial Andean practices
+are in line with these alternative models of childbirth, and that
+instead of “cultural adaptation” of official health practices, rather a
+serious medical dialogue between alternative medical systems (the
+biomedical and the Andean), should begin. For example, the following
+practices, which are central to care given by indigenous midwives in
+Bolivia, were deemed “demonstrably useful practices” by the WHO:
+empathic support by caregivers during labor and birth, respecting the
+woman’s choice of companions during labor and birth, offering oral
+fluids during labor and delivery, non-invasive, non-pharmacological
+methods of pain relief during labor such as massage and relaxation
+techniques, freedom in position and movement throughout labor, and the
+encouragement of a non-supine position during labor (WHO, 1996).<br />
+<br />
+When the Social Model of birth, concentrating on these practices and on
+continuity of care (the woman having the same midwife caregiver
+throughout labor), was evaluated, and compared with conventional
+obstetric care, seven randomized controlled trials demonstrated
+statistically proven better birth outcomes. Reported results from these
+studies conducted in hospital settings included shorter, less painful
+labors; less likelihood of intrapartum analgesia; less likelihood of
+operative vaginal delivery; and, for babies, better Apgar scores at five
+minutes (WHO, 1997). This thesis was the basis for the formation of the
+Latin American Childbirth Network (RELACAHUPAN) and its Bolivian
+counterpart (REBOHUPAN) as a result of a Workshop held in the Fortaleza
+Conference on Humanized Birth, held in Brazil in November 2000.<br />
+<br />
+Support for the humanization of birth has also come from various
+pressure groups in civil society, whether through their written
+initiatives on how to achieve this (Ten Steps of the Mother-Friendly
+Childbirth Initiative, <i>la Iniciative para un parto Respetuoso con
+la Madre de</i> CIMS), their demands for greater women’s rights in
+childbirth (<i>Carta de los Derechos de la Pacientes Embarazadas</i>),
+or greater women’s autonomy, for example through her autodiagnosis of
+her state of health during the perinatal period (<i>Responsabilidades
+de la Paciente Embarazada</i>). <br />
+<br />
+Similar tendencies have occurred with regard to the categories of
+obstetrical risk. While older directives proposed a broad set of 24
+categories, some of which alluded directly to the high risk category of
+“illiterate indigenous women,” there have since been attempts to bridge
+the biomedical and Andean categories of risk in more constructive ways,
+in order to create a more constructive medical dialogue (see for example
+Santa María, 2002). However, it is evident that any constructive medical
+dialogue in the future will have to address the question of Bolivian
+medical training, especially in obstetrics, that still tends to be
+geared towards past biomedical models. <br />
+<br />
+<h2>Conclusions</h2>
+The bettering of maternal health in Bolivia demands a broad strategy of
+interventions in order to achieve a series of different, but related
+aims. These include the lowering of the high incidence of maternal (and
+infant) mortality, particularly in indigenous Aymara and Quechua
+speaking highland populations, the sustaining of a diversity of
+approaches to protect women’s safety in childbirth, in a context of
+multilinguism and pluriculturality, and the humanizing of childbirth and
+infancy in the official health services to improve quality and take-up,
+when necessary. <br />
+<br />
+The overall challenge is to reduce maternal (and infant) mortality,
+while at the same time humanizing childbirth and early infancy. This
+means introducing extensive reforms in medical training, and a
+reinstated program of midwifery training which incorporates both
+western-style midwifery training and the support of training for
+indigenous midwifery. A new generation of Midwifery Schools should be
+sited in strategic areas, for example in the Aymara-speaking heartland
+of El Alto of La Paz, and backed by new curricular developments based in
+the Social and Physiological Models of Birth, with new teaching
+materials and teaching models, and new initiatives in birthing rooms,
+with regionally sensitive designs in equipment. Possible students in
+these new Midwifery Schools are present auxiliary nurses seeking a
+speciality, and a new generation of young midwives from rural areas who
+can adapt to new teaching models. The latter might also be aided by
+providing a system of grants to rural communities that will allow them
+to identify young people who may benefit from such courses, in order to
+better serve their communities. <br />
+<br />
+At the rural and periurban levels, it is necessary to conform adequate
+referral networks, and additional vigilance on the way existing services
+are used, and emergency facilities operate, and the way that existing
+funds are spent. All of this means a determined collaboration with
+Aymara populations, so that the currently high figures of maternal
+mortality can really be reduced.<br />
+<br />
+</div>

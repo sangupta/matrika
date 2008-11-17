@@ -1,0 +1,292 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+<h1>
+    Labour - The Opening Body</h1>
+    <matrika:video clip="/Clips/Clip2_EarlierHealthy.video" width="384" height="288"  />
+<div class="center">
+    <a href="#1" class="sml2">Food, Drink, Herbs And Other Locality Available Resources</a>
+    I <a href="#2" class="sml2">Skills and Knowledge</a> I <a href="#3" class="sml2">Emotional
+        &amp; Social Support</a> I <a href="#4" class="sml2">Ritual and Body Imagery</a>
+    <br />
+    <br />
+    <img src="<c:url value="/images/bemata.jpg" />" width="450" height="330" />
+    <br />
+</div>
+<span class="caption">Taken from a charpoy leg, this rare image of Bemata is shown with
+    a swastik or satiya, which represents the auspicious nature of birth.</span>
+<br />
+<a name="1" id="1"></a>
+<h2>
+    Food, Drink, Herbs And Other Locality Available Resources During Labour</h2>
+<img src="<c:url value="/images/baby.jpg" />" width="300" height="205" class="floatLeft" />
+&#8220;If progress is slow or the woman is tired and week, we give her a warm drink.
+We give a heating drink of <em>ajwain</em> and jaggery, or<em> ajwain</em>, <em>ghee</em>
+and milk.&#8221;(Delhi)<br />
+<br />
+&#8220;We give a hot beverage and feed the birthing woman hot food like a mixture
+of rice and lentils called <em>khichri</em> so that she gets strength to push.&#8221;(Bihar)<br />
+<br />
+&#8220;If the pains are not coming then I give a hot drink of milk and scrapped
+coconut to the woman to drink. Within 10 minutes the baby is delivered.&#8221; -Guddi,
+Rajasthan<br />
+<br />
+&#8220;I give a hot drink made out of luang and <em>jayphal</em>.&#8221; <strong>-</strong>Rukma,
+Rajasthan<br />
+<br />
+We have got brew of <em>ajwain</em> and <em>laung</em>. This hastens delivery. We
+also make a hot drink of milk, ghee and unrefined sugar. This procedures heat and
+helps in getting the pains quickly. In villages we get heat-producing pills (<em>garmee</em>
+<em>ki</em> <em>goli</em>) which are given. We also crush cloves and give her drink
+made of cloves.&quot; -Panna, Rajasthan<br />
+<br />
+&quot;We spread ashes between two cloths, so that the blood gets soaked up.&quot;<br />
+<br />
+&quot;We don't spread ashes but paddy hay.&quot; -Kamla Delhi<br />
+<br />
+&quot;We explain to the family members and tell them its better to give milk and
+ghee, not injections (of syntocen) to the women. If you affectionately explain it
+then they understand. if the <em>jachcha</em> gets scared then we tell her that
+by giving mothers <em>ghee</em> we have delivered eight babies, and did not give
+any injections. then they say &quot;At your time Amma, <em>ghee</em> was good.&quot;
+We make <em>jachcha</em> laugh.&quot; -Tara, Delhi<br />
+<br />
+&quot;We give a hot drink of milk and <em>ghee</em> or <em>ghee</em> and dried dates.
+This procedure heats and hastens delivery. It helps open the mouth of uterus.&quot;
+-Racha Kaur, Punjab<br />
+<br />
+&quot;We give hot fomentation on lower back, by placing pieces of heated coal under
+the cot.&quot; -Bihar<br />
+<br />
+&quot;If the pains are not getting stronger a Dai puts a grass, latlatiya or amarlatha
+in the woman's hair. The moment the baby is born the branch is taken out otherwise
+the uterus may come out.&quot; -Bihar<br />
+<br />
+&quot;If a women eats raw rice, chalk, or white clay or drinks thinned curd, the
+baby born has dry skin.&quot; -Kaushalay, Delhi<br />
+<br />
+<matrika:moveToTop  />
+<a name="2" id="2"></a>
+<h2>
+    Skills and Knowledge</h2>
+<img src="<c:url value="/images/mother_n_child.jpg" />" width="300" height="273" class="floatRight" />
+<br />
+<matrika:video clip="/Clips/Clip11_Tara.video" width="384" height="288"  />
+<br />
+&#8220;During
+pregnancy, <em>jachcha</em> is advised to do all the usual household work, the more
+active she is, the better is her delivery. We ask her to squat to do her work, as
+this posture is very helpful. One will fall ill if one sits idle. Besides if she
+rest all the time then baby becomes heavier and birth can be difficult and painful.
+Her body stays active if she keeps herself busy in work. However, we advise rest
+for women who are weak and complain of pain.&#8221; -Punjab<br />
+<br />
+&#8220;In our time, we had normal, head down presentations. Very few women had breech
+babies. Women those days worked a lot. So the baby used to move around and come
+out properly. Women worked in field and would deliver there itself.&#8221; -Dhapo,
+Delhi<br />
+<br />
+&#8220;Sometimes the baby moves down the seventh or eighth month. Then we give special
+massage and push it otherwise the baby may be delivered before time. During these
+early months it she complains of having pain at particular place then too we message
+her. This may happen because the baby is changing its position.&#8221; -Punjab<br />
+<br />
+&#8220; If a pregnant woman complains of backache or pain in her anus, she is made
+to sit on a glass kept upside down.&#8221; -Punjab<br />
+<br />
+&#8220;We count the months of pregnancy according, to the waxing-waning of moon.
+If here periods stopped on the no-moon day then the next no-moon we count as one
+month.&#8221; -Ramratni, Rajasthan<br />
+<br />
+&#8220;In Andhra Pradesh, castor oil is poured on the navel. It its full term, oil
+flows till the end of the womb. The size of the baby is measured by placing the
+hands on upper and lower end of the belly.&#8221; -Delhi<br />
+<br />
+&#8220;We check the position of the baby by pouring oil on the childbearing woman&#8217;s
+navel. If it falls straight, the baby is straight; if it falls at a slant then the
+baby is in a breech position. Dai keeps the oil near the bed. -Bihar<br />
+<br />
+In the beginning of the ninth month I can look at the woman and tell that there
+is lot of time till the birth. If the time has come out, only then I use my hands
+(do an internal exam). If 10-15 days are left. I do not put my hands.&#8221; -Chuki,
+Rajasthan<br />
+<br />
+&#8220;The <em>Dai</em> may check the baby&#8217;s heartbeat by putting her ear
+on the <em>jachcha&#8217;s</em> belly.&#8221; -Delhi<br />
+<br />
+&#8220;If the contractions indicate early labor, the <em>Dai</em> advises the woman
+to keep active &#8211; walking, doing light work and taking contractions holding
+onto a wall or ledge.&#8221; -Delhi<br />
+<br />
+&#8220;If while cooking lentils you keep stirring, the they will get broken. If
+the pains are not strong (kachcha dard) and I ask the woman to push then the uterus
+will come out. If we put pressure on the belly from early on then also the uterus
+can come out. I never hurry. People do not listen to a <em>Dai</em>. They say &#8220;Do
+something. Use your hands.&#8221; I tell them &#8220;The baby is not a vegetable.
+It will come out only on its time.&#8221; Family members put a lot of pressure to
+give injections.&#8221; -Tara, Delhi<br />
+&#8220;In early labor, Injections can be dangerous, the womb can tear.&#8221; -Panna,
+Rajasthan<br />
+<br />
+&#8220;If the pains are mild and at intervals (<em>ruk-ruk kar dhire dhire</em>)
+then it is the beginning of labour. When contractions become strong <em>(pakka dard</em>),
+the belly becomes firm and the baby stops moving. Only then we put our fingers into
+assess how much the mouth had opened.&#8221; -Khevani, Rajasthan<br /><br />
+<matrika:video clip="/Clips/Clip3_KhevniDai.video" width="384" height="288"  />
+<br />
+&#8220;When the pains are not strong, injections should not be given as the uterus
+may come out. One should massage her back. Her body is kept warm by massaging her
+back and legs.&#8221; -Satwant Kaur, Punjab<br />
+<br />
+Many times the woman&#8217;s body does not open fully. Then we use our hands to
+assess the situation. We put mustard oil on our fingers and stretch the flesh of
+the vagina very gently. We stop the moment we feel that the mouth has opened. We
+do not do this many times. This helps in letting the head comes out easily.&#8221;
+-Kheevni, Rajasthan<br />
+<br />
+&#8220;We check whether the fullness of the baby been reached, that is the head
+is fixed (<em>sharer bhar gaya hai</em>).&#8221; -Delhi<br />
+<br />
+&#8220;When the pains begin, I ask the <em>jachcha</em> to walk around. I ask her
+to take sips of hot drinks, milk and ghee. When pains become strong. I ask her to
+hold on to out. There was a woman whose daughter got some pains the day before.
+The mother got scared. I told her that of first baby the jachcha may have pains
+for three days. I explained to her very nicely that everyone has to face a little
+bit of problem.&#8221; -Vidya Devi, Delhi<br />
+<br />
+&#8220;When I go to see laboring women, I do an external check up, fell her belly
+to see whether the baby is moving around, feel the pulse of the baby. Then I do
+an internal check up of the cervix. If the cervix has opened to the size of fifty
+paisa coin then the delivery will take 8-16 hours. If the cervix has opened more
+then it will happen sooner. I do this check up and give her hot drinks.&#8221; -Kheevni,
+Rajasthan<br />
+<br />
+&#8220;If the cervix has opened one finger then there is still some time. Then we
+ask her to call us after four hours. Often it openes one finger after every four
+hours. We calculate the time accordingly.&#8221; -Pushpa, Delhi<br />
+<br />
+&#8220;If the baby is due soon, we begin to massage the stomach with oil.&#8221;
+-Bihar<br />
+<br />
+&#8221;During labor we also press and rub the inner parts of her thighs, this is
+very comforting. We do not use oil.&#8221; -Punjab<br />
+<br />
+&#8220;First the baby moves down slowly, and then the pain starts. If the mouth
+of the uterus has not opened then it will take some time. If it is open, then tell
+the time of delivery. I can make out because I do this work night and day.&#8221;
+-Kisturi, Rjasthan<br />
+<br />
+&#8220;The woman sweats when the baby is about to come out. Close to the birth,
+she starts sweating more. Her thighs starts shaking. Then the water bag breaks.
+The baby starts coming out. In one out of 100 cases a black balloon (amniotic sac
+with meconium) comes out, which the <em>Dai</em> has to break.&#8221; -Mohini Rajasthan<br />
+<br />
+<matrika:moveToTop  />
+<a name="3" id="3"></a>
+<h2>
+    Emotional &amp; Social Support</h2>
+The mouth of the uterus does not open fully when the contractions are mild. At this
+time we can only comfort her by saying that now it will not take much time, though
+we know that it may take time. -Punjab<br />
+<br />
+&#8220;For birth the <em>Dai</em> is called secretly. Neighbours should not know
+about it. This is to avoid the evil eye (<em>nazar</em>). When there are lot of
+people around then it is very disturbing and the woman takes time to open up. From
+out side we believe that birth is smoothere if there is no shouting around.&#8221;
+-Munni, Delhi<br />
+<br />
+&#8220;If women gather around the <em>jachcha</em> she becomes nervous. They also
+force us to give injections. These days everybody is in a hurry. Then we tell them
+very affectionately that we have delivered so many babies by giving hot drinks of
+ghee and milk.&#8221; -Vidya Devi and Tara, Delhi<br />
+<br />
+&#8220;A <em>jachcha</em> talks to us about things that she does not share with
+her mother or mother-in-law.&#8221; -Darshan Kaur, Punjab<br />
+<br />
+We give her emotional and physical support. We help her create links between her
+body and mind (Maen te sanjha kar liya). She listens to me and even her family listens
+to me. Dai is like a farmer. Farmer grows crops and feeds so many people, a Dai
+helps in the birth of the baby who is a source of joy to so many.&#8221; -Punjab<br />
+<br />
+&#8220;<em>Jachcha</em> listens to us if we explain to her affectionately. Family
+members are always nervous. It is my responsibility to reassure them. I tell them
+that I can manage and will leave only after finishing the work.&#8221; -Tara, Delhi<br />
+<br />
+&#8220;We keep our attention on the <em>jachcha</em>, talking with her, joking,
+reassuring her, asking questions and noting the progress of labor.&#8221; -Delhi<br />
+<br />
+&#8220;We also have to be sure that pains are not for too long as this can lead
+to unnecessary panic in the family and can upset the woman.&#8221; -Punjab<br />
+<br />
+&#8220;When the strong contractions begin, the top of the abdomen has a four finger
+emty space and the fetus is low in the birth canal. During, pukka dard the woman
+starts sweating, she is hot and says &#8220;Now I am going to die&#8230;I will not
+survive&#8221;. She calls for her mother, we give her reassurance. We tell her that
+everyone gets tehse pains and tell her of various women and how they coped. Tell
+her to bear it and console her by saying, &#8220; Here comes the baby, here comes
+the baby&#8230;&#8221; -kheevni, Rajasthan<br />
+<br />
+&#8220;We try to find out any possible concerns of the woman which may be why she
+is not &#8220;opening up&#8221;. Once a woman had eloped against her parent&#8217;s
+wishes, and it was only after her father came to the house and met her, that she
+was able to deliver her baby.&#8221; -Bihar<br />
+<br />
+I was asked to come and sit in the <em>jachcha&#8217;s</em> room when my sister-in-law
+was in abor. She was &#8220;not opening up&#8221;. She delivered after I came in.
+The Dai said she must have been hiding something from me.&#8221; -Saroja, Bihar<br />
+<br />
+&#8220;the Dai deals lovingly with the childbearing woman. She explains things affectionately,
+tells her to be strong and to push only when she is told.&#8221; -Bihar<br />
+<br />
+<matrika:moveToTop  />
+<a name="4" id="4"></a>
+<h2>
+    Ritual and Body Imagery</h2>
+<img src="<c:url value="/images/drawing.gif" />" width="295" height="302" class="floatRight" />
+&#8220;Before attending the delivery we first pay obeisance to the threshold of
+the house. If the pains are not strong or birth is taking time, we make the childbearing
+mother touch black gram and this is given away. This is to ward off bad spirits.&#8221;
+-Punjab<br />
+<br />
+&#8220;Before entering the jachcha&#8217;s room we worship the threshold, the way
+we do in the temple. We fold our hands and say, &#8220;God (<em>Bhagwan</em>) do
+justice and relieve her from pain.&#8221; Then bow near a fire, dust off our clothes
+and then enter the room. By this we ward off evil spirits.&#8221; -Rajasthan<br />
+<br />
+&#8220;We have a custom that the threshold is nicked, cut slightly, five times with
+a small knife, We open boxes, hair and all other knots.&#8221; -Saubatiya, Bihar<br />
+<br />
+&#8220;All knots on the woman&#8217;s clothing, her hair, other knots or locks in
+the room are untied or opened.&#8221; -Delhi<br />
+<br />
+&#8220;During labor, earthen pots with large openings are tied on top of house.
+Her bangles, hairs, bindi, nose ring are taken off and are offered to &#8220;Bemeta
+open her knots the way we opened all her knots.&#8221; -Mohini, Rajasthan<br />
+<br />
+&#8220;The younger sister-in-law is made to sit at the door, she knocks at the door
+five times-then picks up some water kept there. The mother-in-law puts her bag toe
+in the water and gives it to the jachcha to drink. She abuses (<em>gaalis</em>)
+her while giving the water.&#8221; -Bihar<br />
+<br />
+<span class="default">&#8220;Maybe the pains are not coming because of some blockage
+    inside. We open the blocks inside the body by opening all the outside knots. Like
+    we take off woman&#8217;s bindi, bangles, hair band, locks on boxes and windows.&#8221;
+    -Khivani, Rajasthan</span><br />
+<br />
+&#8220;In Rajasthan, a mound of wheat flour (<em>atta</em> for making <em>chappati</em>)
+is kept in a plate. The jachcha takes a coin and separates in into the portions.
+It hastens birth.&#8221; -Delhi<br />
+<br />
+&#8220;Some jaggery and grain is kept in a plate. Then we pray, &#8220;<em>Bagwan</em>
+everything should happen smoothly and be over&#8221; (<em>Bhagwan sahi salamat se chhutkara
+    dilwana</em>). After praying, jaggery and grain is separated into two portions
+by the mother. With one portion sweet pudding is made for juchcha. The other portion
+is put in a sieve and circulated seven times over jachcha&#8217;s head. While doing
+this we pray to Bemata asking her to take care of <em>jachcha</em> and <em>bachcha</em>.&#8221;
+-Rajasthan<br />
+<br />
+&#8220;We make the <em>jachcha</em> touch jaggery, grain and money and give it away
+as offering. Some keep garlic and grain near the bed. We also pray and offer jaggery
+in Gurdwara. We pray and grain near the bed. We also pray and offer jaggery in Gurudwara.
+We pray so that everything goes well. We feel responsible for the mother and the
+baby.&#8221; -Punjab

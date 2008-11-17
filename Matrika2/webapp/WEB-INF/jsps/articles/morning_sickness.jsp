@@ -1,0 +1,49 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+               <blockquote>
+                    
+  <div align="left"> 
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><blockquote>
+            <div align="left"><font size="2" face="Arial, Helvetica, sans-serif"><a name="1"></a></font> 
+            </div>
+          </blockquote>
+          <font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"> 
+          </font></font> <p> <font face="Arial, Helvetica, sans-serif"><font size="4"> 
+            <br>
+            Morning Sickness</font></font></p>
+          <p align="justify"> <font size="2" face="Arial, Helvetica, sans-serif">Between 
+            1 and 2% of pregnant women experience hyperemesis gravidarium, or 
+            severe morning sickness. A randomized, placebo-controlled crossover 
+            study found that stimulating acupuncture point PC6 helps ease nausea 
+            and vomiting. Thirty-three women (average age 28.4 years) were divided 
+            into two groups. Group A received deep needle insertion at the PC6 
+            point on both forearms three times per day for 30 minutes. Group B 
+            received a form of placebo acupuncture, with a needle inserted superficially 
+            approximately four inches above the wrist on each arm. On days one 
+            and two of the eight-day study, each group received their treatments; 
+            after two more days of no treatment, the procedures were switched 
+            for each group. Each day, the women rated degree of nausea and recorded 
+            instances of vomiting. Those women given active acupuncture experienced 
+            a &quot;significantly faster reduction of nausea&quot; compared with 
+            those who received a placebo. This reduction was seen in both groups; 
+            identical results were seen in each group when the treatment was switched. 
+            The incidence of vomiting was also reduced in both groups, with a 
+            much greater reduction seen in those receiving active acupuncture. 
+            Daily vomiting had been reported by all 22 women at the study onset; 
+            by day three less than half of the women in the active group were 
+            still vomiting compared with 75% of those in the placebo group.</font></p>
+          <p align="justify"> <font color="#6D6D36" size="2" face="Arial, Helvetica, sans-serif"><strong><em>Journal 
+            of Pain and Symptom Management, October 2000;20(4):273-279.</em></strong></font></p>
+          <p align="justify"></p>
+                </td>
+      </tr>
+    </table>
+  </div>
+</blockquote>
+                <p>
+                    <font size="2" face="Arial, Helvetica, sans-serif">
+                        <br />
+                    </font></p>

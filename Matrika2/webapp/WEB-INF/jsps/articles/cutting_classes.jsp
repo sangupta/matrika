@@ -1,0 +1,62 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+    <p class="hd3">
+        Cutting class? (Sara Krulwich/The New York Times)
+        <br />
+    </p>
+    <p class="default">
+        <b>Pregnant women are cutting childbirth class.<br />
+        Dated: 12 November 2007, Read <a href="http://well.blogs.nytimes.com/2007/11/12/the-end-of-childbirth-101/?" target="_blank">original
+            article</a> here.</b>
+        <br />
+        <br />
+        Although women are more obsessed than ever with health during their pregnancies,
+        they seem to have lost interest in learning about the end of pregnancy, also known
+        as childbirth, reports the November issue of Fit Pregnancy magazine.
+        <br />
+        <br />
+        "Fewer women are taking classes,'' said Jeannette Crenshaw, president of Lamaze
+        International. Ms. Crenshaw told the magazine that she believes several issues explain
+        why women aren't as interested in learning about childbirth. Many women, she says,
+        are convinced they can't deliver a baby without epidural pain relief. Television
+        shows often depict birth as a dangerous event, even though serious problems are
+        exceedingly rare among women delivering in the United States. And because many women
+        work until nearly the last day of pregnancy, busy schedules often prevent them from
+        scheduling a birthing class.
+        <br />
+        <br />
+        Marjie Hathaway, co-director of the American Academy of Husband-Coached Childbirth,
+        which teaches what's known as the Bradley Method of natural childbirth, also told
+        the magazine that interest in childbirth classes has waned. "Today, women are more
+        focused on prenatal testing and monitoring the pregnancy than in learning how to
+        give birth,'' she said.
+        <br />
+        <br />
+        Research shows that there's no real difference in pain, labor interventions or birth
+        outcomes among women who take childbirth classes and those who don't, the magazine
+        reports. The classes appear to attract women who are the most vigilant about their
+        health during pregnancy. Women who enroll in a childbirth class are more likely
+        to have quit smoking, keep prenatal appointments and to breastfeed after birth,
+        the magazine notes.
+        <br />
+        <br />
+        Childbirth education started in the 1940s, after a British obstetrician published
+        the book "Childbirth Without Fear," advocating relaxation techniques to ease pain
+        and fear during labor. French obstetrician Dr. Fernand Lamaze developed focused
+        breathing techniques to help with the pain of childbirth.
+        <br />
+        <br />
+        But today hospital-based classes tend to focus more on a tour of hospital facilities
+        rather than techniques to cope with labor pain. The magazine argues that women's
+        declining interest in childbirth classes is worrisome because it's happening even
+        as childbirth has become more "medicalized'' than ever. During childbirth, a number
+        of variables can arise and women have to make informed decisions about procedures
+        like epidurals, episiotomies, induction and C-sections. "That's where you reap the
+        dividends of having had a teacher who explained each possible intervention and showed
+        you how to be your advocate,'' the magazine reports.
+        <br />
+        <br />
+        The Fit Pregnancy Web site offers several descriptions of the different types of
+        childbirth classes as well as contact info to find a class.
+    </p>

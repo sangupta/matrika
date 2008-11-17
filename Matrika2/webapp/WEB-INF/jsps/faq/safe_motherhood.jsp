@@ -1,0 +1,101 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+<h1>
+        What About Safe Motherhood and Human Rights?</h1>
+    Concepts of the human body and its place in the world or cosmos are central to any
+    culture. Likewise, care of the body, the health behavior which the mother, family
+    or community inculcates into the child as a part of socialization, are intrinsically
+    cultural orientations. Unfortunately the powerful language of human rights that
+    is used in CEDAW (Convention on the Elimination of All Forms of Discrimination Against
+    Women) and Safe Motherhood literature seems to ignore the existence of indigenous
+    systems of health, healing and medicine in the effort to guarantee access to modern
+    medical facilities to women and prevent economic and gender based discrimination.
+    Most human rights NGOs have chosen not to address economic, social and cultural
+    rights, in part because of the near total absence of any methodology to monitor
+    enforcement or define violations of them.<br />
+    <br />
+    CEDPAW was adopted in 1976 by the UN General Assembly and as of 1996 has been ratified
+    by 152 member states. Part III, Article 11, 2 provides for maternity leave, social
+    support for combining family obligations with work responsibilities and special
+    protection for women during pregnancy. Article 14, 1 &quot;States Parties shall
+    take into account the particular problems faced by rural women and the significant
+    roles which rural women play in the economic survival of their families including
+    their work in the non-monetarized sectors of the economy, and shall take all appropriate
+    measures to ensure the application of the provisions of this convention to women
+    in rural areas&quot;-which may be a rubric for inclusion of indigenous midwives.<br />
+    <br />
+    Increasingly the language of women's human rights to health care includes 'accessibility'
+    of that care. In other words, not just physical proximity but also social accessibility.
+    This acknowledges the importance of health care providers&#8217; attitudes which
+    is compatible with women's beliefs and respectful of her cultural practices. Poor
+    quality of interaction with health care personnel prevents access to modern medicine
+    and health care facilities. Women are will not use health services because they
+    perceive providers to be rude, patronising and insensitive to the context in which
+    they live. Interactions with providers can be threatening and humiliating, and women
+    often feel pressured to make choices that conflict with their own health and fertility
+    goals.<br />
+    <br />
+    Naming the human rights of women to choose, as practitioners and as users, indigenous
+    health modalities and specialists is an important step in enumerating rights. The
+    language of choice should not only extend to birth control techniques and family
+    planning or obstetrically managed births. MATRIKA&#8217;s position (quite literally)
+    is that a woman should be able to choose to squat, rather than lie down on a delivery
+    table (or perform a ritual or be accompanied by a loved one), as she births her
+    baby-and still avail herself of the advantages of bio-medical services.<br />
+    <br />
+    <div class="center">
+        <img src="<c:url value="/images/Sanjeevni.jpg" />" width="400" height="474" /><br />
+        <span class="caption">Hanuman transporting the Sanjeevni (medicinal herbs) from Mount
+            Goberdan&#8212;this image displays the sacred context in which healing and plant
+            knowledge has been understood.</span></div>
+    <h2>
+        Why have Indigenous Systems of Medicine not been a part of Reproductive Health?
+    </h2>
+    Due to the colonial past early health commissions, such as the Bore Commission,
+    had never included indigenous health practices or practitioners. Some suggest that
+    only in the 1980's, when it was obvious that the state could not cope with the need
+    for health services, the GOI began to call on indigenous systems-calls for plurality
+    to abet privatisation.<br />
+    <br />
+    After the International Conference on Population and Development in 1994 and the
+    Beijing Women's Conference in 1995 donors, especially the UNFPA and Ford Foundation,
+    supported initiatives taken by Indian women's groups for dialogue among themselves
+    on their health needs and women-sensitive population programmes. It was not a priority
+    to perceive or reclaim indigenous women's health knowledge within the context of
+    feminist activism critiquing patriarchal attitudes, structures and the excesses
+    of GOI's family planning schemes<br />
+    <br />
+    Government policies, which encourage dais as partners in reproductive health schemes,
+    benefit dais, families and communities that have been marginalised by modern public
+    health and bio-medical institutional processes. Dai work is labour intensive, rather
+    than capital intensive as are hospitals and doctors, and thus contributes to its
+    sustainability.<br />
+    <br />
+    However even today powerful public health voices from abroad define Safe Motherhood
+    goals in terms which make invisible indigenous knowledge, skills and practitioners.
+    Theories emerge from universities in New York and London which may be statistically
+    accurate, but do not lend themselves to coherent health policies in resource-strapped
+    nations. For example Maine and Rosenfield advocate high technology and resource
+    intensive solutions to the problems of maternal mortality and morbidity with the
+    &#8216;all pregnant women are at risk&#8217; assertion.
+    <br />
+    <p style="margin-left: 25px">
+        The best strategy is to assume that all pregnant women are at risk for serious complications
+        and to focus efforts on improving the quality of, access to, and utilisation of
+        emergency care services.</p>
+    <br />
+    In many developing countries, there is a growing trend towards the medicalisation
+    of maternal health care through specialised, generally technology-based models.
+    Such practices as shaving the pubic area, giving enemas, routine electronic foetal
+    monitoring routine episiotomy, and induction of labour contribute to over medicalisation.
+    The overuse of invasive procedures may not be appropriate for many women, and can
+    create barriers between clients and providers that discourage women from using health
+    services.<br />
+    <br />
+    HealthWatch Report on RCH states that in many of the areas reviewed the mainstay
+    of the program serving the pregnant woman continues to be Tetanus Toxoid injections
+    and iron tablets (which is congruent with MATRIKA findings). Yet in the Andhra,
+    Bengal and Karnataka districts reviewed, care at birth continued to be handled by
+    dais in as many as 75% of deliveries. Thus it appears that there exist precious
+    few 'bridges' between public health and indigenous systems.
