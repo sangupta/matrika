@@ -27,9 +27,7 @@
             <td>
                 <img src="images/policy-making.gif" width="200" height="147" /></td>
             <td>
-                <a href="FAQ/PolicyMakers.html" >At the policy-making level what can be
-                    done to strengthen the dai tradition and link it to government health services and
-                    providers.</a></td>
+                <a href="FAQ/PolicyMakers.html" >Policy Makers</a></td>
         </tr>
         <tr>
             <td>

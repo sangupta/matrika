@@ -9,7 +9,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>MATRIKA Mockup Site :: <tiles:getAsString name="title" /></title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Indigenous Midwifery,Traditional Birth,Ayurveda,Dais,Labor,Birth,Postpartum,Yoni,North India,Reproductive Health,Childbirth" />
 <jerry:insertResource type="css" resource="/css/matrika.css.jsp" />
 <jerry:insertResource type="css" resource="/css/superfish.css" />
 <jerry:insertResource type="script" resource="/js/matrika.js" />

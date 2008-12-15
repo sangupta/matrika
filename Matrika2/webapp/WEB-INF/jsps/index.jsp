@@ -9,13 +9,13 @@
 				background="images/bg1.gif"><br />
 				<div style="width: 90%">
 					<ul class="redRoundList" style="line-height: 30px;">
-						<li><a href="WhyMatrika.html">Why Matrika?</a></li>
-						<li><a href="KeyConcepts.html">Entering Dai's World - Key Concepts</a></li>
-						<li><a href="ComplicationSafety.html">Complications &amp; Safety</a></li>
-						<li><a href="FAQ.html">FAQs</a></li>
+						<li><a href="WhyMatrika.html">MATRIKA: A Project to Reclaim Indigenous Midwifery</a></li>
+						<li><a href="KeyConcepts.html">The Traditional Birth World in North India</a></li>
+						<li><a href="ComplicationSafety.html">Complications, Safety, Caesarians, and the Politics of Birth</a></li>
+						<li><a href="FAQ.html">Reproductive Health Matters and Perspectives</a></li>
 						<li><a href="Articles.html">Featured Articles &amp; Archives</a></li>
-						<li><a href="DidYouKnow.html">Did you know?</a></li>
-						<li><a href="Workshops.html">Workshop Transcripts</a></li>
+						<li><a href="DidYouKnow.html">Yoni Knowledge</a></li>
+						<li><a href="Workshops.html">Matrika Workshop Transcripts</a></li>
 						<li><a href="Discussions.html">Discussions</a></li>
 						<li><a href="Resources/UpcomingEvents.html">Upcoming Events</a></li>
 					</ul>
@@ -47,15 +47,9 @@
 										width="267" height="301" /></font></font></span></span><span class="Normal"><font
 										size="2"><font face="Verdana"><br>
 									<br>
-									<b><font size="2">Our mission is to preserve
-									traditional Indian birth knowledge and skill and to promote<br>
-									the elderly dais who hold these traditions. They are cultural
-									and medical resources<br>
-									who are fast disappearing. They are obstetricians of Ayurveda.</font></b></font></font></span></span></p>
-									<p><span align="left"><span class="Normal"><font
-										size="2"><font face="Verdana"><b><font
-										size="1"><font size="2">Dais read the female
-									fertile body, so can you!</font></font></b></font></font></span></span></p>
+									<b><font size="2">
+We work to preserve traditional Indian childbirth knowledge and to promote the elderly dais who hold these traditions.  Cultural and medical resources, they are fast disappearing.  The obstetricians of Ayurveda, dais are often illiterate, but they read the fertile female body.  Open the labor, birth, and post partum links below to learn about what they know.
+</font></b></font></font></span></span></p>
 									</div>
 									</td>
 								</tr>
