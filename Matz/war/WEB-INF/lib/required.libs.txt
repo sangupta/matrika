@@ -1,0 +1,27 @@
+JARs required for deployment
+============================
+
+appengine-api-1.0-sdk-1.2.5.jar
+appengine-api-labs-1.2.5.jar
+commons-beanutils.jar
+commons-collections.jar
+commons-digester.jar
+commons-logging.jar
+datanucleus-appengine-1.0.3.jar
+datanucleus-core-1.1.5.jar
+datanucleus-jpa-1.1.5.jar
+geronimo-jpa_3.0_spec-1.1.1.jar
+geronimo-jta_1.1_spec-1.1.1.jar
+jdo2-api-2.3-eb.jar
+jerry-core.jar
+jerry-services.jar
+jerry.jar
+jstl.jar
+required.libs.txt
+spring-web.jar
+spring-webmvc.jar
+spring.jar
+standard.jar
+tiles-api-2.0.7.jar
+tiles-core-2.0.7.jar
+tiles-jsp-2.0.7.jar
