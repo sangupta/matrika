@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+		  "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<!--
+
+	Matrika India Website Code
+	Copyright (C) 2008 Matrika India Development Team
+	http://www.matrika-india.org
+	
+	The file is licensed under the the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+	Author: Sandeep Gupta <sandy.pec@gmail.com>
+-->
+
+<beans>
+
+	<!-- Message bundles -->
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" >
+		<property name="basenames" >
+			<list>
+				<value>ApplicationResources</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- Configure the tiles implementation -->
+	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer" >
+		<property name="definitions" >
+			<list>
+				<value>/WEB-INF/config/tiles/tiles-defs.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- Wiring the tiles implementation to view resolver -->
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver" >
+		<property name="viewClass">
+			<value>org.springframework.web.servlet.view.tiles2.TilesView</value>
+		</property>
+	</bean>
+	
+	<!-- Basic filename based view resolver -->
+	<bean name="forwardController" class="org.springframework.web.servlet.mvc.UrlFilenameViewController" >
+		<property name="prefix" value="." />
+	</bean>
+	
+	<!-- Basic exception resolver -->
+	<bean name="exceptionResolver" class="org.matrika.web.controller.MatrikaExceptionResolver" >
+		<property name="order" value="0" />
+	</bean>
+	
+	<!-- The method name resolver to be used with MultiAction controller -->
+	<bean name="methodNameResolver" class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver" >
+		<property name="paramName" value="_action" />
+	</bean>
+	
+	<bean name="urlTilenameController" class="org.springframework.web.servlet.mvc.UrlTilenameViewController" >
+		<property name="indexTile" value=".homePage" />
+		<property name="toLowercase" value="true" />
+		<property name="stripAfterLastDot" value="true" />
+		<property name="insertStartingDot" value="true" />
+	</bean>
+	
+	<bean name="urlMappings" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/searchResults.html">urlTilenameController</prop>
+				
+				<prop key="/Feedback.html">feedbackController</prop>
+				<prop key="/Search.html">searchController</prop>
+
+				<prop key="/Login.html">urlTilenameController</prop>
+				<prop key="/Logout.html">urlTilenameController</prop>
+				<prop key="/NewUserSignUp.html">urlTilenameController</prop>
+				<prop key="/ForgotPassword.html">urlTilenameController</prop>
+				<prop key="/ChangePassword.html">urlTilenameController</prop>
+		
+				<prop key="/index.html">urlTilenameController</prop>
+				<prop key="/Articles.html">urlTilenameController</prop>
+				<prop key="/DidYouKnow.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts.html">urlTilenameController</prop>
+				<prop key="/Research.html">urlTilenameController</prop>
+				<prop key="/Resources.html">urlTilenameController</prop>
+				<prop key="/Workshops.html">urlTilenameController</prop>
+				<prop key="/AboutUs.html">urlTilenameController</prop>
+				<prop key="/FAQ.html">urlTilenameController</prop>
+				<prop key="/ContactUs.html">urlTilenameController</prop>
+				<prop key="/Disclaimer.html">urlTilenameController</prop>
+				<prop key="/PrivacyPolicy.html">urlTilenameController</prop>
+				<prop key="/SiteMap.html">urlTilenameController</prop>
+				<prop key="/WhyMatrika.html">urlTilenameController</prop>
+				<prop key="/ComplicationSafety.html">urlTilenameController</prop>
+				<prop key="/Birth.html">urlTilenameController</prop>
+				<prop key="/Labor.html">urlTilenameController</prop>
+				<prop key="/PostPartum.html">urlTilenameController</prop>
+				<prop key="/PathNotFound.html">urlTilenameController</prop>
+				<prop key="/Error.html">urlTilenameController</prop>
+				
+				<prop key="/Articles/BirthBricks.html">urlTilenameController</prop>
+				<prop key="/Articles/BirthIsAForce.html">urlTilenameController</prop>
+				<prop key="/Articles/BirthOrder.html">urlTilenameController</prop>
+				<prop key="/Articles/BirthWeight.html">urlTilenameController</prop>
+				<prop key="/Articles/BreakingWaters.html">urlTilenameController</prop>
+				<prop key="/Articles/Colostrum.html">urlTilenameController</prop>
+				<prop key="/Articles/CSectionRates.html">urlTilenameController</prop>
+				<prop key="/Articles/CuttingClasses.html">urlTilenameController</prop>
+				<prop key="/Articles/FetalCells.html">urlTilenameController</prop>
+				<prop key="/Articles/IntactPerineum.html">urlTilenameController</prop>
+				<prop key="/Articles/Labor.html">urlTilenameController</prop>
+				<prop key="/Articles/LaborAndAutism.html">urlTilenameController</prop>
+				<prop key="/Articles/LookingAtNumbers.html">urlTilenameController</prop>
+				<prop key="/Articles/MorningSickness.html">urlTilenameController</prop>
+				<prop key="/Articles/MotherIndia.html">urlTilenameController</prop>
+				<prop key="/Articles/OldestVocation.html">urlTilenameController</prop>
+				<prop key="/Articles/PopeStory.html">urlTilenameController</prop>
+				<prop key="/Articles/Positions.html">urlTilenameController</prop>
+				<prop key="/Articles/PreNatalClinic.html">urlTilenameController</prop>
+				<prop key="/Articles/Questions.html">urlTilenameController</prop>
+				<prop key="/Articles/SageWomen.html">urlTilenameController</prop>
+				<prop key="/Articles/WombToWorld.html">urlTilenameController</prop>
+				<prop key="/Articles/Ultrasound.html">urlTilenameController</prop>
+				<prop key="/Articles/WombToWorld.html">urlTilenameController</prop>
+				
+				<prop key="/DidYouKnow/CommonIndigenousHealing.html">urlTilenameController</prop>
+				<prop key="/DidYouKnow/HistoryOfMedicine.html">urlTilenameController</prop>
+				<prop key="/DidYouKnow/ScienceModernKnowledge.html">urlTilenameController</prop>
+				<prop key="/DidYouKnow/SquattingPosition.html">urlTilenameController</prop>
+				<prop key="/DidYouKnow/YoniAsSource.html">urlTilenameController</prop>
+				<prop key="/DidYouKnow/YoniInNature.html">urlTilenameController</prop>
+				
+				<prop key="/KeyConcepts/Bemata.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts/HawaGolaPostpartum.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts/Injection.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts/JeeTheLife.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts/Microcosm.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts/MotherChild.html">urlTilenameController</prop>
+				<prop key="/KeyConcepts/NarakRethinking.html">urlTilenameController</prop>
+				
+				<prop key="/Research/AAAPaper.html">urlTilenameController</prop>
+				<prop key="/Research/DHCIS.html">urlTilenameController</prop>
+				<prop key="/Research/HawaGola.html">urlTilenameController</prop>
+				<prop key="/Research/IGNCA.html">urlTilenameController</prop>
+				<prop key="/Research/IndicReligions.html">urlTilenameController</prop>
+				<prop key="/Research/Introduction.html">urlTilenameController</prop>
+				<prop key="/Research/MythicOrigins.html">urlTilenameController</prop>
+				<prop key="/Research/Narak.html">urlTilenameController</prop>
+				<prop key="/Research/NegotiatingNarak.html">urlTilenameController</prop>
+				<prop key="/Research/TradeModern.html">urlTilenameController</prop>
+				
+				<prop key="/Resources/Links.html">urlTilenameController</prop>
+				<prop key="/Resources/UpcomingEvents.html">urlTilenameController</prop>
+				<prop key="/Resources/EventReports.html">urlTilenameController</prop>
+				<prop key="/Resources/BookReviewBirthAndBirthGivers.html">urlTilenameController</prop>
+				
+				<prop key="/Workshops/Bihar.html">urlTilenameController</prop>
+				<prop key="/Workshops/Bihar1.html">urlTilenameController</prop>
+				<prop key="/Workshops/Bihar2.html">urlTilenameController</prop>
+				<prop key="/Workshops/Delhi1.html">urlTilenameController</prop>
+				<prop key="/Workshops/Delhi2.html">urlTilenameController</prop>
+				<prop key="/Workshops/Fatehgarh.html">urlTilenameController</prop>
+				<prop key="/Workshops/Jehangirpuri.html">urlTilenameController</prop>
+				<prop key="/Workshops/Punjab.html">urlTilenameController</prop>
+				<prop key="/Workshops/Rajasthan1.html">urlTilenameController</prop>
+				<prop key="/Workshops/Rajasthan2.html">urlTilenameController</prop>
+				<prop key="/Workshops/Rajasthan3.html">urlTilenameController</prop>
+				<prop key="/Workshops/Songs/Bihar.html">urlTilenameController</prop>
+				<prop key="/Workshops/Songs/Delhi.html">urlTilenameController</prop>
+				<prop key="/Workshops/Songs/Patna.html">urlTilenameController</prop>
+				<prop key="/Workshops/Songs/Punjab.html">urlTilenameController</prop>
+				<prop key="/Workshops/Songs/Rajasthan.html">urlTilenameController</prop>
+				
+				<prop key="/AboutUs/Janet.html">urlTilenameController</prop>
+				<prop key="/AboutUs/TheWebTeam.html">urlTilenameController</prop>
+				
+				<prop key="/FAQ/DoctorsAndNurses.html">urlTilenameController</prop>
+				<prop key="/FAQ/Families.html">urlTilenameController</prop>
+				<prop key="/FAQ/Feminists.html">urlTilenameController</prop>
+				<prop key="/FAQ/NGO.html">urlTilenameController</prop>
+				<prop key="/FAQ/PolicyMakers.html">urlTilenameController</prop>
+				<prop key="/FAQ/SafeMotherhood.html">urlTilenameController</prop>
+				
+				<!-- Articles added on 6 July 2008 -->
+				<prop key="/Articles/StoryOfInterventions.html">urlTilenameController</prop>
+				<prop key="/Articles/AmazingBirthStory.html">urlTilenameController</prop>
+				<prop key="/Articles/ShorteningSpontaneousLabor.html">urlTilenameController</prop>
+				<prop key="/Articles/StoryOfSangeeta.html">urlTilenameController</prop>
+				<prop key="/Articles/KnowYourRights.html">urlTilenameController</prop>
+				<prop key="/Articles/UnassistedBirth.html">urlTilenameController</prop>
+				<prop key="/Articles/Oxytocin.html">urlTilenameController</prop>
+				<prop key="/Articles/PranicHealing.html">urlTilenameController</prop>
+				<prop key="/Articles/SimplifyingBirth.html">urlTilenameController</prop>
+				<prop key="/Articles/SpontaneousVaginalBirth.html">urlTilenameController</prop>
+				<prop key="/Articles/BirthHumanizationCoastaRica.html">urlTilenameController</prop>
+				<prop key="/Articles/FindingsNATLConsultation.html">urlTilenameController</prop>
+				<prop key="/Articles/HammamentCall.html">urlTilenameController</prop>
+				<prop key="/Articles/ExpandingRoleTBA.html">urlTilenameController</prop>
+				<prop key="/Articles/AtharvaVeda.html">urlTilenameController</prop>
+				<prop key="/Articles/PracticesInBhutan.html">urlTilenameController</prop>
+				<prop key="/Articles/HeatedNatureOfBody.html">urlTilenameController</prop>
+				<prop key="/Articles/LawlessBolivia.html">urlTilenameController</prop>
+				<prop key="/Articles/TibeteanPollution.html">urlTilenameController</prop>
+				<prop key="/Articles/MenstrualBloodIngestion.html">urlTilenameController</prop>
+				<prop key="/Articles/DaughterOfTime.html">urlTilenameController</prop>
+				<prop key="/Articles/MidwiferyDecline.html">urlTilenameController</prop>
+				<prop key="/Articles/PuertoRicanMidwives.html">urlTilenameController</prop>
+				<prop key="/Articles/ShoulderDistocia.html">urlTilenameController</prop>
+				<prop key="/Articles/MiddleWife.html">urlTilenameController</prop>
+				<prop key="/Articles/ChoiceOfBirthplace.html">urlTilenameController</prop>
+				<prop key="/Articles/CommunityHealthWorkers.html">urlTilenameController</prop>
+				<prop key="/Articles/MaterMortality.html">urlTilenameController</prop>
+				<prop key="/Articles/MaternalServices.html">urlTilenameController</prop>
+				<prop key="/Articles/MothercareAssessment.html">urlTilenameController</prop>
+				<prop key="/Articles/BirthSpacing.html">urlTilenameController</prop>
+				<prop key="/Articles/DispartitiesAndMMR.html">urlTilenameController</prop>
+				<prop key="/Articles/GapEvidencePractice.html">urlTilenameController</prop>
+				<prop key="/Articles/HumanizationOfBirth.html">urlTilenameController</prop>
+				<prop key="/Articles/SkilledAttendance.html">urlTilenameController</prop>
+				<prop key="/Articles/WhereToDeliver.html">urlTilenameController</prop>
+			</props>
+		</property>
+	</bean>	
+	
+	<bean name="searchController" class="org.matrika.search.SearchController" >
+		<property name="commandClass" value="org.matrika.search.SearchCommand" />
+		<property name="formView" value=".feedback" /> 
+	</bean>
+	
+	<bean name="feedbackController" class="org.matrika.feedback.FeedbackController" >
+		<property name="commandClass" value="org.matrika.feedback.FeedbackCommand" />
+		<property name="formView" value=".feedback" /> 
+		<property name="successView" value=".feedback.thanks" />
+	</bean>
+	
+	<bean name="loginController" class="org.matrika.login.LoginController">
+		<property name="commandClass" value="org.matrika.login.LoginCommand" />
+		<property name="formView" value=".login" />
+		<property name="successView" value=".login.success" />
+	</bean>
+	
+</beans>
