@@ -132,13 +132,13 @@ A.contentlinks:hover {
 .linktable {
 	padding-left: 10px;
 	list-style-position: outside;
-	list-style-image: url(<c:url value="/images/listbutton.gif" />);
+	list-style-image: url(/assets/images/listbutton.gif);
 	padding-bottom: 10px;
 	vertical-align: middle;
 }
 
 .pagemaster {
-	background-image: url(<c:url value="/images/background.jpg" />);
+	background-image: url(/assets/images/background.jpg);
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
@@ -1164,11 +1164,11 @@ h3 {
 }
 
 .arrowList ul,.arrowList ol {
-	list-style-image: url(<c:url value="/images/listbutton.gif" />);
+	list-style-image: url(/assets/images/listbutton.gif);
 }
 
 .redRoundList {
-	list-style-image: url(<c:url value="/images/listbutton.gif" />);
+	list-style-image: url(/assets/images/listbutton.gif);
 	font: bold 12px Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #e2422f;
 	text-decoration: none;
@@ -1176,7 +1176,7 @@ h3 {
 }
 
 .redRoundList a, .redRoundList a:active {
-	list-style-image: url(<c:url value="/images/listbutton.gif" />);
+	list-style-image: url(/assets/images/listbutton.gif);
 	font: bold 12px Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: #e2422f;
 	text-decoration: none;
