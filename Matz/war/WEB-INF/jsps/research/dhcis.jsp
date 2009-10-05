@@ -1,0 +1,383 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+    <h2>
+        Menstruation Meanings: Blood, Time and Magic
+    </h2>
+    <span class="caption">This paper was written at the request of the Dharam Hinduja Center
+        for Indic Studies by Janet Chawla</span>
+    <br />
+    <br />
+    At a Dharam Hinduja Center for Indic Studies organized gathering in Bangalore some
+    years ago I met an old colleague and friend, an NGO activist working in the Northeast
+    of India with women and women&#8217;s health. We conversed outside of the formal
+    sessions about my work on indigenous &#8216;reproductive health&#8217; (specifically
+    menstruation and childbirth) and her activist and training work. She told me that
+    at a recent training program conducted for her NGO by an activist-physician from
+    Uttar Pradesh, he had stated that the practice of allowing menstrual blood to flow
+    down one&#8217;s legs, under their skirt-like wraps (which was observed by some
+    of the traditionally oriented tribal women) was unhygienic and a possible source
+    of infection and should be stopped. She asked me what I thought of the practice
+    and the physician&#8217;s intervention.
+    <br />
+    <br />
+    I responded by saying that although we, with our sense of personal hygiene and decorum,
+    might find this manner of handling menstruation distasteful, it probably would be
+    far less likely to cause infection than an unclean menstrual cloth and I felt his
+    advice reflected his own discomfort with the thought of menstrual blood flowing
+    freely down female legs rather than any actual knowledge of vectors of infection.
+    <br />
+    <br />
+    At an NGO health workers meeting in Gujarat, I was an observer to an interaction
+    between the local dais/health workers and the head of the health program as well
+    as an outside resource person--a doctor and health activist of long standing. The
+    meeting was called in order to monitor the progress of an effort to build the skills
+    of the dais to help women chart their menstrual cycles--and enable them to practice
+    &#8216;natural family planning&#8217;. Becoming aware of the time of ovulation would
+    help them practice birth control without invasive methods--was the idea. The non-literate
+    dais had been provided calendar-charts to fill in with signs, one for each woman&#8217;s
+    menstrual cycle.
+    <br />
+    <br />
+    However, much to my amazement, they used the solar, rather than the lunar calendar
+    format. There was total confusion (which may have existed anyway) but the whole
+    process would have been more effective had a lunar calendar been used for reckoning,
+    as it is closer to the 28 day menstrual cycle, and the ritual festivals observed
+    in the area follow lunar, rather than solar months. When I enquired as to how the
+    NGO leaders decided to use the solar calendar, they said that they left the decision
+    to the dais and village women and they voted to use the solar--the one that they
+    knew the NGO followed!
+    <br />
+    <br />
+    More recently I attended a national women&#8217;s health meeting in Delhi. During
+    one presentation made by a women&#8217;s health NGO on their work with adolescents,
+    the speaker said that they had taught young women to hang their menstrual cloths
+    out to dry in the sun after washing them. She self-righteously stated that one mother
+    even beat her daughter for putting her cloth outside (in view of others). The subtext
+    of the presentation being &#8220;These backwards and violent mothers&#8212;we must
+    save poor adolescents from them! During the discussion period I raised my hand and
+    voiced my concern that NGOs should not intervene in personal bodily practices in
+    a manner which would lead a mother to react so vehemently to her daughter&#8217;s
+    behavior and I questioned whether the activists had investigated the mother&#8217;s
+    reasoning and cultural assumptions. I received no answer but afterwards, in private,
+    other participants expressed their appreciation of my speaking out.
+    <br />
+    <br />
+    At issue here is the dominance of modernist biomedicine in the policies and programs
+    of health policymakers (be they global--WHO, Unicef, UNFPA etc, national and even
+    local feminist and NGO groups. Their &#8216;delivery of services&#8217; and &#8216;training&#8217;
+    approaches to health generally, and women&#8217;s &#8216;reproductive health&#8217;,
+    specifically, operate in complete ignorance of the epistemological and ontological
+    foundations of indigenous body culture and health traditions. In South Asia one
+    might even say &#8216;civilizational&#8217; body knowledge and practice.
+    <br />
+    <br />
+    I have paid attention to indigenous Indian understandings, imaging and practical
+    handling of menstruation and birth and the visions of the world and cosmos upon
+    which they are based for many years. While studying theology with the Jesuits at
+    <em>Vidyajyoti</em> Institute of Religious Studies in Delhi, I wrote a paper, &#8220;The
+    Mythic Origins of the Menstrual Taboo in the Rig Veda,&#8221; (later published both
+    in <em>Manushi</em> and in <em>Economic and Political Weekly</em>, Vol. XXIX, No
+    43, 22 October 1994) The paper used feminist protests against the use of Depo-Provera
+    and other injections and implants of hormonal contraceptives as a starting point&#8212;because
+    these drugs interfere drastically with the rhythm and nature of a woman&#8217;s
+    menstrual cycle. I investigated the narrative of Indra slaying Vritra as an explanatory
+    mechanism for indigenous meanings and directives regarding menstrual blood and menstrual
+    time. And I have continued to pursue these topics intellectually as well as practically
+    with NGOs and what I call health and development wallahs.
+    <br />
+    <br />
+    Menstrual bleeding, although often signified in terms of &#8216;pollution&#8217;,
+    &#8216;traditionally&#8217; marked the cyclicity of nature (Sanskrit <em>rta</em>)
+    and is simultaneous with seasonality and fertility. The fertile capacity of women
+    is conflated with that of the earth (and of the Devi, although that is not my concern
+    here) and in women&#8217;s ritual enactments this cyclicity is often honored and
+    I would argue even sacralized. Priestly notions of pollution fade into the background
+    when one listens to the dais and their notions of &#8216;<em>narak</em>&#8217; &#8211;
+    which I will develop below -- and the &#8216;sin&#8217; of cutting the umbilical
+    cord. In a MATRIKA produced documentary film &#8220;Born at Home&#8221; the filmmaker
+    interviews an elderly Rajasthani dai, Rukma Dadi, who laughs as she relates that
+    some say it is a &#8216;great paap&#8217; to cut the cord. She confidently dismisses
+    society-at-large in their categories of sin and pollution and purity (so ardently
+    amplified in early Indological writings). This confidence was shared by the elderly
+    dais with whom we interacted during our MATRIKA project. Dai work is &#8216;<em>seva
+        ka kam</em>&#8217; or, as one Punjabi <em>dai</em> stated &#8220;<em>Raab</em>
+    (God) is the doer, the hands are mine.&#8221; We attempted, through this field level
+    research to document and conceptually interpret their imaging of body and world.
+    <br />
+    <br />
+    My purpose here, however, is not to untangle Indological misrepresentations and
+    modernist &#8216;maldevelopment&#8217;, but rather to relate some of my own intellectual
+    journey as wife, mother, bahu and now grandmother within a Sikh family in Delhi;
+    teaching childbirth preparation classes to a middle and upper class clientele; studying
+    theology with the Jesuits focusing on Leviticus, the Dharamshatra, Rig Veda, caste
+    and gender and birth traditions; and, my favorite, interacting with dais on their
+    lives and understandings of the female body. I have moved through Indian, US, British
+    and South Asian academic, public health, feminist and activist circles. This game
+    of musical chairs is sometimes called networking.
+    <br />
+    <br />
+    <h3>
+        MATRIKA Research</h3>
+    MATRIKA, (Motherhood and Traditional Resources, Information, Knowledge and Action),
+    which I initiated, was a three year research effort to document, interpret and analyze
+    traditional midwives&#8217; ethno-medical and religio-cultural traditions. The MATRIKA
+    team learned from dais in workshops held collaboratively with NGOs in Bikaner District
+    of Rajasthan; Gomia, Bihar; Fategarh District in Punjab and the resettlement colonies
+    of Delhi. We inverted the common dai-training model and asked them to train us.
+    After they became convinced of our sincerity we collectively explored their knowledge
+    and practice through discussions and interviews, role plays of birth and rituals,
+    as well as ritual drawings, body mappings and sohars or birth songs.
+    <br />
+    <br />
+    Our reclamation effort, however, required putting aside the assumption, often shared
+    by both researcher and religious elite, that spiritual power entails ritual purity.
+    The midwife has not been seen in the Indian context as a ritual specialist and a
+    resource for sacred knowledge, or in anyway related to &#8220;spiritual&#8221; activity,
+    because of their caste status and the fact that female bodily processes were deemed
+    antithetical to spiritual power and practice. Probing, not to mention theorizing
+    the &#8216;subaltern&#8217; is not an easy task. Modern institutions and academic
+    disciplines since colonial times have marginalized dais, in part, because they have
+    not been able to comprehend them. As poor, illiterate and mostly low and outcaste
+    women, their health knowledge and practice has been denigrated and invisiblised.
+    Our MATRIKA approach allowed the categories of religion and medicine to intertwine&#8212;and
+    we adapted our research methodologies to grapple with these indigenous, holistic
+    childbirth and healing modalities. We also resisted the dominant modern perspective
+    that labels dais&#8217; ways of knowing and practices as ignorance and &#8216;superstition&#8217;.
+    <br />
+    <br />
+    <h3>
+        Narak and the &#8216;Dirty&#8217; Female Body</h3>
+    For many years I have been puzzled by the seeming contradictions I have encountered
+    when researching traditionally oriented women&#8217;s birth knowledge and practice.
+    On the one hand they use expressions such as nau mahena ka narak kund (nine months&#8217;
+    hell spring or pond) for the afterbirth (placenta, cord and membranes) and observe
+    what we call &#8216;pollution taboos&#8217; (not doing puja, going to the mandir
+    or reading holy books) during menstruation or postpartum. In the Indian context
+    it is important to note that women of all the dominant religions on the subcontinent
+    have observed ritual pollution. Muslim, Sikh, Christian and Buddhist women have
+    practiced their own forms of pollution which involve ritual distance from religious
+    practice. (Of course similar ritual separation between women&#8217;s reproductive
+    capacity, considered ritual &#8216;impurity&#8217;, and religious practice is also
+    to be found in the Judeo-Christian-Islamic tradition. The Book of Leviticus, in
+    the Old Testament is strikingly similar to the Dharamshastra injunctions which regulate
+    the behavior of women during menstruation and postpartum.)
+    <br />
+    <br />
+    On the other hand the same women report empowering birth rituals both during labor
+    and the post-birth period. Differing perspectives on the significance of narak reveal
+    the gendered power relations which have existed on the Indian subcontinent for millennia.
+    <br />
+    I have come to the conclusion that when women and men participate in common rituals,
+    as in all of the dominant religions, the special female experiences of the body,
+    become inserted in a male-centered, often abstract, conceptual or &#8216;mystical&#8217;
+    ritual or praxis domain&#8212;leaving behind uniquely female bodily experiences
+    and the religio-cultural customs which celebrate it. The internal logic of dais&#8217;
+    ethno-medical and religio-cultural practice proceeds from ways of perceiving and
+    knowing which can be legitimately termed religious or even &#8216;theological&#8217;.
+    They follow a chain of reasoning and use causal linkages embedded in divine and
+    demonic figures. Furthermore dais&#8217; epistomology and ontology are entirely
+    congruent with other indigenous systems such as Tantra, Yoga and Ayurveda. A gender-sensitive
+    perspective requires questioning why sophisticated and holistic body-spirit knowledge
+    and practice are acknowledged within these systems-- but when it comes to knowledge
+    and &#8216;spirituality&#8217; related to the female body, dais are perceived as
+    ignorant and superstitious. Narak, a concept from our MATRIKA data which I have
+    developed and amplified, functions as an entry point and fundamental organizing
+    principle for the world view of dais.
+    <br />
+    <br />
+    <h3>
+        &#8216;<em>Narak</em>&#8217; as the Unseen and Fertile Inner World of the Earth
+        and of the Female Body</h3>
+    <em>Bemata </em>dwells in the realm of <em>narak</em>, deep within the earth. She
+    is a Creatrix causing the conception, growth within the womb, and birth of human
+    beings as well as the growth of all vegetation. During our first workshop in Gomia,
+    Bihar dais explained the meaning of <em>narak</em> to us in terms of menstruation
+    and postpartum:
+    <br />
+    <p style="margin-left: 30px">
+        Girls are considered holy before puberty. The marriage of a young girl who has not
+        had her periods is performed with her sitting on her father&#8217;s lap. After puberty
+        the woman is considered unclean, and is unholy, because she bleeds, and this is
+        narak.
+        <br />
+        <br />
+        On Chhati day (after birth) the narak time ends. The Dai checks if the umbilical
+        cord has fallen off. Then she bathes the baby and beats a thaali and gives the baby
+        to Chachi. Then the woman is bathed and wears new clothes. The Dai then cleans the
+        room where the birth took place and the mother was kept separately for six days.
+    </p>
+    <br />
+    Although often translated as hell or demonic place, narak can be understood as the
+    site or energy of the unseen inner world - of the earth and of the body. Narak has
+    the connotation &#8216;filth&#8217; but also signifies the fertility or fruitful
+    potential of the earth and woman&#8217;s body. Pollution &#8216;taboos&#8217; are
+    related to narak, as the idea of the sacred is radically separated from the reproductive
+    potential of the female body. During menstruation and post birth women are considered
+    &#8216;unclean&#8217;. However the dai speaks with a very different voice than the
+    pundit and the Puranas about narak. To her the placenta, the ultimate polluting
+    substance to the &#8220;twice born&#8221;, is spoken of reverently, as &#8216;another
+    mother&#8217;. It is no coincidence that dais are mainly from low and outcaste communities.
+    Both caste and gender are implicated in concepts of narak. Ayurvedic and naturopathic
+    practitioners often employ low caste people to apply the hands-on therapies they
+    prescribe. And interestingly in our MATRIKA team&#8217;s analysis of birth time
+    (which in obstetrical terminology is referred to as &#8216;labor&#8217;, &#8216;birth&#8217;
+    and &#8216;postpartum&#8217;) we adopted the dais&#8217; language of &#8216;the
+    opening body&#8217;, &#8216;the open body&#8217;, and &#8216;the closing body&#8217;.
+    Narak can be viewed as representing &#8216;the open body&#8217;. This is the time
+    when what is normally closed, is open, the liminal and dangerous time/space of generative,
+    female bodily processes. Interestingly, within the dais&#8217; rubric the danger
+    that they are concerned about is to the mother--her openness implying her vulnerability.
+    <br />
+    <br />
+    <em>Narak</em> functions as a basic ethno-medical idea, providing a conceptual framework
+    for a host of non-invasive therapeutic interventions. Narak speaks of the inner
+    world of the body, particularly to the mysterious creative power of the female body
+    (and simultaneously the earth body) invisible to the human eye. This concept provides
+    a mode of understanding which facilitates non-invasive diagnostics and therapeutics.
+    Dais practice many gentle, non-invasive techniques which affect physiological functioning
+    without violating the integrity of the skin/body/life force. Their &#8216;holistic&#8217;
+    health modalities utilize touch (massage, pressure, manipulation); natural resources
+    (mud, baths and fomentation, herbs); application of &#8216;hot and cold&#8217; (in
+    food and drink, fomentation etc.); and isolation and protection (from domestic,
+    maternal and sexual obligations).
+    <br />
+    <br />
+    In my networking in North India, as well as our MATRIKA research areas, I have found
+    that &#8216;traditionally&#8217; <em>dais</em> serve and move between the homes
+    of different religious communities--and so do concepts such as <em>narak</em>. Caste
+    operates as a category, but religion doesn&#8217;t. It seems as if dais and women&#8217;s
+    birth traditions have flown beneath the radar screens of the dominant religious
+    orthodoxies that haven&#8217;t bothered to police this dirty women&#8217;s business.
+    <br />
+    <br />
+    <em>Shakina</em> Dai, a Muslim midwife, mentions offerings to <em>Sayyid</em>, an
+    Islamic figure, but similarly invokes Bemata. She also refers to the laboring woman
+    as having one foot in heaven and the other in <em>narak</em> or hell.<br />
+    <p style="margin-left: 30px">
+        Look, sister, at the time of birth it&#8217;s only the woman&#8217;s <em>Shakti</em>.
+        She who gives birth, at that time, her one foot is in heaven and the other, in hell.
+        Before doing a delivery I get the woman to open all the trunks, doors and so on.
+        I pray to the One Above to open the knot quickly. I take off the sari, open the
+        hair and take off the bangles or any jewelry. I put<em> atta</em> on a <em>thali</em>
+        and ask the woman to divide it into two equal parts. Also I get Rs.1.25 in the name
+        of <em>Sayyid</em> kept separately. But mostly I remember Bemata. Repeatedly I pray
+        to <em>Bemata</em> &#8220;Oh mother! please open the knot quickly.&#8221;
+    </p>
+    <br />
+    <em>Dais</em> from all religions have invoked Bemata. In workshops in the Punjab,
+    Mazbi (outcaste) <em>Sikh dais</em>, after first claiming they had no rituals, said
+    that they, too, pray to <em>Bemata</em>.
+    <br />
+    <br />
+    <h3>
+        Networking Knowledge - Advocating for Indic Systems of Medicine</h3>
+    I have been enabled to follow my own woman-centered curiosity and move through varied
+    domains and disciplines, beholden to no institution or way of thinking, in good
+    part by networking. Particularly valuable to me personally, and society at large
+    (especially as caesarean section rates skyrocket and the female body is increasingly
+    perceived as incapable of menstruation, birth and menopause without pharmaceutical
+    or surgical assistance) is the nexus between midwives, who actually handle the female
+    body and the stuff of birth, and scholars or academia.
+    <br />
+    <br />
+    As I write this essay at my mother&#8217;s home in Port Townsend, Washington, I
+    have just traveled to Vancouver, BC to show our MATRIKA film &#8216;Born at Home&#8217;
+    to a group of &#8216;guerilla&#8217; midwives--this has been organized by a midwife-scholar,
+    Nane Jordan, whom I had never met. Nane learned of my work in a Women&#8217;s Spirituality
+    Masters Program in San Francisco! Through email and mutual friends we came together
+    to watch a film on dais--whom the health establishment refuses to dignify with the
+    term &#8220;midwives&#8221;--they are Traditional Birth Attendants or &#8216;TBAs&#8217;--to
+    be trained, not the inheritors of India&#8217;s midwifery traditions. And the women
+    who eagerly watched the film are &#8216;guerilla midwives&#8217; for much the same
+    reason. Since the regulation of midwifery under the British Columbia College of
+    Midwives in 1998, any woman who &#8216;attends&#8217; a woman&#8217;s birth is doing
+    so illegally--and they also are not allowed to call themselves midwives! &#8220;This
+    is freedom? This is gender equality? This is women&#8217;s empowerment?&#8221; I
+    ask myself as I learn that Nane&#8217;s chosen midwife, who attended her previous
+    home birth and is known and respected in their Vancouver birth community, was jailed
+    for 5 months for attending births and leading a birth workshop.
+    <br />
+    <br />
+    This issue of regulation, legitimization is not new to me. When I was a scholar-in-residence
+    at the Five College Women&#8217;s Studies Research Center, in Western Massachusetts
+    I heard an American nurse-midwife speak of a bill that they had introduced to the
+    state legislature which would take the certification for midwives out of the hands
+    of the Nursing Board and creating a Midwifery Board. My sensitivity to the outsider
+    status of dais in India alerted me to the fact that some group of midwives would
+    be negatively affected by this move. When I asked the midwife about who would be
+    further marginalized by the proposed legislation, she immediately said that it would
+    be three categories of women attending births: Native Americans (who have their
+    own traditions regarding birth); street midwives (who catch the babies of drug addicts,
+    commercial sex workers and homeless women) and Amish women (who have a spiritual
+    practice within which birth is not defined within a state, professional or technological
+    frame). Each of the above group would be further marginalized, denied any possibility
+    of medical backup and even liable to prosecution for helping women birth.
+    <br />
+    <br />
+    The intention of midwifery, as the word&#8217;s origin implies, is &#8216;with women&#8217;
+    and not hierarchically or externally placed. These Canadian &#8220;guerilla midwives&#8221;
+    are not a homogenous group, nor are they silly and irresponsible women, as the media
+    and the medical profession might have us believe. One young recent graduate of nursing
+    school was chatting with me after the film and said that she had just turned down
+    a job offer at the hospital where she had studied. She found the hospital procedures
+    so degrading for herself, as midwife and the mother and family and she would not
+    have been allowed to practice her &#8216;calling&#8217; and vision of what a midwife
+    could be.
+    <br />
+    <br />
+    Last summer I presented a power point presentation on <em>Narak</em> at a conference
+    &#8220;Pollution and Safety: the Dirty Side of Women&#8217;s Health&#8221; organized
+    by a dynamic scholar midwife who heads the Department of Nursing and Midwifery at
+    Sheffield University. I was suggested as a presenter by another scholar- midwife
+    whom I&#8217;d met at an International Confederation of Midwives conference in Delhi
+    10 years ago. At the time of the conference I was editing a book on birth commissioned
+    by an Indian publisher and editor of their &#8220;Shakti&#8221; imprint and I was
+    searching for a paper attempting to place an economic value on dais&#8217; health
+    work contribution. <em>Birth and Birthgivers</em>: the<em> Power behind the Shame</em>,
+    which is now in press, is an assembly of pieces on birth from varied positions and
+    perspectives. It now includes an essay by Subhadra Rai, another conference presenter,
+    which she had presented in Japan, &#8220;Towards Calculating the Monetary Contributions
+    of Dais&#8217; Work.&#8221;
+    <br />
+    <br />
+    Without these networks which have shown interest in my work and the young women
+    interns, volunteers, researchers, MATRIKA team members, who are terribly excited
+    by non-biomedical understandings of femaleness--I would not have the confidence
+    to continue to theorize, flesh out and advocate for what I have learned from dais.
+    <br />
+    <br />
+    This essay has presented to me clearly that what I do is indeed called networking.
+    It is not the usual business-sense or even academic-sense of networking where one
+    moves among colleagues to exchange information within a certain domain. In a way
+    I network amongst networks--health and religion, anthropology and art, scholar and
+    activist, feminist and NGO.
+    <br />
+    <br />
+    It seems to me the task at hand involves a more active role for academicians and
+    scholars in interfacing with public health problems such as safe motherhood. For
+    too long scholars have been preoccupied with the local; they have not produced coherent
+    and simple descriptions of the broad sweep of Indian or subcontinental body knowledge
+    and culture. In order to effectively advocate for inclusion of indigenous practitioners
+    such as dais, data is needed on commonalities across regions. Certainly herbs may
+    be different in different areas--but concepts underlying their efficacy (&#8216;heating&#8217;
+    or stimulating metabolic action during labor) will be similar. Dais practices will
+    certainly be couched in different regional languages--literally and metaphorically--but
+    traditionally, from Punjab to Kanya Kumari, no dai would cut the umbilical cord
+    before the placenta emerged. And all dais would stimulate the placenta by heating
+    it--in order for the &#8220;jee&#8221; or life force to pass into the newborn, should
+    he/she require resuscitation.
+    <br />
+    <br />
+    In India national health policy has been, and continues to be significantly determined
+    by &#8216;globalization&#8217;. First, by colonial hegemonic valorization of western
+    medicine and science. Now, by World Health Organization, Unicef and the like. Under
+    this influence the stated Government of India policy of institutionalization for
+    all births is absolute folly and continues to deskill the midwives (and other women
+    who attend by far the majority of births) and create dependency on nonexistent or
+    abysmal quality services. Today even Ayurvedic Colleges teach more allopathy than
+    Ayurveda! And government programs in the Department of Health and Family Welfare
+    devoted to ISM or Indigenous Systems of Medicine focus on the promotion of growth
+    of herbal medicine, rather than the development of the human resources who &#8216;traditionally&#8217;
+    practice this kind of medicine. Surely the project of Indic Traditions of Healthcare
+    remains unfinished.

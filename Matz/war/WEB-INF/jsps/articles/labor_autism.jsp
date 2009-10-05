@@ -1,0 +1,33 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+<table width="90%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td valign="top"> <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="4" face="Arial, Helvetica, sans-serif"> 
+        <strong><font size="2" face="Arial, Helvetica, sans-serif">Labour Induction 
+        Epidemic and Autism Epidemic: Is There a Link?</font></strong></font></font></p>
+      <p align="justify"> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+        There are many reasons why further studies about labour induction as a 
+        possible risk factor for autism are urgently needed. The first one is 
+        that the authors of the oldest studies included in our database came across 
+        risks associated with induction, whereas the most recent studies could 
+        not take into account this variable. &quot;Labour induction&quot; should 
+        be explicitly taken into consideration, because it can be associated either 
+        with birth by the vaginal route (with or without intervention such as 
+        forceps), or with caesarean birth. Another reason is that the epidemic 
+        of autism and the epidemic of induction seem to have developed side by 
+        side. Most importantly, a third reason is that the results of recent studies 
+        suggest that children with autistic disorder show alterations in their 
+        oxytocin system.</font></font></p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"><font color="#6D6D36" size="2"
+            face="Arial, Helvetica, sans-serif"><strong><em>Primal Health, by 
+        Michel Odent, MD<br />
+        <a href="http://www.birthpsychology.com/primalhealth/" class="lrglink">http://www.birthpsychology.com/primalhealth/</a><br />
+        No. 12: After the MMR Fuss: Autism from a Primal Health Research Perspective<br />
+        </em></strong><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Last 
+        accessed 1/22/05</font></font><font size="2" face="Arial, Helvetica, sans-serif"><br />
+        </font></font></p></td>
+  </tr>
+</table>
+<p><font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+  </font></font> </p>

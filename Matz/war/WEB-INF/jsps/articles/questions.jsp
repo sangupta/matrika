@@ -1,0 +1,287 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+    <blockquote>
+        
+  <div align="left"> 
+    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><blockquote>
+            <div align="left"><font size="2" face="Arial, Helvetica, sans-serif"><a name="1"></a></font> 
+            </div>
+          </blockquote>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="4" face="Arial, Helvetica, sans-serif"> 
+            <br>
+            Having a Baby? Ten Questions to Ask</font></font></p>
+          <p class="hd2"> <font class="hd2" size="2" face="Arial, Helvetica, sans-serif">Have 
+            you decided how to have your baby?<br />
+            The choice is yours!</font></p>
+          <p class="hd2"> <font class="hd2" size="2" face="Arial, Helvetica, sans-serif">(from 
+            The coalition for Improving Maternity Services&#8230;promoting the 
+            care and well-being of mothers, babies and families)</font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            First, you should learn as much as you can about all your choices. 
+            There are many different ways of caring for a mother and her baby 
+            during labor and birth.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Birthing care that is better and healthier for mothers and babies 
+            is called &quot;mother-friendly.&quot; Some birth places or settings 
+            are more mother-friendly than others.<strong> </strong> </font></font> 
+          </p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            A group of experts in birthing care came up with this list of 10 things 
+            to look for and ask about. Medical research supports all of these 
+            things. These are also the best ways to be mother-friendly. </font></font> 
+          </p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            When you are deciding where to have your baby, you'll probably be 
+            choosing from different places such as:</font></font></p>
+          <ul>
+            <font size="2" face="Arial, Helvetica, sans-serif"> 
+            <li><font size="2" face="Arial, Helvetica, sans-serif">birth center, 
+              </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">hospital, or 
+              </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">home birth 
+              service. </font></li>
+            </font> 
+          </ul>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Here's what you should expect, and ask for, in your birth experience. 
+            Be sure to find out how the people you talk with handle these ten 
+            issues about caring for you and your baby. You may want to ask the 
+            questions below to help you learn more.</font></font></p>
+          <p align="center"> <font align="center" size="2" face="Arial, Helvetica, sans-serif"><font size="2"
+            face="Arial, Helvetica, sans-serif"> <img src="/assets/images/having-baby-1.gif" width="150" height="111" /></font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd"><strong>1. 
+            Ask, &quot;Who can be with me during labor and birth?&quot;</strong></span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">Mother-friendly 
+            birth centers, hospitals, and home birth services will let a birthing 
+            mother decide whom she wants to have with her during the birth. This 
+            includes fathers, partners, children, other family members, or friends.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            They will also let a birthing mother have with her a person who has 
+            special training in helping women cope with labor and birth. This 
+            person is called a doula or labor support person. She never leaves 
+            the birthing mother alone. She encourages her, comforts her, and helps 
+            her understand what's happening to her.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            They will have midwives as part of their staff so that a birthing 
+            mother can have a midwife with her if she wants to.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd"><strong>2. 
+            Ask, &quot;What happens during a normal labor and birth in your setting?&quot;</strong></span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">If they give mother-friendly 
+            care, they will tell you how they handle every part of the birthing 
+            process. For example, how often do they give the mother a drug to 
+            speed up the birth? Or do they let labor and birth usually happen 
+            on its own timing?</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            They will also tell you how often they do certain procedures. For 
+            example, they will have a record of the percentage of C-sections (Cesarean 
+            births) they do every year. If the number is too high, you'll want 
+            to consider having your baby in another place or with another doctor 
+            or midwife.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Here are some numbers we recommend you ask about.</font></font></p>
+          <ul>
+            <font size="2" face="Arial, Helvetica, sans-serif"> 
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not try to start labor for more than 1 in 10 women (10%). </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not do an episiotomy (ee-pee-zee-AH-tummy) on more than 1 in 5 women 
+              (20%). They should be trying to bring that number down. (An episiotomy 
+              is a cut in the opening to the vagina to make it larger for birth. 
+              It is not necessary most of the time.) </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not do C-sections on more than 1 in 10 women (10%) if it's a community 
+              hospital. The rate should be 15% or less in hospitals which care 
+              for many high-risk mothers and babies. </font> </li>
+            </font> 
+          </ul>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            A C-section is a major operation in which a doctor cuts through the 
+            mother's stomach into her womb and removes the baby through the opening. 
+            Mothers who have had a C-section can often have future babies normally. 
+            Look for a birth place in which 6 out of 10 women (60%) or more of 
+            the mothers who have had C-sections go on to have their other babies 
+            through the birth canal.</font></font></p>
+          <p class="hd"> <font class="hd" size="2" face="Arial, Helvetica, sans-serif"><strong>3. 
+            Ask, &quot;How do you allow for differences in culture and beliefs?&quot; 
+            </strong></font> </p>
+          <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+          Mother-friendly birth centers, hospitals, and home birth services are 
+          sensitive to the mother's culture. They know that mothers and families 
+          have differing beliefs, values, and customs. </font><font size="2"></font></font> 
+          <p> <font size="2"><font face="Arial, Helvetica, sans-serif">For example, 
+            you may have a custom that only women may be with you during labor 
+            and birth. Or perhaps your beliefs include a religious ritual to be 
+            done after birth. There are many other examples that may be very important 
+            to you. If the place and the people are mother-friendly, they will 
+            support you in doing what you want to do. Before labor starts tell 
+            your doctor or midwife special things you want.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd"><strong>4. 
+            Ask, &quot;Can I walk and move around during labor? What position 
+            do you suggest for birth?&quot;</strong></span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">In mother-friendly 
+            settings, you can walk around and move about as you choose during 
+            labor. You can choose the positions that are most comfortable and 
+            work best for you during labor and birth. (There may be a medical 
+            reason for you to be in a certain position.) Mother-friendly settings 
+            almost never put a woman flat on her back with her legs up in stirrups 
+            for the birth.</font></font></p>
+          <p align="center"> <font align="center" size="2"> <img src="/assets/images/having-baby-2.gif" width="150" height="272" /><br />
+            </font> </p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd"><strong>5. 
+            Ask, &quot;How do you make sure everything goes smoothly when my nurse, 
+            doctor, midwife, or agency need to work with each other?&quot;</strong></span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">Ask, &quot;Can 
+            my doctor or midwife come with me if I have to be moved to another 
+            place during labor? Can you help me find people or agencies in my 
+            community who can help me before and after the baby is born?&quot;</font></font></p>
+          <p> <font size="2"><font size="2" face="Arial, Helvetica, sans-serif">Mother-friendly 
+            places and people will have a specific plan for keeping in touch with 
+            the other people who are caring for you. They will talk to others 
+            who give you birth care. They will help you find people or agencies 
+            in your community to help you. For example, they may put you in touch 
+            with someone who can help you with breastfeeding.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd"><strong>6. 
+            Ask, &quot;What things do you normally do to a woman in labor?&quot;</strong></span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">Experts say some 
+            methods of care during labor and birth are better and healthier for 
+            mothers and babies. Medical research shows us which methods of care 
+            are better and healthier. Mother-friendly settings only use methods 
+            that have been proven to be best by scientific evidence.</font></font></p>
+          <p> <font size="2"><font size="2" face="Arial, Helvetica, sans-serif">Sometimes 
+            birth centers, hospitals, and home birth services use methods that 
+            are not proven to be best for the mother or the baby. For example, 
+            research has shown it's usually not helpful to break the bag of waters.</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Here is a list of things we recommend you ask about. They do not help 
+            and may hurt healthy mothers and babies. They are not proven to be 
+            best for the mother or baby and are not mother-friendly.</font></font></p>
+          <ul>
+            <font size="2"> 
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not keep track of the baby's heart rate all the time with a machine 
+              (called an electronic fetal monitor). Instead it is best to have 
+              your nurse or midwife listen to the baby's heart from time to time. 
+              </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not break your bag of waters early in labor. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not use an IV (a needle put into your vein to give you fluids). 
+              </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not tell you that you can't eat or drink during labor. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not shave you. </font> </li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not give you an enema. </font></li>
+            </font> 
+          </ul>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            A birth center, hospital, or home birth service that does these things 
+            for most of the mothers is not mother-friendly. Remember, these should 
+            not be used without a special medical reason.</font></font></p>
+          <p> <font size="2"><span class="hd">7. Ask, &quot;How do you help mothers 
+            stay as comfortable as they can be? Besides drugs, how do you help 
+            mothers relieve the pain of labor?&quot;</span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">The people who 
+            care for you should know how to help you cope with labor. They should 
+            know about ways of dealing with your pain that don't use drugs. They 
+            should suggest such things as changing your position, relaxing in 
+            a warm bath, having a massage, and using music. These are called comfort 
+            measures.</font></font></p>
+            <matrika:video clip="/Clips/Clip4_RoungWater.video" width="384" height="288" />
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Comfort measures help you handle your labor more easily and help you 
+            feel more in control. The people who care for you will not try to 
+            persuade you to use a drug for pain unless you need it to take care 
+            of a special medical problem. All drugs affect the baby.</font></font></p>
+          <p> <font size="2"><span class="hd">8. Ask, &quot;What if my baby is 
+            born early or has special problems?&quot;</span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">Mother-friendly 
+            places and people will encourage mothers and families to touch, hold, 
+            breastfeed, and care for their babies as much as they can. They will 
+            encourage this even if your baby is born early or has a medical problem 
+            at birth. (However, there may be a special medical reason you shouldn't 
+            hold and care for your baby.)</font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd">9. 
+            Ask, &quot;Do you circumcise baby boys?&quot;</span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">Medical research 
+            does not show a need to circumcise baby boys. It is painful and risky. 
+            Mother-friendly birth places discourage circumcision unless it is 
+            for religious reasons.</font></font></p>
+          <p align="center"> <font align="center" size="2"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            <img src="/assets/images/having-baby-3.gif" width="150" height="225" /></font></font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd">10. 
+            Ask, &quot;How do you help mothers who want to breastfeed?&quot;</span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">The World Health 
+            Organization made this list of ways birth services support breastfeeding.</font></font></p>
+          <ul>
+            <font size="2"> 
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They tell all 
+              pregnant mothers why and how to breastfeed. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They help you 
+              start breastfeeding within 1 hour after your baby is born.</font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They show you 
+              how to breastfeed. And they show you how to keep your milk coming 
+              in even if you have to be away from your baby for work or other 
+              reasons. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">Newborns should 
+              have only breast milk. (However, there may be a medical reason they 
+              cannot have it right away.) </font> </li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They encourage 
+              you and the baby to stay together all day and all night. This is 
+              called &quot;rooming-in.&quot; </font> </li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They encourage 
+              you to feed your baby whenever he or she wants to nurse, rather 
+              than at certain times. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They should 
+              not give pacifiers (&quot;dummies&quot; or &quot;soothers&quot;) 
+              to breastfed babies. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They encourage 
+              you to join a group of mothers who breastfeed. They tell you how 
+              to contact a group near you. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They have a 
+              written policy on breastfeeding. All the employees know about and 
+              use the ideas in the policy. </font> </li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">They teach 
+              employees the skills they need to carry out these steps. </font></li>
+            </font> 
+          </ul>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><span class="hd">Would 
+            you like to give this information (and more) to your doctor, midwife, 
+            or nurse?</span><br />
+            <font size="2" face="Arial, Helvetica, sans-serif">This information 
+            is a part of the <a href="#" class="lrglink">Mother-Friendly Childbirth 
+            Initiative</a> written for health care providers. You can get a copy 
+            of the Initiative for your doctor, midwife, or nurse by mail, e-mail, 
+            or on the World Wide Web.</font><br />
+            <a href="#" class="lrglink">www.motherfriendly.org </a> <br />
+            <a href="#" class="lrglink">info@motherfriendly.org </a> <br />
+            </font> </p>
+          <p class="copyright"> <font class="copyright" size="2">&#169; 2000 by 
+            The Coalition for Improving Maternity Services (CIMS).</font></p>
+          <font size="2"> <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <font size="2" face="Arial, Helvetica, sans-serif"><strong> <br />
+          </strong> <br />
+          </font></font> <p>&nbsp; </p>
+          <p> <font size="2">&#160;</font></p>
+          <p> <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            <br />
+            </font></font></p>
+</td>
+      </tr>
+    </table>
+    <font size="2" face="Arial, Helvetica, sans-serif"><font size="2" face="Arial, Helvetica, sans-serif"> 
+    </font></font> </div>
+</blockquote>

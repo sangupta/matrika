@@ -1,0 +1,96 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+    <h1>Events And Happenings</h1>
+
+<h3>Reports And Reviews!</h3>
+
+<div class="event">CHILDBIRTH FILM FESTIVAL 2008</div>
+The First Delhi Childbirth Film Festival was held in May, 2008 was
+sponsored by the Delhi Birth Network, Matrika and Kriti Film Club. The
+following films were screened: Birth in the Squatting Position (10 mins,
+Brazil), Born at Home (60 mins, India), Birth Day (10 mins, Mexico) The
+Business of Being Born (83 mins, USA). The Delhi Birth Network is a
+group of professionals and concerned citizens in whose purpose is to
+raise awareness of and promote safe and supported birth and
+evidence-based care, from pregnancy through postpartum. They provide
+information and education to women and their families to enhance their
+understanding of birth as a normal life process and enable them to make
+informed decisions.
+
+<div class="event">Born At Home</div>
+Born at Home observes indigenous birth practices and practitioners in
+parts of India (rural Rajasthan, Bihar, and the urban working class area
+of Jahangirpuri in Delhi). Poised between social reality and the eternal
+mystery of childbearing, the film poses a critical question. When dais
+or midwives are known to handle about 50% of births in India, why does
+the state not recognise the inherited and low-cost skills of the almost
+one million traditional practitioners in the country? Natural birth
+clinics and home births are increasing in numbers in the west, but our
+brand of progress continues to undermine our vast and centuries-old
+knowledge base. There are innumerable instances where modernity has only
+served to reinforce prejudices. The film presents an intricate
+delineation of the figure of the dai who is almost always a low-caste,
+poor woman. Unlike medical science to whose life-saving power the best
+of dais pay homage, indigenous birth methods are holistic, conceiving of
+childbirth not as pathology but continuation of organic life. Gender and
+class issues are juxtaposed with images of the postpartum massage, the
+ritual bath, and finally the miracle of an actual birth. Mind-body,
+earth-cosmos become one unified whole when, negotiating the nether world
+of pain and labour, a new life thrusts it way up into the sun. The dai's
+hands are experienced and empathetic as she guides the process.
+
+
+<div class="event">The Business of Being Born</div>
+Birth is a miracle, a rite of passage, a natural part of life. But birth
+is also big business.
+<br />
+Compelled to explore the subject after the delivery of her first child,
+actress Ricki Lake recruits filmmaker Abby Epstein to question the way
+American women have babies. Epstein gains access to several pregnant New
+York City women as they weigh their options. Some of these women are or
+will become clients of Cara Muhlhahn, a charismatic midwife who, between
+birth events, shares both memories and footage of her own birth
+experience.
+<br />
+Footage of women having babies punctuates the film. Each experience is
+unique; all are equally beautiful and equally surprising. Giving birth
+is clearly the most physically challenging event these women have ever
+gone through, but it is also the most emotionally rewarding. Along the
+way, Epstein conducts interviews with a number of obstetricians, experts
+and advocates about the history, culture and economics of childbirth.
+The film's fundamental question: should most births be viewed as a
+natural life process, or should every delivery be treated as a potential
+medical emergency?
+<br />
+As Epstein uncovers some surprising answers, her own pregnancy adds a
+very personal dimension to THE BUSINESS OF BEING BORN, a must-see movie
+for anyone even thinking about having a baby.
+
+<div class="event">National Consultation on the Role of Dais in
+National Rural Health Mission - May 2008, New Delhi, India</div>
+They reported that Dais (Traditional Birth Attendants) continued to play
+an important role both in home and in institutional deliveries in
+different parts of the country. And where institutional deliveries were
+on the rise, the Dai were involved in providing timely referral,
+accompanying mothers to the hospital and staying with her, and providing
+post-natal care and advice.
+
+<div class="event">Hammamet Call to Action from Tunisia</div>
+In 2006 the 1st International Forum in Hammamet, Tunisia, on "Midwifery
+in the Community", organized by the International Confederation of
+Midwives, the United Nations Population Fund and the World Health
+Organization, put out a Call to Action for the strengthening and scaling
+up of midwifery in the community - to contribute to the prevention of
+the deaths and disabilities of mothers and their newborns, as well as
+promoting the health of mothers and babies.
+
+<div class="event">Campaign to humanize birth in Costa Rica</div>
+A press release from 2001, this is a call for improving the quality of
+care of women and babies at the time of birth and denouncing the
+mistreatment, abuse and humiliation of women and babies in hospital
+labour and delivery wards. Sounds very much like the situation in India.
+
+<br />
+<br />
+<matrika:moveToTop  />

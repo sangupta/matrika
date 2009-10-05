@@ -1,0 +1,510 @@
+<%@ taglib uri="/WEB-INF/c.tld" prefix="c"%>
+<%@ taglib uri="/WEB-INF/matrika.tld" prefix="matrika"%>
+
+    <blockquote>
+        <div align="left">
+            <font size="2" face="Arial, Helvetica, sans-serif"><a name="top" id="top"></a></font>
+        </div>
+    </blockquote>
+    <p>
+        <span class="title"></span><span class="smltxt3">This paper was written for a conference
+            &#8220;Exploring Pollution and Safety&#8212;The Dirty Side of Women&#8217;s Health&#8221;
+            held at Sheffield University&#8217;s School of Nursing and Midwifery (UK) June 14&#8211;15,
+            2004</span></p>
+    <div align="left">
+        <p align="center" class="Head">
+            UNDERSTANDING &#8216;NARAK&#8217;: RETHINKING POLLUTION<br />
+            <span class="lrgtxt2">An Interpretation of Data from Dais in North India<br />
+                <em>By Janet Chawla</em></span></p>
+        <p align="center" class="Head">
+            &#160;</p>
+        <p align="left" class="Head">
+            <span class="lrgtxt2">The MATRIKA Research Project</span></p>
+        <p align="left" class="Head">
+            <span class="default">MATRIKA (Motherhood and Traditional Resources, Information, Knowledge,
+                and Action) was a 3-year participatory action research project in collaboration
+                with four local NGOs during the years 1998-2001. MATRIKA is named after a group
+                of female figures, usually either seven or eight, depicted in sculpture and myth
+                as collective and semi-divine beings&#8212;and associated with mothering. The Matrika
+                images include voluptuous beauties&#8212;one with an infant, theriomorphic (human
+                body with animal head) figures and a wizened crone (for more detail see Panniker,
+                1997).</span></p>
+        <p align="left" class="default">
+            We drew up collaboration agreements with Action India (working in the slums of Delhi);
+            Mahila Jagriti Kendra (South Bihar); Voluntary Health Association of Punjab (Fategarh
+            District) and URMUL (Rajasthan)&#8212;in order to generate material that would be
+            of use to the NGO as well as our own interests. The NGO then called together dais
+            who were considered by local women to be experienced and knowledgeable for a series
+            of three workshops. In these workshops we posed the question &#8216;what does a
+            woman need during pregnancy, birth and postpartum?&#8217;<br />
+            Our initial methodology was derived from counselling&#8212;usually practiced in
+            a one-to-one setting&#8212;which we transposed to our workshops. &#8216;Active listening,&#8217;
+            when practiced by the interviewer or facilitator, allows the person (or group) to
+            speak in a non-directed manner&#8212;with topics emerging from the informant/s rather
+            than using a questionnaire with a specific agenda. Active listening also involves
+            feeding back what has been understood by the researchers in order to allow the group/person
+            to go deeper into the subject or refine or correct misunderstandings. Secondly,
+            positive reinforcement involves recognising and appreciating behaviour which seems
+            to the listener to have contributed to the speaker&#8217;s own well being or the
+            well being of those around her&#8212;particularly if gender or caste bias is involved.
+            For example, if the family were biased towards the male children then protecting
+            taking care of a girl infant or child would be actively appreciated.</p>
+        <p align="left" class="default">
+            The attitudes of our team were crucial to the success of the research work. We consciously
+            cultivated a team ethos in which we
+        </p>
+    </div>
+    <ul>
+        <li>
+            <div align="left" class="default">
+                Were open to religio-cultural ways of thinking and doing &#8216;health&#8217;.
+            </div>
+        </li>
+        <li>
+            <div align="left" class="default">
+                Assumed that poor, illiterate, low caste women could be skilled birth practitioners
+                (for supporting data see Singh, 2006)</div>
+        </li>
+        <li>
+            <div align="left" class="default">
+                Used our capacities for empathy and imagination to enter another world with different
+                ways of knowing about the female body</div>
+        </li>
+        <li>
+            <div align="left" class="default">
+                Believed that birth is a normal and natural process</div>
+        </li>
+        <li>
+            <div align="left" class="default">
+                Understood that poverty compromises women&#8217;s health apart from pregnancy and
+                birth (for information and analysis see Murphy-Lawless, 2003)
+            </div>
+        </li>
+    </ul>
+    <div align="left" class="default">
+        <p>
+            We realized that often dais have been made scapegoats for maternal mortality and
+            morbidity and blamed for the effects of other macro-level processes. MATRIKA&#8217;s
+            workshop methodology reversed the common TBA training model. We asked groups of
+            dais to &#8216;train us&#8217; by seeking to understand what they thought about
+            and did to meet women&#8217;s needs during parturition.</p>
+        <p>
+            Our activities included role-plays, ritual drawings, body mapping, singing of birth
+            songs, sharing of birth experiences (ours and theirs) as well as dais&#8217; life
+            narratives. . Group discussions, interpreting role-plays and other data, were at
+            the heart of our activities. The lower-level NGO health workers were invaluable
+            in helping us to understand the material we were receiving. Mostly drawn from local
+            communities themselves, they, when given permission from those with &#8216;authority&#8217;
+            would explain and elaborate on the &#8216;data.&#8217; We were able to access, and
+            remain with, this alien (to us) information because we did not limit ourselves by
+            separating data into mutually exclusive categories of &#8216;medicine&#8217; and
+            &#8216;religion&#8217;. Rather we were receptive to diverse ways of facilitating
+            birth, diagnosing and healing&#8212;to ritual enactments, notions of deities and
+            demons, <em>bhut-pret</em> (ghosts and spirits) and the nazar or evil eye. We attempted
+            to let the data speak the categories rather than the categories shape the data.
+            <br />
+            <br />
+            <br />
+            <span class="lrgtxt2">MATRIKA Findings</span>
+        </p>
+        <p>
+            At first, of course, dais seemed to want to impress us with their knowledge of the
+            modern, biomedical approach. They spoke of the need for using a clean blade, taking
+            the woman to the hospital if there were problems (when often there no doctors or
+            hospitals in the area). But as our sincere desire to learn and not &#8216;teach&#8217;
+            or criticize became apparent&#8212;and especially after our own enactments of the
+            loneliness and confusion of a woman laboring alone in a hospital&#8212;they began
+            to trust us and share what they really believed and practiced. Ours was a collective
+            effort: a group of researcher-activists interacting with a group of dais. We ate,
+            slept, talked, sang and danced, produced drawings and plays together. Our workshop
+            activities were a celebration of dais cultural handling of childbirth. We were sometimes
+            told that no one had ever called them together to share and enjoy like this.
+        </p>
+        <p align="center">
+            <img src="/assets/images/mapping-session.gif" width="380" height="290" />
+            <br />
+            <font size="1" face="Verdana, Arial, Helvetica, sans-serif">Body mapping session in
+                Gomia District Bihar </font>
+        </p>
+    </div>
+    <div align="left">
+        <p align="center">
+            <img src="/assets/images/rajasthani-ritual.gif" width="380" height="298" />
+            <br />
+            <font size="1" face="Verdana, Arial, Helvetica, sans-serif">Rajasthani ritual images
+                generated in a workshop in Lunkaransar District </font>
+        </p>
+        <p class="default">
+            During body mapping sessions we would outline a woman&#8217;s body and then generate
+            terms, often terms of abuse, for parts of women&#8217;s bodies. I repeatedly emphasized
+            to our team that we were not generating the equivalent to a bio-medical anatomy
+            chart&#8212;but rather we were &#8216;catching&#8217; women&#8217;s stories, their
+            words about and experiences with the body.</p>
+        <p class="default">
+            Motifs from rituals and ritual drawings emerged from Rajasthani dais when they were
+            provided with felt pens and large swaths of paper. Note the swastik, or satiyas
+            in the lower left hand corner&#8212;a symbol connoting fertility and auspiciousness.
+            Also the sari blouse hung on a tree in the seventh month&#8212;the spirit who lives
+            there is evoked to protect the pregnant woman.</p>
+        <p class="default">
+            Our key research innovations included</p>
+    </div>
+    <ul>
+        <li>
+            <div align="left" class="default">
+                No distinction made between the categories of &#8216;religion&#8217; and &#8216;medicine&#8217;</div>
+        </li>
+        <li>
+            <div align="left" class="default">
+                Returning to informants with our interpretive role plays, drawings, posters&#8212;for
+                clarification and correction</div>
+        </li>
+    </ul>
+    <div align="left" class="default">
+        A MATRIKA team member drew this poster of <em>Bemata</em> who dwells in narak, underground,
+        a visual version of &#8216;active listening.&#8217; <em>Bemata grows</em> both babies
+        in mother&#8217;s wombs and plants from the earth. Thus the postpartum &#8220;bad&#8221;
+        blood is shown here returning to the earth, completing the cycle. And, in fact we
+        have heard of families in Delhi slums who put sand from the Jamuna river under the
+        charpoy (woven rope cot) to absorb post-birth fluids. This drawing was shown to
+        dais to make sure we had &#8220;got it right&#8221;. Notice the &#8216;three worlds&#8217;
+        (<em>triloka</em>) of heaven (sky), mundane life (earthly plane) and <em>narak </em>
+        (underground). In this way we were allowing categories like narak to emerge from
+        the data; not producing data to fit into our own researchers&#8217; categories (for
+        elaboration on <em>bemata</em> and <em>narak</em> see Chawla, 2003).<br />
+    </div>
+    <div align="left">
+        <p align="center" class="default">
+            <img src="/assets/images/bemata-tri-loka.gif" width="380" height="466" />
+            <br />
+            <font size="1" face="Verdana, Arial, Helvetica, sans-serif">Bemata image of the 3 worlds
+                (tri-loka) with bemata under the ground&#8212;in<em> narak</em>) </font>
+        </p>
+        <p class="lrgtxt2">
+            <em>Narak Quotes</em></p>
+        <p>
+            <span class="default">The following quotes from our workshop transcripts present meanings
+                of narak. The first series of quotes from Bihar speak explicitly, using the word
+                &#8216;narak.&#8217; In other areas the meanings are more implicit in the practices
+                and the &#8216;dirtiness&#8217; associated with times of female fertility.</span></p>
+        <p style="margin-left: 30px">
+            <span class="default">Girls are considered holy before puberty. The marriage of a young
+                girl, who has not had her periods, is performed with her sitting on her father&#8217;s
+                lap. After puberty the woman is considered unclean, and is unholy, because she bleeds,
+                and this is narak.&#8221; (Bihar)<br />
+                <br />
+                On Chhati day the narak period ends. The Dai checks if the umbilical cord has fallen
+                off. Then she bathes the baby and beats a thaali (plate). After this the woman is
+                bathed and wears new clothes. The dai cleans the room where the delivery took place
+                and the woman was kept separately for six days. The dirty clothes of mother and
+                child are washed. After this the dai is given soap and oil for bathing. All this
+                is on the sixth day after delivery. (Bihar)
+                <br />
+            </span>
+            <br />
+        </p>
+        <p class="default">
+            <span class="lrgtxt2">The conflation of the female body and the earth&#8212;Reclaiming
+                narak </span>
+        </p>
+        <p class="default">
+            It is very tempting for us modern women to stand outside of ideas of the &#8216;dirty&#8217;
+            female body and critique them as archaic and misogynist. Having listened carefully
+            to dais&#8217; voices, and paid attention to Indian, indeed sub-continental representation
+            systems for almost 30 years I am now adamantly against doing so.</p>
+        <p class="default">
+            Although often translated as hellish or demonic place, narak can be understood as
+            the site or energy of the unseen inner world - of the earth and of the body, particularly
+            the fertile and bleeding female body. <em>Narak</em> has the connotation &#8216;filth&#8217;
+            but also signifies the fertility or fruitful potential of the earth and woman. So-called
+            &#8216;pollution taboos&#8217; are related to<em> narak</em>&#8212;where the idea
+            of the sacred is radically separated from the reproductive potential of the female
+            body. During menstruation and post-birth women are &#8216;unclean&#8217;. However
+            the dai speaks with a very different voice than the pundit about this uncleanness,
+            this <em>narak</em>. To her the placenta, the ultimate polluting substance in the
+            shastra literature, is spoken of reverently. It is no coincidence that dais are
+            mainly from low and outcaste communities. Both caste and gender are involved in
+            concepts of <em>narak</em>.
+        </p>
+        <p class="default">
+            Despite the pejorative connotations of the word narak, the concept has allowed for
+            abiding female spaces and birth cultures. In the &#8216;male&#8217; or &#8216;dominant&#8217;
+            view these female times are &#8216;filthy&#8217; or polluted, but they are also
+            times when masculine, social and even familial demands on women are suspended. And
+            traditionally older women guarded these spaces from any incursions&#8212;perhaps
+            with the help of &#8216;demons&#8217; and nether forces!? Within this imagistic
+            representation, the nature of female bodily energy is understood as &#8216;out of
+            control&#8217;&#8212;women are presumed to be more emotional and have special physical
+            needs at this time&#8212;so the usual social constraints are suspended. Of course
+            we need to interrogate the priestly voice and de-sacralisation of menstruation and
+            birth&#8212;but we should not throw out the baby with the bathwater. We should not
+            ignore the traditional birth knowledge of India.</p>
+        <p class="default">
+            Conversely the fertility of land and woman are acknowledged and honored. Both are
+            &#8216;fruitful&#8217; and this is not simply a symbolic device. Within indigenous
+            medical traditions such as Ayurveda, and with the dais, a totally different ontological
+            system is at work. Woman is not a &#8216;symbol&#8217; of the earth. Nor is the
+            earth a &#8216;symbol&#8217; of woman. Rather they both partake of the same nature
+            of fecundity. Just as the wind outside my window partakes of the same essence as
+            the breath which flows in and out of my lungs.</p>
+        <p class="default">
+            During <em>narak</em> time what is usually closed, the womb, is open, raw, vulnerable
+            and bleeding. <em>Narak</em> allows for the imaging of the unseen&#8212;and the
+            use of other senses, besides the visual, as well as the human capacities of empathy
+            and imagination in diagnostics and therapeutics. And in fact narak is deeply implicated
+            in the handling of postpartum care.
+        </p>
+        <p class="default" style="margin-left: 30px">
+            After delivery a woman is not given any grain or heavy food. This is called <em>narak</em>
+            fasting. Grain is only given on the third day after all the dirty blood comes out.
+            On first day, she eats biscuits with tea. She drinks warm water. Second day, heat-producing
+            balls made out of ginger, pepper, turmeric, roasted rice, milk and jaggery (<em>saunth
+                laddos</em>). On the third day, rice, dal and vegetables. &quot; (Bihar)</p>
+        <p class="default" style="margin-left: 30px">
+            It is called dirty blood because it has collected over nine months in the body.
+            It is dark, smelly and clotted. It comes out first and then fresh clean blood comes
+            out. With a little pressure and massage we take it out completely, and when the
+            color of the blood becomes clear like monthly cycle we believe that it is clean.&quot;
+            (Punjab)</p>
+        <p class="default" style="margin-left: 30px">
+            &quot;<em>Gola</em> is baby's home. When the house becomes empty, only dirty blood
+            is left. When this comes out there is pain. Hot drinks (of <em>ajwain</em>,<em> saunth</em>,
+            <em>pipar</em> and<em> gur</em>) are given. This drink cleans the belly. After the
+            baby is born, the <em>gola</em> roams around. This <em>gola </em>has taken care
+            of the baby, now it must leave. If the pain is intense then warm fomentation is
+            done and <em>gola </em>melts away (pighal jata hai). This is dirty blood and needs
+            cleaning up.&quot; (Delhi)</p>
+        <p class="default">
+            Perhaps in the dominant world religions (Judeo-Christian-Islamic and Hinduism, or
+            more correctly Brahminism) the concept of narak or &#8216;hell&#8217; overlays previous
+            meaning systems which had more to do with the health of women than the purity of
+            priests.
+        </p>
+        <p class="default">
+            <span class="lrgtxt2">Re-entering the social world and saying goodbye to Bemata</span></p>
+        <p class="default">
+            Women are ritually progressed from their status as &#8216;unclean&#8217; differently,
+            at different times, within different religious traditions. Interestingly both the
+            Leviticus text in the Old Testament of the Bible and the Dharamshastra writings&#8212;both
+            of which concern themselves with ritual cleanliness in their respective traditions&#8212;specify
+            a longer period of &#8216;pollution&#8217; for woman who has given birth to a female
+            infant than a male infant! In the Indian context birth is celebrated and women&#8217;s
+            &#8216;confinement&#8217; gradually comes to an end.</p>
+        <p class="default" style="margin-left: 30px">
+            On the 13th day after birth, the new mother is allowed to enter the kitchen. (<em>Chauka
+                Charhana</em>). Some do it on 7th or on 11th day. Everybody celebrates. There
+            is singing and dancing. On this day the new mother and the baby bathe and wear new
+            clean clothes. She comes out to get everyone's blessing. Friends and relatives are
+            invited and eat food together. The <em>Dai</em> is given clothes, food and grain.
+            (Punjab)</p>
+        <p class="default" style="margin-left: 30px">
+            On the day of the birth ritual celebration (<em>Chhatti</em>-6th day) the woman
+            wears everything that was taken off at the time of the birth. She put on bindi,
+            bangles, <em>henna</em> and nose ring. We make ritual drawings of<em> swastik</em>,
+            worship <em>Bemata</em> and light a lamp. We make a foot impression of the mother
+            on the floor and then the woman enters the main house. Till the 5th day <em>Bemata
+            </em>roams around in the house. After the birth celebrations <em>Bemata</em> leaves,
+            she goes to another house. The <em>dai</em> also goes to serve others. (Rajasthan)
+        </p>
+        <p align="center" class="default">
+            <img src="/assets/images/Bemata-on-charpoy-leg.gif" width="379" height="278" />
+            <br />
+            <font size="1" face="Verdana, Arial, Helvetica, sans-serif">Image of Bemata on charpoy
+                leg </font>
+        </p>
+        <p class="default">
+            To my knowledge there are no shrines, formal images, textual references to <em>Bemata</em>.
+            She is definitely a fleeting presence, invoked by women at the time of birth and
+            sent off to another&#8217;s home with postpartum ritual. According to the <em>dais</em>
+            with whom we interacted, <em>Bemata</em> dwells in the realm of narak, deep within
+            the earth. She is a Creatrix responsible for the conception, growth within the womb,
+            and birth of human beings as well as the growth of all vegetation. In this image
+            <em>Bemata</em> was drawn on a charpoy leg along with the <em>swastik</em>, a common
+            post-birth ritual drawing.
+        </p>
+        <p class="lrgtxt2">
+            Contemporary relevance of <em>Bemata </em>and <em>Narak </em>
+        </p>
+        <p class="default">
+            Shakina, a Muslim dai working in a slum of Delhi talked about birth time in a swirl
+            of Hindu and Muslim references&#8212;a testimony to the syncretism of North Indian
+            folk culture. And we found that Sikh, Christian, Muslim as well as &#8216;Hindu&#8217;
+            dais used the concepts and often the language of narak and Bemata. Look, sister,
+            at the time of
+        </p>
+        <p class="default" style="margin-left: 30px">
+            birth it&#8217;s only the woman&#8217;s shakti. She who gives birth, at that time,
+            her one foot is in heaven and the other, in hell (narak).&#8221;
+        </p>
+        <p class="default">
+            Shakina goes on to say
+        </p>
+        <p class="default" style="margin-left: 30px">
+            Before doing a delivery I get the woman to open all the trunks, doors and so on.
+            I pray to the One above to open the knot quickly. I take off her sari, open her
+            hair and take off any bangles or jewellery. I put the<em> atta</em> on a <em>thali</em>
+            and ask the woman to divide it into two equal parts. Also I get Rs.1.25 in the name
+            of <em>Sayyid</em> kept separately. But mostly I remember <em>Bemata</em>. Repeated
+            I pray to <em>Bemata</em> &#8220;O mother! Please open the knot quickly.&#8221;
+        </p>
+        <p class="default">
+            the &#8216;sympathetic magic&#8217; of opening rituals. The untying of knots, opening
+            of locks, doors and windows, loosening hair and removing bangles are common rites
+            performed during labour throughout North India. This facilitation can be interpreted
+            as an opening in the external word which is then mimicked or mirrored in the inner
+            world of the maternal body. The manipulation of the external environment in this
+            way serves as a permission and encouragement for the &#8216;opening of the body&#8217;.
+            The separation of the atta from one mound into two also imitates imaginatively the
+            separation of the pregnant maternal body into two&#8212;mother and babe. When I
+            first encountered these birth facilitations I noticed the parallel in guided imagery
+            used in cancer treatments, when the patient was encouraged to imagine the T-cells
+            and the immune system dealing with tumours. If internal imagery were effective,
+            why should not externally manifest imagery also work?</p>
+        <p class="default">
+            <em>Narak</em> allows for a holistic and non-invasive diagnostics and therapeutics&#8212;health
+            promoting practices which do not violate the integrity of the body and facilitate
+            the &#8220;<em>jee</em>&#8221; or life force. This concept then provides a mode
+            of understanding allowing practitioners and therapeutics which can negotiate and
+            affect the inner body without violating the integrity of the skin/body/life force.
+            And indeed the dais&#8217; health modalities are sophisticated in terms of emotional
+            support and ritual practice. As well as practical utilizing touch (massage, pressure,
+            manipulation, assisted squat, external version); natural resources (mud, baths and
+            fomentation, herbs, <em>gobar</em> or cow dung); and application of &#8216;hot and
+            cold&#8217; (in food and drink, fomentation, heating placenta to revive baby, birthing
+            body as &#8216;heated&#8217; etc.); isolation and protection (from household work
+            and maternal, familial and sexual obligations).
+        </p>
+        <p class="default">
+            This interpretation of narak is congruent with some dais usage of the terms &#8216;opening
+            body&#8217; (labour), &#8216;open body&#8217; (birth), and &#8216;closing body&#8217;
+            (postpartum)&#8212;for the entire process of birth time. These empirical terms stand
+            in opposition to the factory model of birth (labour, delivery, failure to progress,
+            false labour) implicit in many obstetrical terms. And interestingly the womb-bond
+            between mother and newborn continues to be respected during this time&#8212;<em>Narak
+                ka Samay</em>.
+        </p>
+        <p class="lrgtxt2">
+            Implications for improving midwifery/dai training</p>
+        <p class="default">
+            MATRIKA findings about &#8216;Narak&#8217; have great relevance to public health
+            initiatives targeted at dais. As MATRIKA data has demonstrated above, dais say
+        </p>
+        <p class="default" style="margin-left: 30px">
+            &#8220;Bad blood must come out.&#8221;
+        </p>
+        <p class="default">
+            Dai Trainers say
+        </p>
+        <p class="default" style="margin-left: 30px">
+            &#8220;Hemorrhage must stop.&#8221;</p>
+        <p class="default">
+            In the context of postpartum care narak relates to the &#8216;bad blood&#8217; that
+            dais think must exit the body. That energy of the maternal body associated with
+            growing the baby is signified by the &#8216;black blood&#8217;&#8212;this fluid
+            emerges signifying, not only the uterus contracting, but also that the mother&#8217;s
+            body is transiting from holding the &#8216;other&#8217; to releasing the other.
+            Sometimes we heard that the &#8216;contractions&#8217; were the womb &#8216;searching&#8217;
+            for the baby. <em>Dai's</em> imaging speaks a poetics of the body that attributes
+            consciousness, activity and sensation to the uterus-- which is totally absent in
+            the biomedical framework. The understanding and use of these concepts in dai training
+            would significantly improve communications on controlling hemorrhage postpartum,
+            as well as preserve the respect for indigenous meaning systems.</p>
+        <p class="default">
+            Furthermore, the <em>Bemata</em> figure encodes a process orientation towards birth
+            and postpartum while providing a framework for diagnostics and therapeutics. In
+            obstetrical practice the examination done immediately after birth, &#8216;the Apgar
+            score&#8217;, is used to assess the well being of the newborn. It is a scale for
+            measuring the infant&#8217;s process of adapting to extra-uterine life. But no such
+            formal, process-oriented assessment is geared towards the bodily functioning of
+            the mother postpartum, the time the <em>dais </em>call &#8216;the closing of the
+            body&#8217;. <em>Bemata</em> seems to function as a diagnostic system assisting
+            <em>dais</em> in their roles as caretakers of mothers, especially crucial in the
+            six day post birth period.</p>
+        <p class="default">
+            The practice of not cutting the cord until the placenta is delivered is common in
+            all the areas where MATRIKA conducted research. Doctors and health workers throughout
+            the country also report it as the common practice. <em>Dais</em> have the utmost
+            respect for these parts of the female body usually considered as waste products
+            (by the bio-medical system) or highly polluting (by the Dharamshastras). It seems
+            as though dais consider the infant-cord-placenta as a package. They have been together
+            for nine months, cord and placenta functioning to nurture the fetus&#8212;why should
+            they be severed too quickly?</p>
+        <p class="default">
+            Dais say<br />
+            &#8220;Cut the cord after placenta is delivered&#8221;</p>
+        <p class="default" style="margin-left: 30px">
+            If the baby is not active or does not cry then the dai rubs the cord, placing a
+            coin or rice grain underneath it. By rubbing, heat passes to the baby. The baby
+            often revives. Heating the placenta on a fire may also do this resuscitation. (Bihar)</p>
+        <p class="default" style="margin-left: 30px">
+            After birth, if the baby does not cry or is hardly breathing, or even seems stillborn,
+            the placenta is used by placing it on a heated surface -- pan or cow dung cakes.
+            Life flows towards the baby most of the time. It is only after she knows that this
+            is not needed that the cord is cut. (Delhi)</p>
+        <br />
+        <matrika:video clip="/Clips/Clip2_EarlierHealthy.video" width="384" height="288"
+             />
+        <br />
+        <p class="default" style="margin-left: 30px">
+            If the baby, once born, is not active, the placenta may be heated to stimulate the
+            baby and bring it to life. (Rajasthan)
+        </p>
+        <p class="default">
+            But trainers and health education messages throughout the subcontinent are teaching
+            <em>dais</em> to cut the cord right away.</p>
+        <p class="default">
+            We modern, &#8216;educated&#8217; women have come to believe that &#8216;pollution&#8217;
+            taboos are atavistic relics of a misogynist and patriarchal past&#8212;and that
+            they should be superceded by &#8216;scientific&#8217; understandings of the female
+            body based on fact rather than superstitions. Our MATRIKA data, gathered by crossing
+            boundaries and listening carefully, and respectfully, suggests that dais&#8217;
+            knowledge and practice are encoded in a language, a poetics of the body&#8212;which
+            radically differs from that of bio-medical obstetrics, and is more congruent with
+            other Asian medical/health/healing systems such as Yoga, Ayurveda, Tantra as well
+            as Chinese, Tibetan and even Greek/Islamic medicine.</p>
+        <p class="default">
+            In order to facilitate communications in training indigenous midwives, as well as
+            reclaim aspects of indigenous Indian midwifery for use with more privileged women
+            <br />
+            MATRIKA recommends the development of criteria for evaluation of dais and their
+            practices drawing on Ayurveda and other indigenous systems of health maintenance
+            and healing. Rather than using the evaluation perspective of biomedicine, indigenous
+            tools of assessment will allow the incorporation of a human resource base which
+            can complement existing &#8216;reproductive health&#8217; facilities and practitioners.</p>
+        <p class="default">
+            An entire legacy of midwifery knowledge will be erased unless we begin to learn
+            to think and speak the language of &#8216;narak&#8217; (and develop dai-training
+            materials dialoguing with that language). Or at the very least we should not cringe
+            in disdain when we hear or observe women using these languages, or observing these
+            practices. Finally, on the Asian subcontinent it is essential that we begin to include
+            skilled dais in maternal child health programs at all levels. Hopefully we will
+            all be able to cross boundaries, listen carefully and help the world to be born
+            more humanely.</p>
+        <hr size="1" style="color: #D1D1C6" />
+        <p>
+            <span class="smltxt3"><sup><strong>1.</strong></sup> Shivaji K. Panikkar, <em>Sapta
+                Matrika Worship</em> and<em> Sculptures</em>, Delhi, DK Printworld, 1997.<br />
+                <sup><strong>2.</strong></sup><strong> </strong>Anuradha Singh, &#8220;Her One Foot
+                is in this World and One in the Other: Ayurveda, Dais and Maternity&#8221; in ed.
+                Janet Chawla, <em>Birth and Birthgivers</em>&#8212;<em>The power behind the shame</em>,
+                New Delhi, Har-Anand Publications, 2006<br />
+                <sup><strong>3.</strong></sup> Jo Murphy Law-Lawless, 2003, &#8220;How Will the
+                World Be Born: The Critical Importance of Indigenous <em>Midwifery</em>&#8221; in
+                Royal College of Midwives&#8217; Midwifery Journal, Vol. 6, No. 10<br />
+                <sup><strong>4.</strong></sup> Janet Chawla, 2003, &#8220;Negotiating Narak and
+                Writing Destiny: the Theology of Dais&#8217; Handling of Birth&#8221; in ed Nilima
+                Chitgopekar,<em> Invoking Goddesses: Gender Politics in Indian Religion, </em>New
+                Delhi, Har-Anand Publishers</span><br />
+        </p>
+        <p>
+            &nbsp;
+        </p>
+        <p class="smltxt2">
+            <a href="#top" class="lrglink">back to top</a></p>
+        <p>
+            &nbsp;
+        </p>
+        <p>
+            &nbsp;
+        </p>
+    </div>
