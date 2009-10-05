@@ -1,0 +1,198 @@
+<project name="Matrika Website" default="install">
+
+	<property name="sdk.dir" location="C:/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.2.5.v200909021031/appengine-java-sdk-1.2.5" />
+	<property name="tomcat.home" location="C:/Program Files/Apache Software Foundation/Tomcat 5.5" />
+
+	<import file="${sdk.dir}/config/user/ant-macros.xml" />
+	<import file="${tomcat.home}/bin/catalina-tasks.xml"/>
+
+	<path id="project.classpath">
+		<pathelement path="war/WEB-INF/classes" />
+		<fileset dir="war/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${sdk.dir}/lib">
+			<include name="shared/**/*.jar" />
+		</fileset>
+	</path>
+	
+	<target name="install" depends="compileJSPs" description="Install the current build." />
+
+	<target name="prepareStage" description="Build the WAR directory structure">
+
+		<delete dir="stage" />
+		<mkdir dir="stage" />
+
+		<copy todir="stage" flatten="true">
+			<fileset dir="war">
+				<include name="*.ico" />
+				<include name="*.jsp" />
+			</fileset>
+		</copy>
+
+		<copy todir="stage/WEB-INF" >
+			<fileset dir="war/WEB-INF">
+				<include name="*.xml" />
+				<include name="*.properties" />
+			</fileset>
+		</copy>
+
+		<copy todir="stage/assets" >
+			<fileset dir="war/assets">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+
+		<copy todir="stage/WEB-INF/tld" >
+			<fileset dir="war/WEB-INF/tld">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+
+		<copy todir="stage/WEB-INF/config" >
+			<fileset dir="war/WEB-INF/config">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+
+		<copy todir="stage/WEB-INF/lib" flatten="true">
+			<fileset dir="${sdk.dir}/lib/user">
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
+
+		<copy todir="stage/WEB-INF/lib" overwrite="false">
+			<fileset dir="war/WEB-INF/lib" >
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
+
+	</target>
+
+	<target name="compile" depends="prepareStage" description="Compiles Java source and copies other source files to the WAR.">
+		<mkdir dir="stage/WEB-INF/classes" />
+		<copy todir="stage/WEB-INF/classes">
+			<fileset dir="src">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+		<javac srcdir="src" destdir="war/WEB-INF/classes" classpathref="project.classpath" debug="false" optimize="true" />
+	</target>
+
+	<target name="datanucleusenhance" depends="compile" description="Performs JDO enhancement on compiled data classes.">
+		<enhance_war war="war" />
+	</target>
+
+	<target name="jarClasses" depends="datanucleusenhance" description="Creates a JAR of all MATRIKA classes">
+		<jar destfile="stage/WEB-INF/lib/matrika.jar" >
+			<fileset dir="war/WEB-INF/classes" includes="**/*.class" />
+		</jar>
+	</target>
+
+	<target name="cleanClasses" depends="jarClasses" description="Clean all our own classes - reduce number of files on web">
+		<delete dir="stage/WEB-INF/classes" includes="**/*.class" />
+		<delete dir="stage/WEB-INF/classes/org" />
+	</target>
+
+	
+	
+	
+	
+	
+	<target name="compileJSPs" depends="cleanClasses" description="precompile JSPs to create a JAR of them">
+		<copy todir="stage/WEB-INF/jsps">
+			<fileset dir="war/WEB-INF/jsps">
+				<include name="**/*.jsp" />
+			</fileset>
+		</copy>
+			
+		<jasper2 validateXml="false" uriroot="stage" addWebXmlMappings="true" 
+			webXmlFragment="stage/WEB-INF/generated_web.xml" outputDir="stage/src" classpath="project.classpath" package="org.matrika.jsps"/>
+		
+		<javac destdir="stage/WEB-INF/classes" optimize="true" debug="false" failonerror="true" srcdir="stage/src" excludes="**/*.smap" encoding="utf-8">
+			<classpath>
+				<pathelement location="stage/WEB-INF/classes" />
+				<fileset dir="stage/WEB-INF/lib">
+					<include name="*.jar" />
+				</fileset>
+				<pathelement location="${tomcat.home}/server/lib" />
+				<fileset dir="${tomcat.home}/server/lib">
+					<include name="*.jar" />
+				</fileset>
+				<pathelement location="${tomcat.home}/common/lib" />
+				<fileset dir="${tomcat.home}/common/lib">
+					<include name="*.jar" />
+				</fileset>
+				<fileset dir="${tomcat.home}/bin">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+			<include name="**" />
+			<exclude name="tags/**" />
+		</javac>
+		
+		<jar destfile="stage/WEB-INF/lib/matrika-jsps.jar" >
+			<fileset dir="stage/WEB-INF/classes" includes="**/*.class" />
+		</jar>
+
+		<delete dir="stage/WEB-INF/classes" includes="**/*.class" />
+		<delete dir="stage/WEB-INF/classes/org" />
+		<delete dir="stage/src" />
+		<delete dir="stage/WEB-INF/jsps" />
+	</target>
+
+	<target name="runserver" description="Starts the development server.">
+		<dev_appserver war="stage" port="8080" />
+	</target>
+
+	<target name="update" depends="install" description="Uploads the application to App Engine.">
+		<appcfg action="update" war="stage" >
+			<options>
+				<arg value="--email=sandy.pec@gmail.com" />
+				<arg value="--passin" />
+			</options>
+		</appcfg>
+	</target>
+
+	<target name="rollback" description="Rolls back an interrupted application update.">
+		<appcfg action="rollback" war="stage" />
+	</target>
+
+
+
+	<!--
+	
+	<target name="update" depends="datanucleusenhance" description="Uploads the application to App Engine.">
+		<appcfg action="update" war="war" />
+	</target>
+
+	<target name="update_indexes" depends="datanucleusenhance" description="Uploads just the datastore index configuration to App Engine.">
+		<appcfg action="update_indexes" war="war" />
+	</target>
+
+	<target name="rollback" depends="datanucleusenhance" description="Rolls back an interrupted application update.">
+		<appcfg action="rollback" war="war" />
+	</target>
+
+	<target name="request_logs" description="Downloads log data from App Engine for the application.">
+		<appcfg action="request_logs" war="war">
+			<options>
+				<arg value="- -num_days=5" />
+			</options>
+			<args>
+				<arg value="logs.txt" />
+			</args>
+		</appcfg>
+	</target>
+
+	<target name="copyjars" description="Copies the App Engine JARs to the WAR.">
+		<copy todir="stage/WEB-INF/lib" flatten="true">
+			<fileset dir="${sdk.dir}/lib/user">
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	-->
+
+</project>
