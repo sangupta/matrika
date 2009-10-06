@@ -6,7 +6,7 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
 		<td background="/assets/images/buttons-bg-large1.gif" >
-		<table width="70%" height="22" border="0" align="right"
+		<table width="90%" height="22" border="0" align="right"
 			cellpadding="0" cellspacing="0" id="Table_01">
 			<tbody>
 				<tr>
@@ -127,6 +127,13 @@
 						</tbody>
 					</table>
 
+					</td>
+					<td width="1" height="22"><img
+						src="/assets/images/buttons-bg-large1-edge.gif" width="1" height="22" /></td>
+					<td width="100" height="22" class="buttontxt">
+					<div align="center"><img src="/assets/images/arrow.gif"
+						width="6" height="8" />&#160;<a
+						href="http://janetchawla.blogspot.com" class="buttonlinks" target="_blank">Blog</a></div>
 					</td>
 					<td width="1" height="22"><img
 						src="/assets/images/buttons-bg-large1-edge.gif" width="1" height="22" /></td>

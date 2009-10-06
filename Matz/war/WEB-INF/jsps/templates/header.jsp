@@ -8,10 +8,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MATRIKA :: <tiles:getAsString name="title" /></title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><tiles:getAsString name="title" /> :: MATRIKA</title>
 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Indigenous Midwifery,Traditional Birth,Ayurveda,Dais,Labor,Birth,Postpartum,Yoni,North India,Reproductive Health,Childbirth" />
+<meta name="google-site-verification" content="AvBmY5U6LDj_kINXpJ9GXgvqFLhcmEDU66mw9UEk53I" />
 
 <link rel="stylesheet" type="text/css" media="screen, print, projection"  href="/assets/css/matrika.css" ></link>
 <link rel="stylesheet" type="text/css" media="screen, print, projection"  href="/assets/css/superfish.css" ></link>
