@@ -2,12 +2,15 @@ package org.matrika.sitegen;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.matrika.sitegen.model.Project;
 import org.matrika.sitegen.model.ProjectFile;
-import org.matrika.sitegen.util.HtmlUtils;
+import org.matrika.sitegen.util.HtmlSource;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
@@ -23,21 +26,23 @@ public class SiteGenerator {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		if(args.length != 1) {
+		if(args.length != 2) {
 			usage();
 		}
 		
 		final long startTime = System.currentTimeMillis();
 		
 		String projectFile = args[0];
-		createSiteFromProjectFile(projectFile);
+		String exportFolder = args[1];
+		
+		createSiteFromProjectFile(projectFile, exportFolder);
 		
 		final long endTime = System.currentTimeMillis();
 		
 		System.out.println("Site created in " + (endTime - startTime) + " ms.");
 	}
 	
-	private static void createSiteFromProjectFile(String projectFile) throws IOException {
+	private static void createSiteFromProjectFile(final String projectFile, final String exportFolder) throws IOException {
 		File file = new File(projectFile);
 		file = file.getAbsoluteFile();
 		if(!file.exists()) {
@@ -54,11 +59,19 @@ public class SiteGenerator {
 		
 		Project project = (Project) XSTREAM.fromXML(xml);
 		
+		ProjectValidator projectValidator = new ProjectValidator(project);
+		boolean success = projectValidator.validate();
+		if(!success) {
+			System.out.println("Project XML has validation errors, see below for details: ");
+			System.out.println(projectValidator.getValidationErrors());
+		}
+		
 		File parentFolder = new File(file.getParent());
-		processProject(project, parentFolder);
+		processProject(project, parentFolder, exportFolder);
 	}
 
-	private static void processProject(Project project, File parentFolder) throws IOException {
+	private static void processProject(Project project, File parentFolder, final String exportFolder) throws IOException {
+		// build up the project processor
 		ProjectProcessor processor = new ProjectProcessor(project, parentFolder);
 		processor.process();
 		
@@ -68,21 +81,83 @@ public class SiteGenerator {
 			return;
 		}
 		
-		File export = new File("export");
-		export.mkdir();
+		// build up the list of all files that are being written to disk
+		List<String> filesWritten = new ArrayList<String>();
+		for(ProjectFile file : files) {
+			filesWritten.add(file.getPath());
+		}
 		
+		// start the export process
+		File export = new File(exportFolder);
+		if(!export.exists()) {
+			export.mkdirs();
+		} else {
+			System.out.println("Export directory already exists... cleaning it up...");
+			FileUtils.cleanDirectory(export);
+			System.out.println("Done cleaning!");
+		}
+		
+		Set<String> hyperLinks = new HashSet<String>();
 		for(ProjectFile file : files) {
 			if(file.isHTML()) {
-				HtmlUtils.tidyHtml(file);
+				HtmlSource source = new HtmlSource(file);
+				List<String> links = source.extractAllHyperLinks();
+				
+				// check if the link exists in the exported code
+				for(String link : links) {
+					String linkAsPath = getLinkAsPath(link);
+					if(linkAsPath != null) {
+						if(!filesWritten.contains(linkAsPath)) {
+							System.out.println("File " + file.getPath() + " contains an invalid hyperlink: " + link);
+						}
+					}
+				}
+
+				// add to the main list for export
+				hyperLinks.addAll(links);
+				
+				// tidy the code
+				source.tidyHtml();
 			}
 			
 			// write the file to disk
 			file.writeToDisk(export);
 		}
+		
+		// check for all hyperlinks in the files
+//		for(String link : hyperLinks) {
+//			System.out.println(link);
+//		}
+	}
+
+	private static String getLinkAsPath(String link) {
+		if(link == null) {
+			return null;
+		}
+		
+		// remove fragments
+		if(link.startsWith("#")) {
+			return null;
+		}
+		
+		String linkLower = link.toLowerCase();
+		
+		// absolute urls
+		if(linkLower.startsWith("http://") || linkLower.startsWith("https://") || linkLower.startsWith("mailto:") || linkLower.startsWith("javascript:")) {
+			return null;
+		}
+		
+		// remove fragment
+		int fragment = link.indexOf('#');
+		if(fragment != -1) {
+			link = link.substring(0, fragment);
+		}
+		
+		return link;
 	}
 
 	private static void usage() {
-		System.out.println("$ java -jar matrika-sitegen project.xml");
+		System.out.println("$ java -jar matrika-sitegen <project.xml> <output dir>");
 		System.exit(0);
 	}
 
