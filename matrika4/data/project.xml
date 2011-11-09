@@ -1,0 +1,150 @@
+<project templateRoot="templates" pagesRoot="pages" >
+
+  <name>Matrika</name>
+  
+  <properties>
+  	<property name="siteDebug" value="false" />
+    <property name="googleSiteVerification" value="AvBmY5U6LDj_kINXpJ9GXgvqFLhcmEDU66mw9UEk53I" />
+    <property name="googleAnalytics" value="123" />
+  </properties>
+  
+  <templates>
+    <template id="master" file="master.html"/>
+    <template id="matrika" file="matrika.html" />
+  </templates>
+  
+  <pages>
+    <page templateID="master" title="Welcome" path="/index.html" file="index.html"/>
+    <page templateID="master" title="Search Results" file="search/results.html" path="/searchResults.html" />
+
+    <page templateID="matrika" title="Contact Us" file="contact_us.html" path="/ContactUs.html" />
+    <page templateID="matrika" title="Disclaimer" file="disclaimer.html" path="/Disclaimer.html" />
+    <page templateID="matrika" title="Privacy Policy" file="privacy_policy.html" path="/PrivacyPolicy.html" />
+
+    <page templateID="matrika" title="Resources" file="index.html" path="/Resources.html" />
+    
+    <page templateID="matrika" title="Did You Know" file="home/did_you_know.html" path="/DidYouKnow.html" />
+    <page templateID="matrika" title="Articles" file="home/articles.html" path="/Articles.html" />
+    <page templateID="matrika" title="Key Concepts" file="home/key_concepts.html" path="/KeyConcepts.html" />
+    <page templateID="matrika" title="Research" file="home/research.html" path="/Research.html" />
+    <page templateID="matrika" title="Workshops" file="home/workshops.html" path="/Workshops.html" />
+    <page templateID="matrika" title="About Us" file="home/about_us.html" path="/AboutUs.html" />
+    <page templateID="matrika" title="FAQs" file="home/faq.html" path="/FAQ.html" />
+    <page templateID="matrika" title="Why Matrika?" file="home/why_matrika.html" path="/WhyMatrika.html" />
+    
+    <page templateID="matrika" title="Sitemap" file="sitemap/sitemap.html" path="/SiteMap.html" />
+
+    <page templateID="matrika" title="Complications &amp; Safety" file="home/complication_safety.html" path="/ComplicationSafety.html" />
+    <page templateID="matrika" title="Birth" file="home/birth.html" path="/Birth.html" />
+    <page templateID="matrika" title="Labor" file="home/labor.html" path="/Labor.html" />
+    <page templateID="matrika" title="Postpartum" file="home/post_partum.html" path="/PostPartum.html" />
+    
+    <page templateID="matrika" title="Articles - Birth Bricks" file="articles/birth_bricks.html" path="/Articles/BirthBricks.html" />
+    <page templateID="matrika" title="Articles - Birth Is A Force" file="articles/birth_force.html" path="/Articles/BirthForce.html" />
+    <page templateID="matrika" title="Articles - Birth Order Of Children" file="articles/birth_order.html" path="/Articles/BirthOrder.html" />
+    <page templateID="matrika" title="Articles - Study: Social Support Birth Weight" file="articles/birth_weight.html" path="/Articles/BirthWeight.html" />
+    
+    <page templateID="matrika" title="Articles - Breaking Waters During Labor" file="articles/breaking_waters.html" path="/Articles/BreakingWaters.html" />
+    <page templateID="matrika" title="Articles - Colostrum" file="articles/colostrum.html" path="//Articles/Colostrum.html" />
+    <page templateID="matrika" title="Articles - C Section Rates" file="articles/csection.html" path="/Articles/CSectionRates.html" />
+    <page templateID="matrika" title="Articles - Pregnant Women Cutting Child Classes" file="articles/cutting_classes.html" path="/Articles/CuttingClasses.html" />
+    <page templateID="matrika" title="Articles - Fetal Cells" file="articles/fetal_cells.html" path="/Articles/FetalCells.html" />
+
+    <!-- 
+    <page templateID="matrika" title="Articles - Morning Sickness Intact Perinum" file="articles/intact.html" path="/Articles/MorningSickness.html" />
+	-->
+	    
+    <page templateID="matrika" title="Articles - Induction of Labor" file="articles/labor.html" path="/Articles/Labor.html" />
+    <page templateID="matrika" title="Articles - Induction of Labor and Autism" file="articles/labor_autism.html" path="/Articles/LaborAndAutism.html" />
+    
+    <!-- 
+    <page templateID="matrika" title="" file="articles/numbers.html" path="/.html" />
+    -->
+    
+    <page templateID="matrika" title="Articles - Morning Sickness Intact Perineum" file="articles/morning_sickness.html" path="/Articles/MorningSickness.html" />
+    <page templateID="matrika" title="Articles - Mother India" file="articles/mother_india.html" path="/Articles/MotherIndia.html" />
+    <page templateID="matrika" title="Articles - The Oldest Vocation" file="articles/oldest_vocation.html" path="/Articles/OldestVocation.html" />
+    
+    <!--
+    <page templateID="matrika" title="Articles - Pope Story" file="articles/pope_story.html" path="/.html" />
+    -->
+    
+    <page templateID="matrika" title="Articles - Maternal Positions And Perineal Tears" file="articles/positions.html" path="/Articles/Positions.html" />
+    <page templateID="matrika" title="Articles - Prenatal Clinic And Procedure" file="articles/prenatal.html" path="/Articles/PreNatalClinic.html" />
+    <page templateID="matrika" title="Articles - Baby Questions To Ask?" file="articles/questions.html" path="/Articles/Questions.html" />
+    
+    <!--
+    <page templateID="matrika" title="" file="articles/sage_women.html" path="/.html" />
+    <page templateID="matrika" title="" file="articles/toworld.html" path="/Articles/WombToWorld.html" />
+    -->
+    
+    <page templateID="matrika" title="Articles - Ultrasound Placenta Previa Prolapse" file="articles/ultrasound.html" path="/Articles/Ultrasound.html" />
+    <page templateID="matrika" title="" file="articles/womb_world.html" path="/Articles/WombToWorld.html" />
+    -->
+    
+    <page templateID="matrika" title="Did You Know - Common Indigenous Healing Birthing Concepts" file="did_you_know/common_healing.html" path="/DidYouKnow/CommonIndegenousHealing.html" />
+    <page templateID="matrika" title="Did You Know - History Of Medicine" file="did_you_know/history_of_medicine.html" path="/DidYouKnow/HistoryofMedicine.html" />
+    <page templateID="matrika" title="Did You Know - Science, Modern Knowledge Systems And Gender" file="did_you_know/science_modern_knowledge.html" path="/DidYouKnow/ScienceModernKnowledge.html" />
+    <page templateID="matrika" title="Did You Know - Use of Squatting Position" file="did_you_know/squatting_position.html" path="/DidYouKnow/SquattingPosition.html" />
+    <page templateID="matrika" title="Did You Know - Yoni As A Source" file="did_you_know/yoni_as_source.html" path="/DidYouKnow/YoniAsSource.html" />
+    <page templateID="matrika" title="Did You Know - Yoni In Nature" file="did_you_know/yoni_in_nature.html" path="/DidYouKnow/YoniInNature.html" />
+    
+    <page templateID="matrika" title="Key Concepts - Bemata - Goddess Or Demoness?" file="key_concepts/bemata.html" path="/KeyConcepts/Bemata.html" />
+    <page templateID="matrika" title="Key Concepts - Hawa Gola And Postpartum" file="key_concepts/hawa_gola.html" path="/KeyConcepts/HawaGolaPostpartum.html" />
+    <page templateID="matrika" title="Key Concepts - Injection: The New Birth Ritual" file="key_concepts/injection.html" path="/KeyConcepts/Injection.html" />
+    <page templateID="matrika" title="Key Concepts - JEE: Life Force or Vital Energy" file="key_concepts/jee_the_life.html" path="/KeyConcepts/JeeTheLife.html" />
+    <page templateID="matrika" title="Key Concepts - Microcosm, Macrocosm And Magic" file="key_concepts/microcosm.html" path="/KeyConcepts/Microcosm.html" />
+    <page templateID="matrika" title="Key Concepts - Mother Child Bond" file="key_concepts/motherchild.html" path="/KeyConcepts/MotherChild.html" />
+    <page templateID="matrika" title="Key Concepts - Narak: Rethinking Pollution" file="key_concepts/narak.html" path="/KeyConcepts/NarakRethinking.html" />
+    
+    <page templateID="matrika" title="Research Papers - Recognition of Indigenous Cognitive Process" file="research/aaa.html" path="/Research/AAAPaper.html" />
+    <page templateID="matrika" title="Research Papers - Menstruation Meanings" file="research/dhcis.html" path="/Research/DHCIS.html" />
+    <page templateID="matrika" title="Research Papers - Hawa Gola And Mother-in-law's Big Toe" file="research/hawa_gola.html" path="/Research/HawaGola.html" />
+    <page templateID="matrika" title="Research Papers - How The World Will Be Born" file="research/ignca.html" path="/Research/IGNCA.html" />
+    <page templateID="matrika" title="Research Papers - Raab Is The Doer, Hands Are Mine" file="research/indic_religions.html" path="/Research/IndicReligions.html" />
+    <page templateID="matrika" title="Research Papers - Mapping The Terrain" file="research/introduction.html" path="/Research/Introduction.html" />
+    <page templateID="matrika" title="Research Papers - The Mythic Origins of Menstrual Taboo in the Rig Veda" file="research/mythic_origins.html" path="/Research/MythicOrigins.html" />
+    <page templateID="matrika" title="Research Papers - Understanding Narak" file="research/narak.html" path="/Research/Narak.html" />
+    <page templateID="matrika" title="Research Papers - Negotiating Narak And Writing Destiny" file="research/negotiating_narak.html" path="/Research/NegotiatingNarak.html" />
+    <page templateID="matrika" title="Research Papers - Relationship between Modern And Indigenous Concerns" file="research/trade_modern.html" path="/Research/TradeModern.html" />
+    
+    <page templateID="matrika" title="Resources - Useful Links" file="resources/links.html" path="/Resources/Links.html" />
+    <page templateID="matrika" title="Resources - Upcoming Events" file="resources/upcoming_events.html" path="/Resources/UpcomingEvents.html" />
+    <page templateID="matrika" title="Resources - Event Reports" file="resources/event_reports.html" path="/Resources/EventReports.html" />
+    <page templateID="matrika" title="Resources - Book Reviews" file="resources/book_review.html" path="/Resources/BookReviewBirthAndBirthGivers.html" />
+    
+    <page templateID="matrika" title="Workshops - Bihar Socio-Economics" file="workshops/bihar/bihar.html" path="/Workshops/Bihar.html" />
+    <page templateID="matrika" title="Workshops - Bihar 1" file="workshops/bihar/bihar1.html" path="/Workshops/Bihar1.html" />
+    <page templateID="matrika" title="Workshops - Bihar 2" file="workshops/bihar/bihar2.html" path="/Workshops/Bihar2.html" />
+    <page templateID="matrika" title="Workshops - Delhi 1" file="workshops/delhi/delhi1.html" path="/Workshops/Delhi1.html" />
+    <page templateID="matrika" title="Workshops - Delhi 2" file="workshops/delhi/delhi2.html" path="/Workshops/Delhi2.html" />
+    <page templateID="matrika" title="Workshops - Fatehgarh Socio-Economics" file="workshops/fatehgarh.html" path="/Workshops/Fatehgarh.html" />
+    <page templateID="matrika" title="Workshops - Jehangirpuri Socio-Economics" file="workshops/jehangirpuri.html" path="/Workshops/Jehangirpuri.html" />
+    <page templateID="matrika" title="Workshops - Punjab" file="workshops/punjab.html" path="/Workshops/Punjab.html" />
+    <page templateID="matrika" title="Workshops - Rajasthan 1" file="workshops/rajasthan/rajasthan1.html" path="/Workshops/Rajasthan1.html" />
+    <page templateID="matrika" title="Workshops - Rajasthan 2" file="workshops/rajasthan/rajasthan2.html" path="/Workshops/Rajasthan2.html" />
+    <page templateID="matrika" title="Workshops - Rajasthan 3" file="workshops/rajasthan/rajasthan3.html" path="/Workshops/Rajasthan3.html" />
+    
+    <page templateID="matrika" title="Workshops - Songs from Bihar" file="workshops/songs/bihar.html" path="/Workshops/Songs/Bihar.html" />
+    <page templateID="matrika" title="Workshops - Songs from Delhi" file="workshops/songs/delhi.html" path="/Workshops/Songs/Delhi.html" />
+    <page templateID="matrika" title="Workshops - Songs from Patna" file="workshops/songs/patna.html" path="/Workshops/Songs/Patna.html" />
+    <page templateID="matrika" title="Workshops - Songs from Punjab" file="workshops/songs/punjab.html" path="/Workshops/Songs/Punjab.html" />
+    <page templateID="matrika" title="Workshops - Songs from Rajasthan" file="workshops/songs/rajasthan.html" path="/Workshops/Songs/Rajasthan.html" />
+    
+    <page templateID="matrika" title="About Us - Janet Chawla" file="about_us/janet.html" path="/AboutUs/Janet.html" />
+    <page templateID="matrika" title="About Us - The Web Team" file="about_us/the_web_team.html" path="/AboutUs/TheWebTeam.html" />
+    
+    <page templateID="matrika" title="" file="faq/doctors.html" path="/FAQ/DoctorsAndNurses.html" />
+    <page templateID="matrika" title="" file="faq/families.html" path="/FAQ/Families.html" />
+    <page templateID="matrika" title="" file="faq/feminists.html" path="/FAQ/Feminists.html" />
+    <page templateID="matrika" title="" file="faq/ngo.html" path="/FAQ/NGO.html" />
+    <page templateID="matrika" title="" file="faq/policy_makers.html" path="/FAQ/PolicyMakers.html" />
+    <page templateID="matrika" title="" file="faq/safe_motherhood.html" path="/FAQ/SafeMotherhood.html" />
+    
+  </pages>
+  
+  <assets>
+  	<asset folder="assets" /> 
+  </assets>
+
+</project>

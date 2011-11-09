@@ -22,8 +22,10 @@ release/*
 # Windows noise
 desktop.ini
 
-# Specific to matrika Project
-/*/data/*
-
 # log files
 *.log
+*.log.*
+
+# Matrika Project
+/matrika4/data/assets/*
+/matrika4/libs/*
